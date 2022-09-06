@@ -7,7 +7,7 @@ module.exports = {
     title: `NSS Evening Web Development Curriculum`,
     description: `Curriculum for the NSS evening web development program`,
     author: `@nss`,
-    siteUrl: `${process.env.GATSBY_SITE_URL}`,
+    siteUrl: `https://nss-evening-curriculum.netlify.app`,
   },
 
   plugins: [
