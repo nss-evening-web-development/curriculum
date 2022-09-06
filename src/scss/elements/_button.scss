@@ -43,7 +43,23 @@ button {
                 color: var(--color-extra03);
             }
             &:hover {
-                color: var(--color-extra04);
+                color: var(--color-primary);
+                span {
+                    color: var(--color-extra04);
+                }
+            }
+        }
+        &.btn-purple {
+            background-color: purple;
+            color: white;
+            width: 200px;
+            text-align: center;
+            span {
+                color: var(--color-extra03);
+            }
+            &:hover {
+                background-color: var(--color-primary);
+                text-decoration: none;
                 span {
                     color: var(--color-extra04);
                 }
