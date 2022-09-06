@@ -1,6 +1,6 @@
 import React from "react";
 import SEO from "../components/seo";
-import CourseList from "../components/homedefault/courseList";
+import CourseList from "../components/courseList";
 
 const IndexPage = () => (
   <>

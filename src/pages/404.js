@@ -12,7 +12,7 @@ const NotFoundPage = () => (
                     <div className="inner text-center">
                         <h1 className="theme-color">404</h1>
                         <h2>Page Not Found</h2>
-                        <img src="https://media.giphy.com/media/9J7tdYltWyXIY/giphy.gif" />
+                        <img alt="lost john travolta gif" src="https://media.giphy.com/media/9J7tdYltWyXIY/giphy.gif" />
                         <a className="rn-button" href="/">Go Back</a>
                     </div>
                 </div>
