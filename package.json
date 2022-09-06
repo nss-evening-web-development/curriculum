@@ -1,0 +1,70 @@
+{
+  "name": "nss-evening-curriculum",
+  "private": true,
+  "description": "Curriculum for the NSS evening web development program",
+  "version": "0.1.0",
+  "author": "Dr. Teresa Vasquez <teresa.vasquez@nashvillesoftwareschool.com>",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "bootstrap": "^4.5.0",
+    "disqus-react": "^1.0.10",
+    "fontello-cli": "^0.5.0",
+    "gatsby": "^2.23.3",
+    "gatsby-background-image": "^1.1.1",
+    "gatsby-image": "^2.4.7",
+    "gatsby-plugin-anchor-links": "^1.1.1",
+    "gatsby-plugin-manifest": "^2.4.11",
+    "gatsby-plugin-offline": "^3.2.9",
+    "gatsby-plugin-react-helmet": "^3.3.4",
+    "gatsby-plugin-react-svg": "^3.0.0",
+    "gatsby-plugin-sass": "^2.3.4",
+    "gatsby-plugin-sharp": "^2.6.25",
+    "gatsby-remark-images": "^3.3.25",
+    "gatsby-remark-prismjs": "^6.22.0",
+    "gatsby-source-filesystem": "^2.3.11",
+    "gatsby-transformer-json": "^2.4.5",
+    "gatsby-transformer-remark": "^2.16.1",
+    "gatsby-transformer-sharp": "^2.5.5",
+    "prismjs": "^1.29.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-bootstrap": "^1.0.1",
+    "react-countup": "^4.3.3",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^6.1.0",
+    "react-hook-form": "^6.8.3",
+    "react-icons": "^3.11.0",
+    "react-modal-video": "^1.2.6",
+    "react-scrollspy": "^3.4.3",
+    "react-text-loop": "^2.3.0",
+    "react-visibility-sensor": "^5.1.1",
+    "reactstrap": "^8.6.0",
+    "sass": "^1.54.8",
+    "styled-components": "^5.1.1"
+  },
+  "devDependencies": {
+    "kill-port": "^1.6.1",
+    "nodemon": "^2.0.4",
+    "prettier": "2.0.5"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nss-evening-web-development/curriculum"
+  },
+  "bugs": {
+    "url": "https://github.com/nss-evening-web-development/curriculum/issues"
+  }
+}

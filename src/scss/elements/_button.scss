@@ -1,0 +1,163 @@
+/*-----------------
+ * Button
+-------------------*/
+a,
+button {
+    &.rn-button {
+        border: 2px solid var(--color-light);
+        width: 100%;
+        margin: 5px 0;
+        display: block;
+        padding: 11px 40px 11px 40px;
+        border-radius: 3px;
+        position: relative;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5em;
+        letter-spacing: 0.5px;
+        transition: all .3s ease;
+        color: var(--color-light);
+        background: transparent;
+        outline: none;
+        
+        span {
+            position: relative;
+            z-index: 2;
+        }
+        &::before {
+            position: absolute;
+            content: "";
+            width: 100%;
+            height: 0%;
+            bottom: 0px;
+            left: 0px;
+            background-color: var(--color-secondary);
+            transition: all .3s ease;
+            z-index: -1;
+        }
+
+        &.btn-white {
+            background-color: var(--color-white);
+            color: var(--color-extra03);
+            span {
+                color: var(--color-extra03);
+            }
+            &:hover {
+                color: var(--color-extra04);
+                span {
+                    color: var(--color-extra04);
+                }
+            }
+        }
+        &:hover {
+            color: #fff;
+            &::before {
+                height: 100%;
+            }
+        }
+    }
+}
+
+
+
+
+/*-----------------
+    Link Button  
+-------------------*/
+a {
+    &.link-button {
+        padding: 0;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        display: inline-block;
+        font-family: var(--font-secondary);
+        @extend %transition;
+        span {
+            position: relative;
+            display: inline-block;
+            &::after {
+                background: var(--color-extra02);
+                position: absolute;
+                content: "";
+                left: 0;
+                bottom: 0;
+                height: 1px;
+                width: 100%;
+                @extend %transition;
+            }
+        }
+        &:hover {
+            span {
+                &::after {
+                    background: var(--color-primary);
+                }
+            }
+        }
+    }
+}
+
+/* Button Group  */
+.button-group {
+    margin: 0 -25px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    a ,
+    button {
+        margin: 0 25px;
+        display: inline-block;
+    }
+}
+
+/*----------------------
+    Read More Button  
+-----------------------*/
+a {
+    &.readmore-btn {
+        border-bottom: 1px solid transparent;
+        transition: all .3s ease;
+        font-size: 16px;
+        color: var(--color-primary);
+        letter-spacing: 0;
+        position: relative;
+        &::after {
+            content: '';
+            width: 0;
+            height: 1px;
+            position: absolute;
+            bottom: -2px;
+            left: 100%;
+            background-color: var(--color-primary);
+            transition: left .5s ease,width .5s ease;
+        }
+        &:hover {
+            &::after {
+                width: 100%;
+                left: 0;
+                transition: width .5s ease;
+            }
+        }
+    }
+}
+
+.button-row {
+    display: flex;
+    padding: 20px 0;
+    justify-content: center;
+
+    .help-btn {
+        font-size: 1.2em;
+        font-weight: bold;
+        color: red;
+        text-transform: uppercase;
+
+        &:hover {
+            color: white;
+            text-decoration: none;
+        }
+    }
+
+    .report {
+        font-size: 1.2em; 
+    }
+}

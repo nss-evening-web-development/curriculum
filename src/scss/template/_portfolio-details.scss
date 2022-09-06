@@ -1,0 +1,76 @@
+/*-----------------------
+    Portfolio Details  
+----------------------*/
+
+
+.rn-project-details-area {
+    .gatsby-image-wrapper {
+        max-width: 100% !important;
+        transition: 0.5s all !important;
+        img {
+            transition: 0.5s all !important;
+        }
+        &:hover {
+            img {
+                transform: scale(1.2);
+            }
+        }
+    }
+
+    .portfolio-content {
+        .content-left {
+            h3 {
+                color: #ffffff;
+                font-weight: 600;
+                line-height: 1.4;
+                font-size: 23px;
+                margin-bottom: 30px;
+                @media #{$md-layout} {
+                    margin-bottom: 15px;
+                }
+                @media #{$sm-layout} {
+                    margin-bottom: 15px;
+                }
+            }
+
+            ul {
+                &.list_holder {
+                    @extend %liststyle;
+                    li {
+                        span {
+                            &.icon {
+                                color: #ffffff;
+                                font-weight: 500;
+                                min-width: 152px;
+                                display: inline-block;
+                                font-size: 20px;
+                                svg {
+                                    width: 20px;
+                                    height: 20px;
+                                    color: var(--color-primary);
+                                    margin-right: 10px;
+                                }
+                            }
+                            &.projectinfo {
+                                display: inline-block;
+                                line-height: 1;
+                                color: #999;
+                                font-family: "Muli", Sans-serif;
+                                font-size: 18px;
+                                font-weight: 400;
+                            }
+                        }
+                    }
+                }
+            }
+
+            p {
+                color: #999;
+                font-family: "Muli", Sans-serif;
+                font-size: 18px;
+                font-weight: 400;
+            }
+        }
+    }
+}
+

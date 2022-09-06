@@ -1,0 +1,65 @@
+/*---------------------
+Breadcrumbs Area  
+----------------------*/
+.title_holder {
+    font-size: 35px;
+    font-weight: 600;
+    margin: 0;
+    line-height: 1.2;
+    color: #ffffff;
+    @media #{$sm-layout} {
+        font-size: 27px;
+    }
+}
+
+
+.breadcrumbs {
+    @extend %liststyle;
+    padding-top: 13px;
+    padding-bottom: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    li {
+        font-size: 14px;
+        color: var(--color-midgray);
+        text-decoration: none;
+        letter-spacing: 0px;
+        line-height: 1.5;
+        a {
+            font-weight: 600;
+        }
+        &.active {
+            color: var(--color-primary);
+        }
+        &.separator {
+            span {
+                width: 33px;
+                height: 24px;
+                display: block;
+                position: relative;
+                &::before {
+                    width: 9px;
+                    height: 2px;
+                    display: block;
+                    content: '';
+                    position: absolute;
+                    background-color: #ddd;
+                    left: 13px;
+                    top: 14px;
+                    transform: rotate(135deg);
+                }
+                &::after {
+                    width: 9px;
+                    height: 2px;
+                    display: block;
+                    content: '';
+                    position: absolute;
+                    background-color: #ddd;
+                    left: 13px;
+                    top: 8px;
+                    transform: rotate(45deg);
+                }
+            }
+        }
+    }
+}

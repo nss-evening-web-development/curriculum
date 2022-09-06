@@ -1,0 +1,129 @@
+/*********************************************************************************
+
+	Template Name: Template Full Name Here
+	Description: A perfect Template For Portfolio. It comes with nice and clean design.
+	Version: 1.0
+
+	Note: This is style css.
+
+**********************************************************************************/
+
+/**************************************************************
+	
+	STYLESHEET INDEXING
+	|
+	|
+	|___ Default Styles
+	|	|
+	|	|___ Reset Styles
+	|	|___ Typography
+	|	|___ Animations
+	|	|___ Utilities
+	|
+	|
+	|___Elements Styles
+	|	|___ Button
+	|	|___ Section Title
+	|
+	|
+	|___Blocks Styles
+	|	|___ Header 
+	|	|___ Navigation 
+	|	|___ Banner
+	|	|___ Footer
+	|
+	|
+	|___ END STYLESHEET INDEXING
+
+***************************************************************/
+
+
+// Bootstrap Scss 
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+@import '../../node_modules/react-modal-video/scss/modal-video.scss';
+
+
+
+/**************************************
+    Default Styles
+***************************************/
+@import 'default/variables';
+@import 'default/mixins';
+@import 'default/reset';
+@import 'default/typography';
+@import 'default/extend';
+@import 'default/animations';
+@import 'default/shortcode';
+@import 'default/spacing';
+
+
+/**************************************
+	Header Styles
+***************************************/
+@import 'header/header';
+@import 'header/breadcrumbs';
+@import 'header/popup-menu';
+
+
+/**************************************
+	Elements Styles
+***************************************/
+@import 'elements/button';
+@import 'elements/section-title';
+@import 'elements/course';
+@import 'elements/iconbox';
+@import 'elements/backtotop';
+@import 'elements/video';
+
+
+/**************************************
+	Blog Styles
+***************************************/
+@import 'blog/blog-list';
+@import 'blog/post';
+@import 'blog/blog-sidebar';
+@import 'blog/blog-details';
+
+/**************************************
+	Template Styles
+***************************************/
+@import 'template/portfolio-details';
+@import 'template/error';
+
+
+/**************************************
+	Footer Styles
+***************************************/
+@import 'footer/footer';
+
+/* Adjust the position of the line numbers */
+.gatsby-highlight pre[class*="language-"].line-numbers {
+  padding-left: 2.8em;
+}
+
+/**
+ * If you only want to use line numbering
+ */
+
+.gatsby-highlight {
+  background-color:hsl(0, 0%, 8%);
+  border-radius: 0.3em;
+  margin: 0.5em 0;
+  padding: 1em;
+  overflow: auto;
+}
+
+.gatsby-highlight pre[class*="language-"].line-numbers {
+  padding: 0;
+  padding-left: 2.8em;
+  overflow: initial;
+}
+
+pre[class*="language-"] {
+	border-radius: 0 !important;
+	border: none !important;
+	box-shadow: none !important;
+	margin: 0.5em 0;
+	overflow: auto;
+	/* padding: 1em; */
+}

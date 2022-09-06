@@ -1,0 +1,48 @@
+/*-----------------------------
+Back To Top Styles 
+-------------------------------*/
+
+.back-to-top {
+    .backtop {
+        position: absolute;
+        width: 51px;
+        height: 51px;
+        top: 50%;
+        margin-top: -25px;
+        right: 0px;
+        z-index: 25;
+        overflow: hidden;
+        display: block;
+        text-align: center;
+        cursor: pointer;
+        transition: all .3s ease;
+        span {
+            &.top {
+                background-color: transparent;
+                width: 50px;
+                height: 50px;
+                border: 1px solid rgba(255,255,255,.2);
+                border-radius: 3px;
+                left: 0;
+                display: block;
+                position: absolute;
+                @extend %transition;
+                &::after {
+                    content: '';
+                    width: 0px;
+                    position: absolute;
+                    display: block;
+                    border: 5px solid transparent;
+                    border-bottom-color: #bbb;
+                    left: 18px;
+                    bottom: 20px;
+                    border-width: 6px;
+                    border-bottom-width: 8px;
+                }
+                &:hover {
+                    border-color: rgba(255,255,255,.5);
+                }
+            }
+        }
+    }
+}

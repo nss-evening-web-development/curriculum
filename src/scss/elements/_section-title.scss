@@ -1,0 +1,43 @@
+/*----------------
+ * Section Title
+--------------------*/
+
+.section-title {
+    .subtitle {
+        color: var(--color-primary);
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 1.2em;
+        letter-spacing: 0.5px;
+        margin-bottom: 30px;
+        display: block;
+    }
+    .title {
+        color: #EEEEEE;
+        font-family: "Rubik", Sans-serif;
+        font-size: 60px;
+        font-weight: 400;
+        line-height: 1.2em;
+        letter-spacing: 0.5px;
+        @media #{$md-layout} {
+            font-size: 44px;
+        }
+        @media #{$sm-layout} {
+            font-size: 36px;
+        }
+    }
+    .description {
+        margin: 0;
+        letter-spacing: 0px;
+    }
+}
+
+.category-list {
+    margin: 0;
+    padding-left: 0;
+}
+
+.col-lg-12 {
+    padding-right: 0;
+    padding-left: 0;
+}

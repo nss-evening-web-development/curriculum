@@ -1,0 +1,43 @@
+/*===========================
+    Start Footer Area 
+=============================*/
+
+.rn-footer-area {
+    .copyright-text {
+        color: #bbb;
+        a {
+            padding-left: 8px;
+        }
+    }
+}
+.footer-top {
+    padding: 208px 0px 208px 0px;
+    @media #{$md-layout} {
+        padding: 100px 0;
+    }
+    @media #{$sm-layout} {
+        padding: 100px 0;
+    }
+    .inner {
+        .title {
+            color: #EEEEEE;
+            font-family: "Rubik", Sans-serif;
+            font-size: 72px;
+            font-weight: 400;
+            line-height: 1.2em;
+            letter-spacing: -0.25px;
+            @media #{$md-layout} {
+                font-size: 59px;
+            }
+            @media #{$sm-layout} {
+                font-size: 42px;
+                line-height: 64px;
+            }
+        }
+    }
+}
+.copyright {
+    border-style: solid;
+    border-width: 1px 0px 0px 0px;
+    border-color: rgba(255, 255, 255, 0.1);
+}

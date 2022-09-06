@@ -1,0 +1,34 @@
+[
+    {
+        "id" : "Pre-Course Installations",
+        "number": "01",
+        "title": "Installations",
+        "description": "",
+        "readmoreButton": "Get Started...",
+        "url": "/installations-curriculum"
+    },
+    {
+        "id" : "service-2",
+        "number": "02",
+        "title": "Client Side Development",
+        "description": "",
+        "readmoreButton": "Get Started...",
+        "url": "/client-side-curriculum"
+    },
+    {
+        "id" : "service-3",
+        "number": "🐍",
+        "title": "Python/Django - Server Side Development",
+        "description": "",
+        "readmoreButton": "Get Started...",
+        "url": "/python-curriculum"
+    },
+    {
+        "id" : "service-4",
+        "number": "👓",
+        "title": "C#/ASP.NET - Server Side Development",
+        "description": "",
+        "readmoreButton": "Get Started...",
+        "url": "/c-curriculum"
+    }
+]

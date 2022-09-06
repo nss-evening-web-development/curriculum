@@ -1,0 +1,64 @@
+/*----------------------
+    Icon Box Style  
+-----------------------*/
+
+
+.icon-box {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
+    transition: all .3s ease;
+    margin-top: 30px;
+    .inner {
+        padding: 90px 40px 29px 40px;
+        transition: all .3s ease;
+        padding-top: 46px;
+        padding-bottom: 35px;
+        background-color: #FFFFFF;
+        position: relative;
+        overflow: hidden;
+        &::after {
+            top: 0;
+            right: 0;
+            bottom: 0;
+            position: absolute;
+            width: 8px;
+            content: '';
+            background-color: #ffedeb;
+        }
+        .number {
+            color: var(--color-primary);
+            font-size: 16px;
+            line-height: 1.4;
+            font-weight: 600;
+            font-family: var(--font-primary);
+            position: relative;
+            padding-bottom: 22px;
+            margin-bottom: 31px;
+            display: block;
+            &::after {
+                content: '';
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                right: -100px;
+                height: 8px;
+                background-color: #ffedeb;
+            }
+        }
+        .content {
+            .title {
+                line-height: 1.4;
+                font-weight: 600;
+                font-size: 25px;
+                margin-bottom: 0;
+            }
+            .description {
+                margin-top: 12px;
+                margin-bottom: 0;
+                letter-spacing: .5px;
+            }
+        }
+    }
+    &:hover {
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    }
+}
