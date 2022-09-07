@@ -18,11 +18,11 @@ const BlogDetails = ({ data }) => {
   const [coursePre, week, topic] = category.split("-")
 
   const getGitMarkdownUrl = () => {
-    const pathConst = "NSS-curriculum/curriculum/src/data/"
+    const pathConst = "NSS-curriculum/curriculum/src/data/curriculum/"
     const gitURL = `${process.env.GATSBY_GITHUB_REPO_URL}`
     const sliceIndex = fileAbsolutePath.indexOf(pathConst) + pathConst.length
     const markdownFileGitPath = fileAbsolutePath.slice(sliceIndex)
-    const blogPostOnGit = `${gitURL}/blob/main/src/data/${markdownFileGitPath}`
+    const blogPostOnGit = `${gitURL}/blob/main/src/data/curriculum/${markdownFileGitPath}`
     return blogPostOnGit
   }
 
