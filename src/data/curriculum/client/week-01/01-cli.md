@@ -1,5 +1,5 @@
 ---
-title: '1. Command Line Interface (CLI)'
+title: '01. Command Line Interface (CLI)'
 date: "2022-09-01 05:00:00"
 path: '/client/'
 # use the path equal to the location of the file in the directory (directory structure)

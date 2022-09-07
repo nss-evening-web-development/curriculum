@@ -1,5 +1,5 @@
 ---
-title: '3A. Intro to Git/Github'
+title: '03A. Intro to Git/Github'
 date: "2022-09-01 08:00:00"
 path: '/client/'
 # use the path equal to the location of the file in the directory (directory structure)
