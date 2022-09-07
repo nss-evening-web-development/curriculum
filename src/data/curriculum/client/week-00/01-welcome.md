@@ -28,6 +28,7 @@ Working outside of class on new concepts
 2. Ask questions! Even if the question is a "huh, I don't know where to start," it is absolutely imperative that students take responsibility for their own understanding and clarify any questions right away.
 
 3. Make sure you are putting in the time and effort to reach success.
+
 Bottom Line: We will give you all of the ingredients, but it's up to you to bake the cake.
 
 Why
