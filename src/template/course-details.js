@@ -23,7 +23,7 @@ const BlogDetails = ({ data }) => {
     const gitURL = `${process.env.GATSBY_GITHUB_REPO_URL}`
     const sliceIndex = fileAbsolutePath.indexOf(pathConst) + pathConst.length
     const markdownFileGitPath = fileAbsolutePath.slice(sliceIndex)
-    const blogPostOnGit = `${gitURL}/blob/main/${markdownFileGitPath}`
+    const blogPostOnGit = `${gitURL}/blob/main/src/data/${markdownFileGitPath}`
     return blogPostOnGit
   }
 
