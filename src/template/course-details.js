@@ -1,21 +1,21 @@
 import React from "react"
-import { graphql, Link } from "gatsby"
-import { slugify } from "../utils/utilityFunctions"
+import { graphql } from "gatsby"
+// import { slugify } from "../utils/utilityFunctions"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { AiOutlineHome } from "react-icons/ai"
+// import { AiOutlineHome } from "react-icons/ai"
 import CategoriesWidget from "../components/categoriesWidget"
 
 const BlogDetails = ({ data }) => {
   const {
     title,
-    tags,
-    category,
     type,
     course,
+    // tags,
+    // category,
   } = data.markdownRemark.frontmatter
   const { html, fileAbsolutePath } = data.markdownRemark
-  const [coursePre, week, topic] = category.split("-")
+  // const [coursePre, week, topic] = category.split("-")
 
   
   const getGitMarkdownUrl = () => {
@@ -31,10 +31,10 @@ const BlogDetails = ({ data }) => {
 
   return (
     <Layout gitMarkdownUrl={gitMarkdownUrl}>
-      <SEO title={title} />
+      <SEO title={title || "NSS Curriculum"} />
       <div className="blog-details-wrapper pb--100">
         <div className="container">
-          <div className="breadcrumbs-area">
+          {/* <div className="breadcrumbs-area">
             <ul className="breadcrumbs">
               <li>
                 <Link to="/">
@@ -65,7 +65,7 @@ const BlogDetails = ({ data }) => {
                 </>
               )}
             </ul>
-          </div>
+          </div> */}
           <div className="button-row">
             <a
               className="btn btn-lg btn-outline-danger m-1 help-btn"
@@ -85,7 +85,7 @@ const BlogDetails = ({ data }) => {
                 <span className="category">
                   <span>{type && type} </span>
                 </span>
-                <h1 className="post-title">{title}</h1>
+                <h1 className="post-title">{course ? course : title}</h1>
               </div>
               <div
                 className="post-content"
@@ -94,7 +94,7 @@ const BlogDetails = ({ data }) => {
               {/* ONLY SHOWS FOR MAIN LIST PAGES */}
               {course && <CategoriesWidget filterType={course} />}
 
-              {tags && (
+              {/* {tags && (
                 <div className="tag-list d-flex align-items-center">
                   <span>Topics:</span>
                   <div className="tags-cloud">
@@ -105,7 +105,7 @@ const BlogDetails = ({ data }) => {
                     ))}
                   </div>
                 </div>
-              )}
+              )} */}
             </div>
           </div>
         </div>

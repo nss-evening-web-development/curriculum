@@ -7,3 +7,5 @@ postnumber: 'installations-curriculum'
 category: ''
 course: 'Installations'
 ---
+
+Complete all installations in the order provided below. Do not skip or jump around.

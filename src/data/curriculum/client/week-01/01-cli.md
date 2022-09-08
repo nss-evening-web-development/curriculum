@@ -47,3 +47,9 @@ Watch the attached video and follow along
 
 ### NOTE: VIM
 If you see this don't panic:
+
+<img width="612" alt="vim" src="https://user-images.githubusercontent.com/29741570/189192882-03b226a3-dc7a-4697-b8d8-6b3a741b5d3a.png">
+
+- hit escape
+- type :wq
+- hit enter

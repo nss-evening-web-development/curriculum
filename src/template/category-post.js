@@ -12,14 +12,14 @@ const categoryPostList = ({ data, pageContext }) => {
 
   return (
     <Layout>
-      <SEO title={topic} />
+      <SEO title={topic || "NSS Evening Curriculum" } />
 
       <div className="blog-details-wrapper rn-category-post rn-section-gapBottom">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
               <div className="page-top">
-                <div className="breadcrumbs-area">
+                {/* <div className="breadcrumbs-area">
                   <ul className="breadcrumbs">
                     <li>
                       <Link to="/">Home</Link>
@@ -44,7 +44,7 @@ const categoryPostList = ({ data, pageContext }) => {
                       </Link>
                     </li>
                   </ul>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
