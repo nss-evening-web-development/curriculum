@@ -22,7 +22,7 @@ You can test by deploying the following projects:
 - Word Counter
 
 ## Steps
-1. Go to https://netlify.app
+1. Go to <a href="https://netlify.app" target="_blank">https://netlify.app</a>
 2. Click "Sign Up"
 3. Sign up with GitHub
 

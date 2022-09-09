@@ -1,14 +1,16 @@
 import React from "react"
-import { graphql, Link } from "gatsby"
+import { graphql } from "gatsby"
 import Post from "../components/post"
 import Layout from "../components/layout"
-import { slugify } from "../utils/utilityFunctions"
+// import { slugify } from "../utils/utilityFunctions"
 import SEO from "../components/seo"
 
 const categoryPostList = ({ data, pageContext }) => {
   const categoryblogs = data.allMarkdownRemark.edges;
   const { category } = pageContext;
-  const [course, week, topic] = category.split("-");
+  const [
+    // course, week, 
+    topic] = category.split("-");
 
   return (
     <Layout>

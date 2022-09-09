@@ -1,5 +1,5 @@
 ---
-title: 'Link in Bio'
+title: '02L. Link in Bio'
 date: "2022-09-01 08:00:00"
 path: '/client/'
 # use the path equal to the location of the file in the directory (directory structure)
