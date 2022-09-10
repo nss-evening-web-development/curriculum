@@ -22,12 +22,12 @@ There are different types of conditionals in JavaScript:
 - “Else if” statements: if the `if` condition is false, and we want to evaluate another condition to see if it is true. If so, the code block runs.
 
 **Falsey Values** evaluate to false. The following are falsey values:
-- “”
-- 0
-- false
-- Null
-- Undefined
-- NaN
+- `“”`
+- `0`
+- `false`
+- `null`
+- `undefined`
+- `NaN`
 
 ### Examples
 ```js

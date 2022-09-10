@@ -39,18 +39,18 @@ const age = 31;
 A key is used on an object to refer to values about the object. For example, you want to store all of the properties of a patient visiting a doctor's office. You would create an object to store all of those properties in a single data structure instead of in separate variables.
 
 ```js
-const megan = {
+const maya = {
     id: 1,
     age: 31,
-    firstName: "Megan",
-    lastName: "Debity"
+    firstName: "Maya",
+    lastName: "Angelou"
 }
 
-const jack = {
+const james = {
     id: 2,
     age: 28,
-    firstName: "Jack",
-    lastName: "Parsons"
+    firstName: "James",
+    lastName: "Baldwin"
 }
 ```
 You could also be selling phones and want to represent each phone as an object.
