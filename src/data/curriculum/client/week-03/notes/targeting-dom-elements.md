@@ -56,7 +56,7 @@ const app = document.querySelector("#app");
 app.innerHTML = "Hello World!"
 ```
 
-In doing the above, the web page will look something like this:
+## Give it a try
 
 <iframe src="https://codesandbox.io/embed/dom-targeting-c8q85h?fontsize=14&hidenavigation=1&theme=dark"
      style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
