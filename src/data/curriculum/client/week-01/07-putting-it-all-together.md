@@ -14,7 +14,7 @@ tags:
     - Github
 
 ---
-<div style="padding:56.2% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/689922528?h=bfa9fe4c0e&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Testing your code (HTML/CSS/JS Connection)"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<div style="padding:56.2% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/695235450?h=51881957ac&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Putting it all together"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 As was noted in an earlier lesson, this may seem like a lot, but not only will you have these lessons to reference, you will do this so many times, it will become second nature to you. The video above will walk you through all of the steps, but I am listing them below as well so that you can see them all together.
 
