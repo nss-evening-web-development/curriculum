@@ -5,7 +5,7 @@ path: '/instructor-resources/'
 
 # use the path equal to the location of the file in the directory (directory structure)
 
-type: '👷🏼‍♂️ GROUP PROJECT'
+type: '🎥 VIDEO'
 # type options: 👩🏽‍🏫 LIVE LEARNING SESSION, ℹ️ INFO, 🎥 VIDEO, 💻 CODE ALONG, 🥼LAB, ↩️ REVIEW/NOTES, 👥 GROUP LEARNING, 👷🏼‍♂️ GROUP PROJECT, 🧠 ASSESSMENT, 📝 ASSIGNMENT
 
 category: NSS - Instructors
