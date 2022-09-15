@@ -14,11 +14,4 @@ tags:
     - UPDATE TAGS
 is_featured: true
 ---
-
-<a class="rn-button btn-purple" href="https://githubtools.reppedintech.com/u/drteresavasquez/gitsub-professors" target="_blank">COPY REPO</a>
-
-## Get Started
-- ONE TEAM MEMBER Copy repo to the Cohort Organization
-- Add your teammates to the repo as admin
-- Every team member Clone repo locally
-- Follow the instructions in the readme to work together to complete the project
+This week you will be focusing on a group project, which will allow you to work in a team environment using the skills you have learned over the past few weeks.
