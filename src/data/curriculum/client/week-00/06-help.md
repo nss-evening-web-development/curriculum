@@ -35,7 +35,7 @@ You have to answer ALL of the questions below to use the Help Discussion:
 1. Give your post a descriptive title
 1. Describe your issue
 1. List any error messages that appear
-1. What have you googled? (Paste links to the things you have found from your google search - You must include at least 3 links)
+1. What have you researched? (Paste links to the things you have found from your google search - You must include at least 3 links)
 1. What have you tried? Tell us everything you have tried.
 1. Copy/paste link TO THE FILE on your branch or in your repo that you are having issues with NO SCREEN SHOTS 🥰
 
