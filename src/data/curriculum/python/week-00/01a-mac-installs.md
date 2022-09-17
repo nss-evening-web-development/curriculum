@@ -1,10 +1,10 @@
 ---
-title: 'Installations - Mac'
+title: '1a. Installations - Mac'
 date: "2022-09-01 08:00:00"
 path: '/python/'
 # use the path equal to the location of the file in the directory (directory structure)
 
-type: 'ℹ️ INFO'
+type: '📝 ASSIGNMENT'
 # type options: 👩🏽‍🏫 LIVE LEARNING SESSION, ℹ️ INFO, 🎥 VIDEO, 💻 CODE ALONG, 🥼LAB, ↩️ REVIEW/NOTES, 👥 GROUP LEARNING, 👷🏼‍♂️ GROUP PROJECT, 🧠 ASSESSMENT, 📝 ASSIGNMENT
 image: '../../../images/headers/python-logo.png'
 category: Python - Week 00 - Introduction
@@ -14,7 +14,7 @@ tags:
 is_featured: true
 ---
 
-# Installations for Mac Users
+These are the instructions for installing Python on your Mac machine. If you are using Windows, please go to the Windows installations.
 
 ## Visual Studio Code Extensions
 
@@ -26,7 +26,7 @@ Install these extensions to get your VS Code editor set up for writing Python co
 * [Python Test Explorer][4]
 * [Python Docstring Generator][5]
 
-## Install Brew
+## 1. Install Brew
 
 1. Check to see if `brew` is already installed with `brew --version`
 2. If you see `command not found`, install brew with this command:
@@ -35,7 +35,7 @@ Install these extensions to get your VS Code editor set up for writing Python co
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     ```
 
-## Install Pyenv
+## 1. Install Pyenv
 
 `pyenv` is a python version manager. We’ll use `pyenv` to install a specific version of python. This makes it easy to switch to a different version of python if needed
 
