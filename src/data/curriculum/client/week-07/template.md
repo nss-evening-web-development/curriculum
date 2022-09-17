@@ -1,5 +1,5 @@
 ---
-title: 'APIs, ERDs'
+title: 'Webpack, APIs, ERDs'
 date: "2022-09-01 08:00:00"
 course: ''
 path: '/client/'

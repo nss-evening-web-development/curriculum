@@ -5,7 +5,7 @@ import { slugify } from "../utils/utilityFunctions"
 const CategoriesWidget = ({ showTitle, filterType }) => {
   const categoryQueryData = useStaticQuery(graphql`
     query CategoriesWidgetQuery {
-      allMarkdownRemark(sort: { order: ASC, fields: frontmatter___date }) {
+      allMarkdownRemark(sort: { order: ASC, fields: frontmatter___date }, filter: {fileAbsolutePath: {regex: "/^((?!_week).)*$/"}}) {
         edges {
           node {
             frontmatter {
