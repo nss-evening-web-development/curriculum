@@ -1,5 +1,5 @@
 ---
-title: '02. ES6 Modules'
+title: '02L. Modularize Sorting Hat'
 date: "2022-09-01 08:00:00"
 course: ''
 path: '/client/'
@@ -14,10 +14,10 @@ tags:
     - Webpack
 is_featured: true
 ---
-**Objective:** Students will understand and implement code modules in separate files using import and export statements. 
+Using the same repo that you working on for the Stop the Blood Lab:
 
-## Overview:
-Modules allow us to organize our code. A module can contain variables and functions. A module is nothing more than a chunk of JavaScript code written in a file. By default, variables and functions of a module are not available for use until they are exported/imported.
-
-## IN CLASS
-Walk through modularizing a few code blocks in the sorting hat project. Allow students to complete the rest of the modularization in the lab.
+- move the student data into utils/data (studentArray, voldysArmy array, any functions that update these arrays)
+- Move any other data out like the houses, etc.
+- do the exports and imports as needed
+- Focus on ONE of the visual elements. These go in the components directory
+- **Extra Challenge:** `npm install uuid` Use instead of the createId method
