@@ -14,7 +14,7 @@ tags:
     - Github
 
 ---
-<div style="padding:56.2% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/689922528?h=bfa9fe4c0e&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Testing your code (HTML/CSS/JS Connection)"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/748071461?h=8d1c0a94a4&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Clone Github Repo"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 FIRST, let us acknowledge that this may seem like a lot to learn, but you will do this so many times, it will become second nature to you...remember to **TRUST THE PROCESS.** We gotchu, fam!
 
@@ -29,6 +29,8 @@ In this lesson, we will be sharing how to do that.
 **2. Authorize app**
 
 On this initial time, you will need to authorize the application so that you can copy over the repo to your own Github profile. Scroll to the bottom of the popup window and Authorsize the application.
+
+<div style="padding:119.14% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/694052966?h=92fda3bcc9&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="authorize"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 NOTE: You may have to login to GitHub
 

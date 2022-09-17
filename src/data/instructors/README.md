@@ -1,10 +1,10 @@
 ---
-title: 'Client Side Curriculum'
+title: 'Instructor Resources Curriculum'
 date: "2022-09-01 08:00:00"
 path: '/'
 # use the path equal to the location of the file in the directory (directory structure)
 category: ''
-course: 'Client Side' # ONLY use in main course README
+course: 'Instructors' # ONLY use in main course README
 ---
 
 | WEEK  	|  TOPIC 	                                    || WEEK  	    | TOPIC                                                     |

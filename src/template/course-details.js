@@ -30,7 +30,7 @@ const BlogDetails = ({ data }) => {
   const gitMarkdownUrl = getGitMarkdownUrl()
 
   return (
-    <Layout gitMarkdownUrl={gitMarkdownUrl}>
+    <Layout gitMarkdownUrl={gitMarkdownUrl} showBtns>
       <SEO title={title || "NSS Curriculum"} />
       <div className="blog-details-wrapper pb--100">
         <div className="container">
