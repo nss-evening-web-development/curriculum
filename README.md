@@ -8,11 +8,13 @@ Access Curriculum Web Portal
 - [C#/ASP.NET](src/data/curriculum/c-sharp/README.md)
 
 Get Started
-```
-git 
+
+```shell
+git clone git@github.com:nss-evening-web-development/curriculum.git
 ```
 
 ```shell
 cd curriculum/
+npm install
 gatsby develop
 ```
