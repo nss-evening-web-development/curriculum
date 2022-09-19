@@ -14,7 +14,7 @@ tags:
 is_featured: true
 ---
 
-These are the instructions for installing Python on your Mac machine. If you are using Windows, please go to the Windows installations.
+The following are the steps for installing Python on your Mac. Please go to the Windows installation if you are using Windows.
 
 ## Visual Studio Code Extensions
 
@@ -37,7 +37,7 @@ Install these extensions to get your VS Code editor set up for writing Python co
 
 ## 1. Install Pyenv
 
-`pyenv` is a python version manager. We’ll use `pyenv` to install a specific version of python. This makes it easy to switch to a different version of python if needed
+`pyenv` is a Python version manager. We’ll use `pyenv` to install a specific version of Python. This makes it easy to switch to a different version of Python if needed.
 
 ```bash
 brew install pyenv
@@ -45,10 +45,10 @@ brew install pyenv
 
 ### Update the `.zshrc` file
 
-There’s a few lines to add to the .zshrc file before we can use `pyenv`
+There are a few lines to add to the .zshrc file before we can use `pyenv`
 
 1. Open the .zshrc file with in VS Code:  `code ~/.zshrc`
-1. Scroll to the bottom of the file and add these lines
+1. Scroll to the bottom of the file and add these lines:
 
     ```bash
     # Configure pyenv
@@ -64,19 +64,20 @@ There’s a few lines to add to the .zshrc file before we can use `pyenv`
     ```
 
 1. Save and exit VS Code
-1. Back in the terminal load the changes to the file: `source ~/.zshrc`
+1. Back in the terminal, load the changes to the file: `source ~/.zshrc`
 
 ### Download Python
 
-1. In the same terminal window download the version of python: `pyenv install 3.9.10`
-2. After the download finishes set that version of python to the global version: `pyenv global 3.9.10`
-3. Now your computer’s python version should be using 3.9.10. Check it with `python3 --version`. **If something other than 3.9.10 comes back, reach out to an instructor now.**
+1. In the same terminal window, download the version of Python: `pyenv install 3.9.10`
+2. After the download finishes, set that version of Python to the global version: `pyenv global 3.9.10`
+3. Now your computer’s Python version should be 3.9.10. Check it with `python3 --version`. **If something other than 3.9.10 comes back, reach out to an instructor now.**
+
 
 ### Install Pipenv
 
-This tool will manage any libraries that are needed for each of your projects. It creates a “container”, or virtual environment, to add the different libraries to the current project.
+This tool will manage any libraries that are needed for each of your projects. It creates a "container" or virtual environment to add the different libraries to the current project.
 
-In some ways, `pipenv` does the same thing as the `node_modules` and `package.json`. It tells the program what libraries it needs (`package.json` vs `Pipfile`) and stores those libraries for use within the project (`node_modules`). You’ll learn more about this as we use it in later projects.
+In some ways, `pipenv` does the same thing as `node_modules` and `package.json`. It tells the program what libraries it needs (`package.json` vs. `Pipfile`) and stores those libraries for use within the project (`node_modules`). You’ll learn more about this as we use it in later projects.
 
 1. Install the package globally:
 

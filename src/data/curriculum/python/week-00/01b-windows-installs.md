@@ -14,7 +14,7 @@ tags:
 is_featured: true
 ---
 
-These are the instructions for installing Python on your Windows Machine. If you are using a Mac, please go to the Mac installations.
+These are the steps for installing Python on your Windows computer. Please go to the Mac installations if you are using a Mac.
 
 ## Visual Studio Code Extensions
 
@@ -27,19 +27,18 @@ Install these extensions to get your VS Code editor set up for writing Python co
 * [Python Docstring Generator][5]
 
 ## Python
+Python is not included with Windows. You must go to the [Python downloads](https://www.python.org/downloads/) page, download version 3.9, and install it. It will be installed in the `C:\Python39` directory.
 
-Windows does not come with Python installed. You need to visit the [Python downloads](https://www.python.org/downloads/) site and grab version 3.9 and install it. It will get installed to the `C:\Python39` directory.
-
-After it is installed, you must add `C:\Python39` to your system path. Here's how.
+After installing it, you must add `C:\Python39` to your system path. Here's how:
 
 1. Press your Windows key.
-2. Start typing **Control**.
-3. The search results should have the Windows Control Panel as the first result. Press enter.
-4. When the control panel screen appears, start typing in `environment` in the search bar in the upper right corner.
-5. Select the option to change environment variables. If you are presented with two options, choosing either one is fine.
-6. When the screen appears, click the button at the bottom for environment variables.
-7. Next, click on the `PATH` variable and choose to edit it.
-8. Go to the end of the string, and enter a semi-colon, and the new path entry. `;C:\Python39`
+2. Begin by typing **Control**.
+3. The Windows Control Panel should be the first result in the search results. Click on it.
+4. When the control panel screen appears, begin typing `environment` in the upper right corner search bar.
+5. Choose the option to modify environmental variables. If you are given two options, you may select either one.
+6. When the screen appears, click the Environment Variables button at the bottom.
+7. Next, select on the `PATH` variable and click the Edit button.
+8. Enter a semicolon and the new path entry at the end of the string. `;C:\Python39`
 
 [1]: https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance
 [2]: https://marketplace.visualstudio.com/items?itemName=donjayamanne.python-extension-pack

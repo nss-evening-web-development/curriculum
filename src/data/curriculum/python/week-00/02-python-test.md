@@ -14,11 +14,11 @@ tags:
 is_featured: true
 ---
 
-We are going to do a spin-off of the traditional `Hello, world` program to test that Python was installed properly. Let's get started!
+To verify that Python was correctly installed, we'll create a variation of the classic "Hello, world" application. Let's get going!
 
-## Create Python directory
+## Create a Python directory
 
-You need another directory to store all of the python code you will be writting these next 6 months. So, let's go ahead and create one.
+You need another directory to store all of the Python code you will be writing over the next 6 months. So, let's go ahead and create one.
 
 1. Navigate to your `workspace` directory
 
@@ -26,13 +26,13 @@ You need another directory to store all of the python code you will be writting 
     cd ~/workspace
     ```
 
-1. Create a direcotry called `python`.
+1. Create a directory called `python`.
 
     ```bash
     mkdir python
     ```
 
-1. Check to make sure the directory was created. Run the command to list out all the files and directiroes in the current location
+1. Check to make sure the directory was created. Run the command to list out all the files and directories at the current location.
 
     ```bash
     ls
@@ -40,9 +40,9 @@ You need another directory to store all of the python code you will be writting 
 
 1. There should be a directory called `python` that shows up in the output. If it does not, try steps 1-3 again until the correct thing is outputted.
 
-## Hello World (Running Python File)
+## Hello World (Running Your Python File)
 
-1. Open your `python` direcotyr in VSCode
+1. Open your `python` directory in VSCode
 1. Create a file named `hello.py` and add the following lines of code to it:
 
     ```python
@@ -50,7 +50,7 @@ You need another directory to store all of the python code you will be writting 
     print("Is it me you're looking for?")
     ```
 
-1. In your terminal, make sure you are in the directory that this file exists.
+1. In your terminal, make sure you are in the directory where this file exists.
 1. Execute the following command in the `python` directory.
 
     ```bash
@@ -66,7 +66,7 @@ You need another directory to store all of the python code you will be writting 
 
 ## Running Python in the terminal
 
-You can use the CLI interpreter to enter and run some code that you just want to test out without having to put it in a file and running it.
+You can use the CLI interpreter to enter and run some code that you just want to test out without having to put it in a file and run it.
 
 1. In your terminal, type `python` and press `Enter`.
 1. You should see the following output:
@@ -78,8 +78,8 @@ You can use the CLI interpreter to enter and run some code that you just want to
     >>>
     ```
 
-1. You can now type in python directory into your terminal and run it. Follow the next steps to try it out.
-1. Copy and paste the following lines into your terminal one by one, pressing enter after each one.
+1. You can now type the python directory into your terminal and run it. Follow the next steps to try it out.
+1. Copy and paste the following lines into your terminal one by one, pressing Enter after each one.
 
     ```python
     i_am_awesome = True
@@ -93,7 +93,7 @@ You can use the CLI interpreter to enter and run some code that you just want to
         print("bow down to me") # Make sure to copy the indent!
     ```
 
-1. You should have seen the text "bow down to me" printed in your terminal.
+1. You should have seen the text "bow down to me" printed on your terminal.
 
     ```python
     >>> print("bow down to me")
@@ -106,5 +106,5 @@ You can use the CLI interpreter to enter and run some code that you just want to
     >>>
     ```
 
-1. You have just created two Python Applications!!! Now you need to exit the python interpreter. To do so, type `exit()` then press enter in your terminal.
-1. The interpreter should hav ebeen exited.
+1. You have just created two Python applications! Now you need to exit the Python interpreter. To do so, type `exit()` then press Enter in your terminal.
+1. The interpreter should have exited.
