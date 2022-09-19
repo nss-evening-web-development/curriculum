@@ -7,7 +7,7 @@ path: '/python/'
 type: '📝 ASSIGNMENT'
 # type options: 👩🏽‍🏫 LIVE LEARNING SESSION, ℹ️ INFO, 🎥 VIDEO, 💻 CODE ALONG, 🥼LAB, ↩️ REVIEW/NOTES, 👥 GROUP LEARNING, 👷🏼‍♂️ GROUP PROJECT, 🧠 ASSESSMENT, 📝 ASSIGNMENT
 image: '../../../images/headers/python-logo.png'
-category: Python - Week 00 - Introduction
+category: Python - Week 00 - Onboarding
 # category: Use the Name + week for each (follow the format above)
 tags:
     - UPDATE TAGS
