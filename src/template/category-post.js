@@ -77,7 +77,10 @@ const categoryPostList = ({ data, pageContext }) => {
             ))}
           </div>
           <div className="row">
-            <h2 className="mt-5 mb-0">Assignments</h2>
+            {
+              assignments.length ? <h2 className="mt-5 mb-0">Assignments</h2> : null
+
+            }
             {assignments.map(blog => (
               <Post
                 column="col-lg-4 col-md-6 col-12"
