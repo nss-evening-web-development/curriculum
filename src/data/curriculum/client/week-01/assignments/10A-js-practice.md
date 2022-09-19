@@ -1,5 +1,5 @@
 ---
-title: '10A. JS Practice 1'
+title: '04. JS Practice 1'
 date: "2022-09-01 08:00:00"
 path: '/client/'
 # use the path equal to the location of the file in the directory (directory structure)
