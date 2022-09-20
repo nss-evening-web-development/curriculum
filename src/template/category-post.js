@@ -6,15 +6,28 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 const categoryPostList = ({ data, pageContext }) => {
-  const categoryblogs = data.allMarkdownRemark.edges;
-  const { category } = pageContext;
+  const categoryblogs = data.allMarkdownRemark.edges
+  const { category } = pageContext
   const [
-    // course, week, 
-    topic] = category.split("-");
+    // course, week,
+    topic,
+  ] = category.split("-")
+
+  const WORD = "ASSIGNMENT"
+
+  const assignments = categoryblogs.filter(b =>
+    b.node.frontmatter.type.includes(WORD)
+  )
+  const nonAssignments = categoryblogs.filter(
+    b => !b.node.frontmatter.type.includes(WORD)
+  )
+  const notes = categoryblogs.filter(
+    b => b.node.frontmatter.type.includes('NOTES')
+  )
 
   return (
     <Layout>
-      <SEO title={topic || "NSS Evening Curriculum" } />
+      <SEO title={topic || "NSS Evening Curriculum"} />
 
       <div className="blog-details-wrapper rn-category-post rn-section-gapBottom">
         <div className="container">
@@ -51,7 +64,24 @@ const categoryPostList = ({ data, pageContext }) => {
             </div>
           </div>
           <div className="row">
-            {categoryblogs.map(blog => (
+            {nonAssignments.map(blog => (
+              <Post
+                column="col-lg-4 col-md-6 col-12"
+                key={blog.node.fields.slug}
+                content={{
+                  ...blog.node.fields,
+                  ...blog.node.frontmatter,
+                  excerpt: blog.node.excerpt,
+                }}
+              />
+            ))}
+          </div>
+          <div className="row">
+            {
+              assignments.length ? <h2 className="mt-5 mb-0">Assignments</h2> : null
+
+            }
+            {assignments.map(blog => (
               <Post
                 column="col-lg-4 col-md-6 col-12"
                 key={blog.node.fields.slug}
