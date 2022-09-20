@@ -1,5 +1,5 @@
 ---
-title: '03. JSON Explained'
+title: 'JSON Explained'
 date: "2022-09-01 08:00:00"
 course: ''
 path: '/client/'
