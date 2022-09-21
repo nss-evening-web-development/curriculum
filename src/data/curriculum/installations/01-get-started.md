@@ -26,4 +26,4 @@ Do not skip lessons as some of the installs build on top of the other. The way t
 ### Final note:
 We cannot tell you how excited we are to have you start your journey! Let's get it done!
 
-<input type="button" id="close" onclick="window.close()" />
+<button class="report m-1 p-3 btn-lg btn-outline-warning btn" onclick="window.close()">Close Page</button>
