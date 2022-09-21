@@ -63,10 +63,16 @@ _For this lesson, we will be using the Almost Amazon firebase database that you 
 ![fbrules](https://user-images.githubusercontent.com/29741570/191059608-ed6bb999-76d6-41c1-9277-01d4ce8be69e.png)
 
 ```json
+// Rules for this project
 {
   "rules": {
-    "dinosaurs": {
-      ".indexOn": ["height", "length"]
+    ".read": "true",
+    ".write": "true",
+    "books": {
+      ".indexOn": ["author_id", "uid", "sale"]
+    },
+    "authors": {
+      ".indexOn": ["favorite", "uid"]
     }
   }
 }
