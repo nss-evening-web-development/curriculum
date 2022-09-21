@@ -270,8 +270,8 @@ ol {
 
 ul {
 	list-style: disc;
-	margin-bottom: 30px;
-	padding-left: 20px;
+	margin-bottom: 10px;
+	padding-left: 50px;
 	&.liststyle {
 		&.bullet {
 			li {
@@ -300,7 +300,7 @@ ul {
 		}
 	}
 	li {
-		font-size: var(--font-size-b1);
+		font-size: 18px;
 		line-height: var(--line-height-b2);
 		color: var(--color-body);
 		margin-top: 10px;
