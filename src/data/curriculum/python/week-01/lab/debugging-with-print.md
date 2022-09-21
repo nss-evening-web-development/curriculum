@@ -1,10 +1,10 @@
 ---
-title: '1b. Debugging: `print` Statements'
+title: 'Debugging: `print` Statements'
 date: "2022-09-01 08:00:00"
 path: '/python/'
 # use the path equal to the location of the file in the directory (directory structure)
 
-type: '↩️ REVIEW/NOTES'
+type: '🥼LAB'
 # type options: 👩🏽‍🏫 LIVE LEARNING SESSION, ℹ️ INFO, 🎥 VIDEO, 💻 CODE ALONG, 🥼LAB, ↩️ REVIEW/NOTES, 👥 GROUP LEARNING, 👷🏼‍♂️ GROUP PROJECT, 🧠 ASSESSMENT, 📝 ASSIGNMENT
 image: '../../../images/headers/python-logo.png'
 category: Python - Week 01 - Python Fundamentals

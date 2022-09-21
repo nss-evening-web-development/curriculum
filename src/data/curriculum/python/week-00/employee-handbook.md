@@ -1,5 +1,5 @@
 ---
-title: '3. Employee Handbook'
+title: 'Employee Handbook'
 date: "2022-09-01 08:00:00"
 path: '/python/'
 # use the path equal to the location of the file in the directory (directory structure)
@@ -30,7 +30,7 @@ These are some tools and technologies you will be working with during your time 
 
 ## Support & Guidance
 
-Three of our top Sr. Engineers will support you in any way they can. They are committed to giving you all the mentoring and direction you require while you construct the Bangazon Platform. This includes giving instruction on fundamental ideas, equipment, and practices. Additionally, they will give you guidance on how to use simple code examples that you will need for a bigger project. 
+Three of our top Sr. Engineers will support you in any way they can. They are committed to giving you all the mentoring and direction you require while you construct the Bangazon Platform. This includes giving instruction on fundamental ideas, equipment, and practices. Additionally, they will give you guidance on how to use simple code examples that you will need for a bigger project.
 
 They are here to assist you, but it is ultimately your responsibility to ensure that you are up to date on all topics.
 
@@ -39,7 +39,7 @@ They are here to assist you, but it is ultimately your responsibility to ensure 
 
 
 <!-- Replace with Client side stuff here if there are -->
-<!-- ## Asking for Help 
+<!-- ## Asking for Help
 
 It will never be the Senior Engineer's responsibility to make sure you know everything you need to know. However, they will be there to assist you in making sure you have all the necessary resources to get there. At Bangazon, we use GitHub Discussion Tickets to make it simple for you to get assistance.
 
@@ -75,7 +75,7 @@ The seniors are also in charge of ensuring that you have the resources you need 
 
 ### Retrospective
 
-Once your team has completed a project (see Definition of Done below), your team will conduct a [retrospective](https://www.mountaingoatsoftware.com/agile/scrum/sprint-retrospective) with a senior. Before attending your first retrospective, make sure to read the description. 
+Once your team has completed a project (see Definition of Done below), your team will conduct a [retrospective](https://www.mountaingoatsoftware.com/agile/scrum/sprint-retrospective) with a senior. Before attending your first retrospective, make sure to read the description.
 
 <!-- ### Sprint Review (https://www.mountaingoatsoftware.com/agile/scrum/meetings/sprint-review-meeting) -->
 
