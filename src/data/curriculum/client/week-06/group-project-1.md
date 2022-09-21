@@ -15,3 +15,11 @@ tags:
 is_featured: true
 ---
 This week you will be focusing on a group project, which will allow you to work in a team environment using the skills you have learned over the past few weeks.
+
+## Definition of Done
+- All items are completed in getting started
+- MVP, defined by the Acceptance Criteria, has been completed
+- The title of your application is visible in the browser tab
+- The project has been deployed
+- Loom video has been created
+- `README.md` has been updated

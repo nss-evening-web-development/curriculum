@@ -15,7 +15,7 @@ tags:
 is_featured: true
 ---
 ### 1️⃣ Getting Started
-1. Create Repo in GitHub from curriculum or webpack template
+1. Create Repo in GitHub from curriculum or template
 1. Clone repo down
 1. Complete all the items in the README for the template
 1. npm start to make sure boilerplate code loads on DOM
