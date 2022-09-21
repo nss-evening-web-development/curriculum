@@ -1,5 +1,5 @@
 ---
-title: 'Q2: Individual Assessment (Client Side)'
+title: 'Q3: Individual Assessment (Client Side)'
 date: "2022-09-01 08:00:00"
 path: '/client/'
 
@@ -8,13 +8,13 @@ path: '/client/'
 type: '🧠 ASSESSMENT'
 # type options: 👩🏽‍🏫 LIVE LEARNING SESSION, ℹ️ INFO, 🎥 VIDEO, 💻 CODE ALONG, 🥼LAB, ↩️ REVIEW/NOTES, 👥 GROUP LEARNING, 👷🏼‍♂️ GROUP PROJECT, 🧠 ASSESSMENT, 📝 ASSIGNMENT
 
-category: Client Side - Week 10 - Individual Assessment
+category: Client Side - Week 16 - React Individual Assessement
 # category: Use the Name + week for each (follow the format above)
 tags: 
     - UPDATE TAGS
 is_featured: true
 ---
-<a class="rn-button btn-purple" href="https://githubtools.reppedintech.com/u/codetracker-learning/INDIVIDUAL-ASSIGNMENT-vocab-YOU-lary" target="_blank">COPY REPO</a>
+<a class="rn-button btn-purple" href="https://githubtools.reppedintech.com/u/codetracker-learning/INDIVIDUAL-ASSIGNMENT-Team-Roster" target="_blank">COPY REPO</a>
 
 ## Get Started
 - Copy repo
@@ -34,8 +34,8 @@ Do not spend a ton of time styling initially. Hit HTML and structure using boots
 
 - READ THROUGH ALL OF THE INFORMATION BELOW before planning how you will tackle the project.
 - Check the Issue Tickets to organize your process. You will have Saturday - Friday and in class to work on this.
-- PLEASE submit questions using the help tickets and post you have a ticket up **IN SLACK under the help thread** if you need help. We will guide you to the resources that are available to you. We will not be helping students who do not complete a Help ticket. **(Doing the research first is what Software Engineers do)**
-- **_Do NOT_** copy/paste someone else's code especially if you do not understand it. It is OK to reference code, but change it up a bit. We should see different function names that YOU created.
+- PLEASE submit questions using the help tickets and post you have a ticket up IN SLACK under the help thread if you need help. We will guide you to the resources that are available to you. We will not be helping students who do not complete a Help ticket. (Doing the research first is what Software Engineers do)
+- Do NOT copy/paste someone else's code especially if you do not understand it. It is OK to reference code, but change it up a bit. We should see different function names that YOU created.
 - On Saturday, everyone will present how far they got AND their favorite piece of code that they wrote for everyone to share in the Glory!
 - MOST OF ALL HAVE FUN!!!!!
 
