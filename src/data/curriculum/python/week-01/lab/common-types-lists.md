@@ -25,7 +25,13 @@ animals = ["Jack", "Noonan", "Blue", "Gypsy"]
 * [Python Lists](https://docs.python.org/3.6/tutorial/datastructures.html)
 * [Learn Python - Lists](http://www.learnpython.org/en/Lists)
 
-## Practice: Random Numbers (🔴 REQUIRED)
+> Practice Ledgend
+>
+> * 🔴 **REQUIRED** - You **MUST** complete this curriculum item
+> * 🟡 **RECOMMENDED** - While not required, it is highly recommended that you complete this curriculum item before the next group project
+> * 🟢 **OPTIONAL** - Lessons for students with faster processing speeds or to come back to
+
+## 🔴 Practice: Random Numbers
 
 ### Random Numbers Instructions
 
@@ -85,7 +91,7 @@ my_randoms list does not contain 5
 
 > **NOTE:** Each run will produce different output.
 
-## Practice: Planet List (🔴 REQUIRED)
+## 🔴 Practice: Planet List
 
 ### Setup
 
@@ -103,7 +109,7 @@ echo 'planet_list = ["Mercury", "Mars"]' >> planets.py
 1. Now that all the planets are in the list, slice the list in order to get the rocky planets into a new list called `rocky_planets`.
 1. Being good amateur astronomers, we know that Pluto is now a dwarf planet, so use the `del` operation to remove it from the end of `planet_list`.
 
-## Challenge: Iterating over planets (🟡 RECOMMENDED)
+## 🟡 Challenge: Iterating over planets
 
 1. Create another list containing tuples. Each tuple will hold the name of a spacecraft that we have launched, and the names of the planet(s) that it has visited, or landed on.
 
