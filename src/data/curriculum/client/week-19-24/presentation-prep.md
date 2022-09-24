@@ -43,3 +43,10 @@ Once you have reached MVP and are approved - **MAKE AN MVP BRANCH, PUSH IT TO GI
 - Make sure you have good, relevant data in your database to showcase real-world use cases for your app
 - Avoid typing in something like "test1" or "asdfdsa"... or even worse, "poop"... just to demonstrate that an input field works.
 - Try using [an extension](https://chrome.google.com/webstore/detail/fake-filler/bnjjngeaknajbdcgpfkgnonkmififhfo/related?hl=en) to fill out forms
+
+### BEFORE YOU JUMP INTO SERVER SIDE, UPDATE YOUR README!!
+- Synopsis of the problem you're solving with this app
+- Include instructions on how download/clone/install and run the app - npm start, json server port, etc.
+- ☝️ This reminds YOU in 3 months how to run your app, because you will have forgotten. Trust me.
+- Link to or insert an image (or both) of your ERD
+- Link to or insert an image (or both) of your Wireframe
