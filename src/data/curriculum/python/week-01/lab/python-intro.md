@@ -14,7 +14,7 @@ tags:
 is_featured: true
 ---
 
-## Setup
+## Setup (🔴 REQUIRED)
 
 Here's your very first Python code module. Go ahead and create a new directory for storing your Python code and create a file named `humansizes.py`.
 
@@ -24,10 +24,10 @@ touch humansizes.py
 code .
 ```
 
-Next, copy pasta the code in the [humansizes.py](../code-snippets/humansizes.py) into yours.
+Next, copy pasta the code in the expand below into your new file.
 
-<details>
-<summary><b>Click me to open/close humansizes.py code</b></summary>
+<details class="detail-container">
+<summary class="detail-container__summary"><b>Click for `humansizes.py` code</b></summary>
 
 ```python
 SUFFIXES = {1000: ['KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB'],
@@ -69,7 +69,7 @@ The first thing you might notice is the lack of curly braces defining the beginn
 
 ## Evaluating a module of Code
 
-If you don't already have it open, click the orange demon-thingy icon in the upper right of your VSCode screen to launch an AREPL session. This will allow you to see the results of your `print()` statements.
+If you haven't already, execute this file (`python {PATH_TO_FILE}`). This will allow you to see the results of your `print()` statements in the ran file.
 
 ## Code Review
 
@@ -154,7 +154,7 @@ import sys
 print(sys.path)
 ```
 
-In the AREPL window, you would see something like
+If you were to run this file, you would see something like
 > ['', '/Users/student/.pyenv/versions/3.4.3/lib/python34.zip', '/Users/student/.pyenv/versions/3.4.3/lib/python3.4', '/Users/student/.pyenv/versions/3.4.3/lib/python3.4/lib-dynload', '/Users/student/.pyenv/versions/3.4.3/lib/python3.4/site-packages']
 
 ## Import Your Module
@@ -174,13 +174,13 @@ import humansizes
 print(humansizes.approximate_size(80808080, True))
 ```
 
-In AREPL you'll see the number, such as `77.1 MiB`
+When you run your new file, you'll see the number, such as `77.1 MiB`
 
 ## Function Docstrings
 
 If you ever want to see the developer's documentation of a function, you can access the built-in `__doc__` property on the function.
 
-```
+```bash
 >>> print(humansizes.approximate_size.__doc__)
 
 Convert a file size to human-readable form.
