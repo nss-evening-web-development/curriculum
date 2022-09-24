@@ -59,7 +59,7 @@ touch dictionaryOfWords.py
 * [Python dictionaries](https://docs.python.org/3.6/tutorial/datastructures.html#dictionaries)
 * [Learn Python - Dictionaries](https://www.learnpython.org/en/Dictionaries)
 
-> Practice Ledgend
+> Practice Legend
 >
 > * 🔴 **REQUIRED** - You **MUST** complete this curriculum item
 > * 🟡 **RECOMMENDED** - While not required, it is highly recommended that you complete this curriculum item before the next group project

@@ -45,7 +45,7 @@ touch cars.py
 * [Set intersection](https://docs.python.org/3.6/library/stdtypes.html?highlight=intersection#set.intersection)
 * [Learn Python - Sets](http://www.learnpython.org/en/Sets)
 
-> Practice Ledgend
+> Practice Legend
 >
 > * 🔴 **REQUIRED** - You **MUST** complete this curriculum item
 > * 🟡 **RECOMMENDED** - While not required, it is highly recommended that you complete this curriculum item before the next group project

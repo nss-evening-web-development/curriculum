@@ -82,7 +82,7 @@ melissa = list_person(first_name="Melissa", last_name="Bell", age=25, occupation
 
 While we are can still pass a variable number of arguments, the arguments now have a keyword associated with it. In other words, you get to name the arguments that you pass to the function (a dictionary with key value pairs).
 
-> Practice Ledgend
+> Practice Legend
 >
 > * 🔴 **REQUIRED** - You **MUST** complete this curriculum item
 > * 🟡 **RECOMMENDED** - While not required, it is highly recommended that you complete this curriculum item before the next group project
