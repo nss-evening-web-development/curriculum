@@ -58,7 +58,6 @@ touch dictionaryOfWords.py
 
 * [Python dictionaries](https://docs.python.org/3.6/tutorial/datastructures.html#dictionaries)
 * [Learn Python - Dictionaries](https://www.learnpython.org/en/Dictionaries)
-* [Introducing Dictionaries](http://www.diveintopython.net/native_data_types/index.html#odbchelper.dict)
 
 > Practice Ledgend
 >
