@@ -30,7 +30,7 @@ You should see something like the following:
 git version 2.29.2
 ```
 
-Any version greater than 2.27 is sufficient. If you have a lesser version, you will need to upgrade. If you need to upgrade git, [click here](#add-link).
+Any version greater than 2.27 is sufficient. If you have a lesser version, you will need to upgrade. If you need to upgrade git, [click here](https://nss-evening-curriculum.netlify.app/client/upgrade-git).
 
 <!-- TODO: Add LINK above: URL /client/25/upgrade-git-->
 
