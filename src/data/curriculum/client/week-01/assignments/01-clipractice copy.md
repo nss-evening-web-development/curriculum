@@ -64,3 +64,5 @@ touch index.html
 Next, create a `styles` subdirectory and create a file named `main.css` in it.
 
 Then `cd ..` to go up one directory level. Create another subdirectory named `scripts` and create a file named `main.js` in it.
+
+👏🏼👏🏼WOOT WOOT! You just completed this assignment!
