@@ -24,6 +24,8 @@ Since all of the work you will be doing at NSS will be contained in the `~/works
 
 If you don't have a workspace directory yet, go to your terminal, type `cd` and press enter to get to your home directory. Then `mkdir workspace`. Then you can `cd workspace`.
  
+Create the `foundations` directory inside the workspace directory. 
+
 In the `foundations` directory, we will create two more directories: `inclass` and `exercises`
  
 Once we are all setup, our directory structure will look like this:
