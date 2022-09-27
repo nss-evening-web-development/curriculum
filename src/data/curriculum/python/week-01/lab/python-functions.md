@@ -88,7 +88,6 @@ While we are can still pass a variable number of arguments, the arguments now ha
 > * 🟡 **RECOMMENDED** - While not required, it is highly recommended that you complete this curriculum item before the next group project
 > * 🟢 **OPTIONAL** - Lessons for students with faster processing speeds or to come back to
 
-
 ## 🔴 Practice: ChickenMonkey
 
 Write a program that prints the numbers from 1 to 100. You can use Python's [range()](https://www.pythoncentral.io/pythons-range-function-explained/) to quickly make a list of numbers.
