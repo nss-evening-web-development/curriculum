@@ -20,7 +20,7 @@ Watch the video and complete everything that is done within it.
 
 NOTE: If you get the following error: `Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.`, follow the steps in [this article](https://dev.to/raystatic/support-for-password-authentication-was-removed-on-august-13-2021-please-use-a-personal-access-token-instead-2p99) or view the video below to see how to generate the token. The password to the video is in Google Classroom.
 
-<div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/754750839?h=678ed7006e&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Github Personal Access Token Generation"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<a href="https://youtu.be/u1Uwj9VqqxY" target="_blank">Video Link</a>
 
 Now that you are familiar with basic commands in the terminal, we will look at how to connect our local repos with the remote repos on Github.
 
