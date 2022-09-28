@@ -27,6 +27,6 @@ Here is the button/link to the repo:
 
 The instructions on how to run through this is in the README.md. Just don't worry about the installing Sniffer part.
 
-***DISCLAIMER: This repo will be forked and not copied, so make sure any pull reuquests you make are actually to your repo and not the original one!***
+***DISCLAIMER: This repo will be forked and not copied, so make sure any pull requests you make are actually to your repo and not the original one!***
 
 Have fun reaching enlightenment!
