@@ -16,7 +16,7 @@ is_featured: true
 
 Download the free version of [Visual Studio Code](https://code.visualstudio.com/).
 
-For Mac users: [Follow these steps](https://code.visualstudio.com/docs/setup/mac) to set up Visual Studio Code to be launched from the command line.
+For Mac users: [Follow these steps](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line) to set up Visual Studio Code to be launched from the command line.
 
 Once you have completed all the steps above, push the button below to close this page and check the box on the list to mark as completed.
 
