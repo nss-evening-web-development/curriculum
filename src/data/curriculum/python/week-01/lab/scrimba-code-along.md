@@ -1,5 +1,5 @@
 ---
-title: 'Scrimba: Required Code Alongs'
+title: 'Scrimba: Code Alongs'
 date: "2022-09-01 08:00:00"
 path: '/python/'
 # use the path equal to the location of the file in the directory (directory structure)
