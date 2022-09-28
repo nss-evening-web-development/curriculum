@@ -12,7 +12,7 @@ const Layout = ({ gitMarkdownUrl, children, showBtns }) => {
         <div className="button-row">
           <a
             className="btn btn-lg btn-outline-light report  m-1"
-            href={process.env.GATSBY_GITHUB_ISSUE_URL}
+            href={`${process.env.GATSBY_GITHUB_ISSUE_URL}${gitMarkdownUrl}`}
             target="_blank"
             rel="noreferrer"
           >
