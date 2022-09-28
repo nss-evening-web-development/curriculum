@@ -18,7 +18,7 @@ Python provides one basic methods to read user input on the command line.
 
 ## input()
 
-The [`input()`](https://docs.python.org/3/library/functions.html#input) method is used to receive data from the keyboard. This function accepts an optional parameter, prompt, which is a string that is printed to the screen whenever the function is called.
+The <a href="https://docs.python.org/3/library/functions.html#input" target="_blank">`input()`</a> method is used to receive data from the keyboard. This function accepts an optional parameter, prompt, which is a string that is printed to the screen whenever the function is called.
 
 ```python
 >>> txt = input("Type something to test this out: ")

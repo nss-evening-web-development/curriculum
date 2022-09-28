@@ -18,13 +18,13 @@ For this week's assignment, follow each of the links below. They include reading
 
 For each section to be considered completed, you must pass the excercise at the end of each linked page.
 
-1. [Hello, World!](https://www.learnpython.org/en/Hello%2C_World%21)
-1. [Variables and Types](https://www.learnpython.org/en/Variables_and_Types)
-1. [Lists](https://www.learnpython.org/en/Lists)
-1. [Basic Operators](https://www.learnpython.org/en/Basic_Operators)
-1. [String Formatting](https://www.learnpython.org/en/String_Formatting)
-1. [Basic String Operations](https://www.learnpython.org/en/Basic_String_Operations)
-1. [Conditions](https://www.learnpython.org/en/Conditions)
-1. [Loops](https://www.learnpython.org/en/Loops)
-1. [Functions](https://www.learnpython.org/en/Functions)
-1. [Dictionaries](https://www.learnpython.org/en/Dictionaries)
+1. <a href="https://www.learnpython.org/en/Hello%2C_World%21" target="_blank">Hello, World!</a>
+1. <a href="https://www.learnpython.org/en/Variables_and_Types" target="_blank">Variables and Types</a>
+1. <a href="https://www.learnpython.org/en/Lists" target="_blank">Lists</a>
+1. <a href="https://www.learnpython.org/en/Basic_Operators" target="_blank">Basic Operators</a>
+1. <a href="https://www.learnpython.org/en/String_Formatting" target="_blank">String Formatting</a>
+1. <a href="https://www.learnpython.org/en/Basic_String_Operations" target="_blank">Basic String Operations</a>
+1. <a href="https://www.learnpython.org/en/Conditions" target="_blank">Conditions</a>
+1. <a href="https://www.learnpython.org/en/Loops" target="_blank">Loops</a>
+1. <a href="https://www.learnpython.org/en/Functions" target="_blank">Functions</a>
+1. <a href="https://www.learnpython.org/en/Dictionaries" target="_blank">Dictionaries</a>
