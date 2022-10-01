@@ -30,7 +30,7 @@ Is there anything that is holding you back from obtaining your goals? If so, ide
 
 **3. Ultimate goals for this program**
 
-For this column, we am only looking for frontend specific goals, but feel free to vision cast for the whole program. And, while getting a job can be in this column, that is not a specific goal. If you list large goals like that, also tell what you are going to do to get to this goal.
+For this column, we are only looking for frontend specific goals, but feel free to vision cast for the whole program. And, while getting a job can be in this column, that is not a specific goal. If you list large goals like that, also tell what you are going to do to get to this goal.
 
 
 ### My Goals -Tasks
