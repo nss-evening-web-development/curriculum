@@ -63,8 +63,6 @@ list.slice(1); //  [2, 3]
 
 ## Code Along
 
-I keep referencing "for..in" loop, but I mean "for...of" charge it to my head and not my heart! LOL!
-
 Also, this project uses modules for JS. Do not worry about that. Just focus on the array methods and completing the items in the main.js
 
 For this assignment, you should either code along with the video above or open the `scripts/main.js` file and update with the array methods in the comments.
@@ -79,3 +77,5 @@ For this assignment, you should either code along with the video above or open t
 <a class="rn-button btn-purple" href="https://githubtools.reppedintech.com/u/codetracker-learning/ASSIGNMENT-intro-js-array-methods" target="_blank">COPY REPO</a>
 
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/697961784?h=c3847ab686&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Array Methods: Black Excellence"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+I keep referencing "for..in" loop, but I mean "for...of" charge it to my head and not my heart! LOL!
