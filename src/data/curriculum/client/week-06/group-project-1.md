@@ -1,5 +1,5 @@
 ---
-title: 'Q1: Group Project'
+title: 'Client Side - Group Project'
 date: "2022-09-01 08:00:00"
 path: '/client/'
 
@@ -15,6 +15,8 @@ tags:
 is_featured: true
 ---
 This week you will be focusing on a group project, which will allow you to work in a team environment using the skills you have learned over the past few weeks.
+
+**Your instructor will provide you with instructions on how to access the project.**
 
 ## Definition of Done
 - All items are completed in getting started
