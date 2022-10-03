@@ -1,5 +1,5 @@
 ---
-title: '02L. HTML, CSS Calculator'
+title: 'HTML, CSS Calculator'
 date: "2022-09-01 08:00:00"
 path: '/client/'
 # use the path equal to the location of the file in the directory (directory structure)
