@@ -1,5 +1,5 @@
 ---
-title: 'Study Group - Scope'
+title: 'JS Scope'
 date: "2022-09-01 08:00:00"
 path: '/client/'
 
