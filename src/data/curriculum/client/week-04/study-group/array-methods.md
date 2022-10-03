@@ -19,7 +19,7 @@ In JavaScript, an array is a data structure that contains list of elements which
 
 **Array methods** are functions built-in to JavaScript that we can apply to our arrays — Each method has a unique function that performs a change or calculation to our array and saves us from writing common functions from scratch.
 
-Here are a few methods. To see more, [check out the docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array).
+Here are a few methods. To see more, <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array" target="_blank">check out the docs</a>.
 
 ```js
 const list = [1, 2, 3];

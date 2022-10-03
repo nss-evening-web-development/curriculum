@@ -14,7 +14,7 @@ tags:
     - Webpack
 is_featured: true
 ---
-[Read this article on JSON](https://www.freecodecamp.org/news/what-is-json-a-json-file-example/) as when we get data from an API it comes in this format, which is similar to a JavaScript object. We will still dot or bracket notate on it, but it is important that you review what it is because as programmers, this is a data format that is important.
+<a href="https://www.freecodecamp.org/news/what-is-json-a-json-file-example/" target="_blank">Read this article on JSON</a> as when we get data from an API it comes in this format, which is similar to a JavaScript object. We will still dot or bracket notate on it, but it is important that you review what it is because as programmers, this is a data format that is important.
 
 ## Most notable info:
 

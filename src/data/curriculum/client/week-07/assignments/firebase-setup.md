@@ -14,12 +14,15 @@ tags:
     - Webpack
 is_featured: true
 ---
-[Read this article on JSON](https://www.freecodecamp.org/news/what-is-json-a-json-file-example/) as when we get data from an API it comes in this format, which is similar to a JavaScript object. We will still dot or bracket notate on it, but it is important that you review what it is because as programmers, this is a data format that is important.
+<a class="rn-button btn-purple" href="https://githubtools.reppedintech.com/u/codetracker-learning/IN-CLASS-Almost-Amazon" target="_blank">COPY REPO</a>
 
-## Most notable info:
+Copy over the repo above and clone it so that you can have access to the sample data for the app and add follow along with the video.
 
-- **JSON is purely a string with a specified data format — it contains only properties, no methods (functions).**
-- JSON requires double quotes to be used around strings and property names. Single quotes are not valid other than surrounding the entire JSON string.
-- Even a single misplaced comma or colon can cause a JSON file to go wrong, and not work. You should be careful to validate any data you are attempting to use (although computer-generated JSON is less likely to include errors, as long as the generator program is working correctly). You can validate JSON using an application like JSONLint.
-- JSON can actually take the form of any data type that is valid for inclusion inside JSON, not just arrays or objects. So for example, a single string or number would be valid JSON.
-- Unlike in JavaScript code in which object properties may be unquoted, in JSON only quoted strings may be used as properties.
+**Watch ALL 8 videos and follow along.**
+
+- Firebase is the database that we will be using as an API to give us persistent storage and authentication.
+- It is important that you learn how to use the tool. Reference these videos any time you need help getting setup.
+- Follow each video and create a FIREBASE project called "Almost Amazon"
+- We will be using this firebase project for the next couple weeks in class.
+
+<div style='padding:56.2% 0 0 0;position:relative;'><iframe src='https://vimeo.com/showcase/8147898/embed' allowfullscreen frameborder='0' style='position:absolute;top:0;left:0;width:100%;height:100%;'></iframe></div>

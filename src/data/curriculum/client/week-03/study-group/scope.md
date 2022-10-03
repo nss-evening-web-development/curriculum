@@ -20,9 +20,9 @@ When we use the word scope in programming, we are talking about some code's acce
 
 Yet the code inside the walls has a special power. It can see outside the walls and access, or modify, that code - as long as that code, itself, is not contained in an equal, or lower scope. More on that in a bit.
 
-To use the true power of [block scopes in JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/block), you need to use the `let` and `const` keywords for declaring variables.
+To use the true power of <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/block" target="_blank">block scopes in JavaScript</a>, you need to use the `let` and `const` keywords for declaring variables.
 
-If you use `var`, block scope no longer applies, because those variables declared with `var` get [hoisted and initialized](https://www.sitepoint.com/demystifying-javascript-variable-scope-hoisting/). Always use `let` and `const` for variable declarations to avoid unintended side-effects of hoisting and initialization.
+If you use `var`, block scope no longer applies, because those variables declared with `var` get <a href="https://www.sitepoint.com/demystifying-javascript-variable-scope-hoisting/" target="_blank">hoisted and initialized</a>. Always use `let` and `const` for variable declarations to avoid unintended side-effects of hoisting and initialization.
 
 ## Scopes You Know
 
@@ -202,6 +202,6 @@ console.log(nameMaker())
 
 These are supplementary videos you can choose to watch to deepen your learning.
 
-1. [JavaScript | The Scope Chain](https://www.youtube.com/watch?v=FCAOcYazy9c)
-1. [Javascript Tutorial | Scope & Closures | Ep20](https://www.youtube.com/watch?v=S3cBIww_6os)
-1. [Environment, Scope and Closures in JS / Intro to JavaScript ES6 programming, lesson 16](https://www.youtube.com/watch?v=LhSCEWHazAU)
+1. <a href="https://www.youtube.com/watch?v=FCAOcYazy9c" target="_blank">JavaScript | The Scope Chain</a>
+1. <a href="https://www.youtube.com/watch?v=S3cBIww_6os" target="_blank">Javascript Tutorial | Scope & Closures | Ep20</a>
+1. <a href="https://www.youtube.com/watch?v=LhSCEWHazAU" target="_blank">Environment, Scope and Closures in JS / Intro to JavaScript ES6 programming, lesson 16</a>

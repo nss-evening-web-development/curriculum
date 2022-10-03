@@ -17,8 +17,8 @@ is_featured: true
 
 For this lecture, we will be breaking down into small parts, walking through so that you can work through the lab assignments
 
-- [Describing Data as Entities](https://nss-evening-curriculum.netlify.app/client/notes-01-describing-data-as-entities)
-- [Accessing Data Properties](https://nss-evening-curriculum.netlify.app/client/notes-02-accessing-data-properties)
-- [Targeting DOM Elements](https://nss-evening-curriculum.netlify.app/client/notes-03-targeting-dom-elements)
-- [Iteration](https://nss-evening-curriculum.netlify.app/notes-04-iteration)
-- [Putting it together with Bootstrap](https://nss-evening-curriculum.netlify.app/notes-05-putting-it-all-together)
+- <a href="https://nss-evening-curriculum.netlify.app/client/notes-01-describing-data-as-entities" target="_blank">Describing Data as Entities</a>
+- <a href="https://nss-evening-curriculum.netlify.app/client/notes-02-accessing-data-properties" target="_blank">Accessing Data Properties</a>
+- <a href="https://nss-evening-curriculum.netlify.app/client/notes-03-targeting-dom-elements" target="_blank">Targeting DOM Elements</a>
+- <a href="https://nss-evening-curriculum.netlify.app/notes-04-iteration" target="_blank">Iteration</a>
+- <a href="https://nss-evening-curriculum.netlify.app/notes-05-putting-it-all-together" target="_blank">Putting it together with Bootstrap</a>

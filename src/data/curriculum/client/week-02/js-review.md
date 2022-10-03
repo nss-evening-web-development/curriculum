@@ -18,5 +18,5 @@ is_featured: true
 
 ### Resources (For after the session):
 
-- [Slide Deck](https://docs.google.com/presentation/d/e/2PACX-1vSX8m_JrNqpP43hRa9371_H75UO3tcwLr_mlpck0qGxxykYSzPhJdk-H4xryY0Adp-dVJ1qFhZ_w7_Z/pub?start=false&loop=false&delayms=60000)
-- [CodeSandbox](https://codesandbox.io/s/js-review-u1kkcv)
+- <a href="https://docs.google.com/presentation/d/e/2PACX-1vSX8m_JrNqpP43hRa9371_H75UO3tcwLr_mlpck0qGxxykYSzPhJdk-H4xryY0Adp-dVJ1qFhZ_w7_Z/pub?start=false&loop=false&delayms=60000" target="_blank">Slide Deck</a>
+- <a href="https://codesandbox.io/s/js-review-u1kkcv" target="_blank">CodeSandbox</a>

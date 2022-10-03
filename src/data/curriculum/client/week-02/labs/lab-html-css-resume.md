@@ -30,7 +30,7 @@ Feel free to work with others and join any of the breakout rooms.
 3. After the repo is copied over, select "View your repo on Github"
 <img width="589" alt="Screen Shot 2022-09-09 at 9 50 43 AM" src="https://user-images.githubusercontent.com/29741570/189379132-925e60e3-ba48-4ecb-ac23-ab65cccc5bd7.png">
 
-4. [Clone the repo](https://nss-evening-curriculum.netlify.app/client/08-clone-github-repos), view and follow the assignment details the README and issue tickets
+4. <a href="https://nss-evening-curriculum.netlify.app/client/08-clone-github-repos" target="_blank">Clone the repo</a>, view and follow the assignment details the README and issue tickets
 
 ## How to Complete
 Once you have completed this lab, go back into Google Classroom and submit the assignment with a link to your Github Repo.
