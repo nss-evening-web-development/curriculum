@@ -42,8 +42,8 @@ The presentation should include the following slides:
 - A “Questions we still have” slide with all the questions your team wants to talk through. Please do not put Googleable questions on this slide. This slide should only include things that your team would like to understand better AFTER you have researched.
 
 ### Review Topics
-- <a href="https://nss-evening-curriculum.netlify.app/client/03r-review-topic-variables" target="_blank">Variables</a>
-- <a href="https://nss-evening-curriculum.netlify.app/client/03r-review-topic-data-types" target="_blank">Data Types</a>
-- <a href="https://nss-evening-curriculum.netlify.app/client/03r-review-topic-data-structures" target="_blank">Data Structures</a>
-- <a href="https://nss-evening-curriculum.netlify.app/client/03r-review-topic-operators" target="_blank">Operators</a>
-- <a href="https://nss-evening-curriculum.netlify.app/client/03r5-review-topic-conditionals" target="_blank">Conditionals</a>
+- <a href="https://nss-evening-curriculum.netlify.app/client/review-topic-variables" target="_blank">Variables</a>
+- <a href="https://nss-evening-curriculum.netlify.app/client/review-topic-data-types" target="_blank">Data Types</a>
+- <a href="https://nss-evening-curriculum.netlify.app/client/review-topic-data-structures" target="_blank">Data Structures</a>
+- <a href="https://nss-evening-curriculum.netlify.app/client/review-topic-operators" target="_blank">Operators</a>
+- <a href="https://nss-evening-curriculum.netlify.app/client/review-topic-conditionals" target="_blank">Conditionals</a>
