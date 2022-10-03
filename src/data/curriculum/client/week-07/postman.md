@@ -15,8 +15,8 @@ tags:
 is_featured: true
 ---
 ## Get Started
-- You should have done this with installs, but if you have not, [download the DESKTOP version of Postman](https://www.postman.com/downloads/)
-- [Presentation](https://docs.google.com/presentation/d/e/2PACX-1vQ1K4xIBAWarDTsVJ4CRkEcANVAI9GcFtc8nvx_26q46xqeTfmTkTp1xB7B2voDlDlvg4bGeet0CPbF/pub?start=false&loop=false&delayms=60000)
+- You should have done this with installs, but if you have not, <a href="https://www.postman.com/downloads/" target="_blank">download the DESKTOP version of Postman</a>
+- <a href="https://docs.google.com/presentation/d/e/2PACX-1vQ1K4xIBAWarDTsVJ4CRkEcANVAI9GcFtc8nvx_26q46xqeTfmTkTp1xB7B2voDlDlvg4bGeet0CPbF/pub?start=false&loop=false&delayms=60000" target="_blank">Presentation</a>
 
 ### Overview:
 
@@ -54,8 +54,8 @@ _For this lesson, we will be using the Almost Amazon firebase database that you 
   - SHOW: Book
 - DELETE
   - SHOW: Book
-- [Filter Data](https://firebase.google.com/docs/database/rest/retrieve-data#section-rest-filtering)
-  - [Setup FB rules](https://firebase.google.com/docs/database/security/indexing-data#section-indexing-order-by-child) (See below)
+- <a href="https://firebase.google.com/docs/database/rest/retrieve-data#section-rest-filtering" target="_blank">Filter Data</a>
+  - <a href="https://firebase.google.com/docs/database/security/indexing-data#section-indexing-order-by-child" target="_blank">Setup FB rules</a> (See below)
   - SHOW: Books on sale
   - SHOW: Books by UID
 - Share a collection

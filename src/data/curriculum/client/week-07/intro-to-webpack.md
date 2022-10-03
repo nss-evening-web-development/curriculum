@@ -25,4 +25,4 @@ You will learn that there are some very picky settings. This will make you a bet
 Webpack is a task runner and a module bundler. It originally started as a module bundler. This means that it takes all of your separate Javascript modules and bundles them together into a single file. Webpack also automates some of the tasks that we have to run every time we change the code. It will automate these tasks so that we are not typing in the same commands every single time.
 
 ## IN CLASS
-We will walk through the [webpack readme](https://github.com/codetracker-learning/LAB-error-clean-up) allowing students to ask questions and get acclimated with the lay of the land.
+We will walk through the <a href="https://github.com/codetracker-learning/LAB-error-clean-up" target="_blank">webpack readme</a> allowing students to ask questions and get acclimated with the lay of the land.

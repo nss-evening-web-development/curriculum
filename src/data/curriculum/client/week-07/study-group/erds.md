@@ -25,8 +25,8 @@ You will touch more on this in backend, but we will be using data for our applic
 - You should be able to explain what a 1 -> many relationship is.
 
 ## Videos to Watch
-- [Entity Relationship Diagram (ERD) Tutorial - Part 1](https://www.youtube.com/watch?v=QpdhBUYk7Kk)
+- <a href="https://www.youtube.com/watch?v=QpdhBUYk7Kk" target="_blank">Entity Relationship Diagram (ERD) Tutorial - Part 1</a>
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/QpdhBUYk7Kk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-- [Entity Relationship Diagram (ERD) Tutorial - Part 2](https://www.youtube.com/watch?v=-CuY5ADwn24)
+- <a href="https://www.youtube.com/watch?v=-CuY5ADwn24" target="_blank">Entity Relationship Diagram (ERD) Tutorial - Part 2</a>
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/-CuY5ADwn24" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

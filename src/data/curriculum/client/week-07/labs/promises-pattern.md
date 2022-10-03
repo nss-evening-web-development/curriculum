@@ -14,7 +14,7 @@ tags:
     - Webpack
 is_featured: true
 ---
-1. Create a [Gist](https://gist.github.com/)
+1. Create a <a href="https://gist.github.com/" target="_blank">Gist</a>
 1. Name the file `promises.js`. This will give you some syntax highlighting.
 1. Type out the pattern for promises 20 times. Type **EVERY** letter:
 

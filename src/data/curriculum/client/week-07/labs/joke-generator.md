@@ -26,7 +26,7 @@ is_featured: true
 1. When the user presses the "Get Another Joke" button, the app starts over from step 3.
 
 ## Resources:
-- [API Documentation](https://sv443.net/jokeapi/v2/)
+- <a href="https://sv443.net/jokeapi/v2/" target="_blank">API Documentation</a>
 
 ## Stretch
 DO NOT complete any stretch goals until the functionality of the application is completed.

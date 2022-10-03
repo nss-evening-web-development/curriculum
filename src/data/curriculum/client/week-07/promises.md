@@ -31,6 +31,6 @@ JS reads top to bottom, but there will be times that we want to get data from an
 Promises allow us to tell our code to run out and grab the data, but don’t stop and wait for it to come back before loading all the other JS we have THEN once we have either the data or an error, we can handle that on the client.
 
 ## IN CLASS
-- [Talk about Front End Layers](https://www.figma.com/file/M4tCBTbmxMkBCiOncR0Lul/Front-End-Organization?node-id=0%3A1)
-- [Presentation](https://prezi.com/view/5v5n29dEPm0JfJfTgVbR/)
-- [Exercise](https://nss-evening-curriculum.netlify.app/client/03l-promises-pattern-exercise)
+- <a href="https://www.figma.com/file/M4tCBTbmxMkBCiOncR0Lul/Front-End-Organization?node-id=0%3A1" target="_blank">Talk about Front End Layers</a>
+- <a href="https://prezi.com/view/5v5n29dEPm0JfJfTgVbR/" target="_blank">Presentation</a>
+- <a href="https://nss-evening-curriculum.netlify.app/client/promises-pattern-exercise" target="_blank">Exercise</a>
