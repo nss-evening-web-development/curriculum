@@ -1,5 +1,5 @@
 ---
-title: '04. APIs + Postman'
+title: 'APIs + Postman'
 date: "2022-09-01 08:00:00"
 course: ''
 path: '/client/'

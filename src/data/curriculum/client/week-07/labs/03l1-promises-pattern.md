@@ -1,5 +1,5 @@
 ---
-title: '04L. Postman Collection'
+title: 'Promises Pattern Exercise'
 date: "2022-09-01 08:00:00"
 course: ''
 path: '/client/'
@@ -14,24 +14,14 @@ tags:
     - Webpack
 is_featured: true
 ---
-By the end of this lab, you should have a collection in Postman that has the following endpoints:
+1. Create a [Gist](https://gist.github.com/)
+1. Name the file `promises.js`. This will give you some syntax highlighting.
+1. Type out the pattern for promises 20 times. Type **EVERY** letter:
 
-- **GET (READ)**
-  - All Books
-  - All Authors
-  - Books on Sale
-  - Favorite Authors
-  - Books by UID
-  - Authors by UID
-  - Author Books
-  - Single Book
-  - Single Author
-- **POST (CREATE - needs payload)**
-  - Book
-  - Author
-- **PATCH (UPDATE - needs payload)**
-  - Book
-  - Author
-- **DELETE**
-  - Book
-  - Author
+```js
+const promise = () => new Promise((resolve, reject) => {
+    fetch('http://example.com/movies.json')
+        .then((response) => response.json())
+        .then((data) => console.log(data));
+})
+```

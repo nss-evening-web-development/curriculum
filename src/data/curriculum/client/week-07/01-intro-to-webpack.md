@@ -1,5 +1,5 @@
 ---
-title: '01. Intro to Webpack'
+title: 'Intro to Webpack'
 date: "2022-09-01 08:00:00"
 course: ''
 path: '/client/'

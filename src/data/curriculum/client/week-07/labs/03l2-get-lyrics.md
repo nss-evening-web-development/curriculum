@@ -1,5 +1,5 @@
 ---
-title: '03L2. Get Some Lyrics'
+title: 'Get Some Lyrics'
 date: "2022-09-01 08:00:00"
 course: ''
 path: '/client/'

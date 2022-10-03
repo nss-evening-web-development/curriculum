@@ -1,5 +1,5 @@
 ---
-title: '02L. Modularize Sorting Hat'
+title: 'Modularize Sorting Hat'
 date: "2022-09-01 08:00:00"
 course: ''
 path: '/client/'

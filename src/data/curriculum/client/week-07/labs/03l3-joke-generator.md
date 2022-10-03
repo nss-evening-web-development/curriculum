@@ -1,5 +1,5 @@
 ---
-title: '03L3. Joke Generator (Webpack)'
+title: 'Joke Generator (Webpack)'
 date: "2022-09-01 08:00:00"
 course: ''
 path: '/client/'

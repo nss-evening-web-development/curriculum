@@ -1,5 +1,5 @@
 ---
-title: '02. ES6 Modules'
+title: 'ES6 Modules'
 date: "2022-09-01 08:00:00"
 course: ''
 path: '/client/'
