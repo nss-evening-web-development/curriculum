@@ -88,7 +88,7 @@ In some ways, `pipenv` does the same thing as `node_modules` and `package.json`.
 1. Install the package globally:
 
     ```sh
-    python -m pip install pipenv
+    sudo python -m pip install pipenv
     ```
 
 1. Check that the package is usable: `pipenv --version` should output a version of pipenv. Something like: `pipenv, version 2022.9.24`
