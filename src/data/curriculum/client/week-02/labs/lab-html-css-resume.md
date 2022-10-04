@@ -32,6 +32,9 @@ Feel free to work with others and join any of the breakout rooms.
 
 4. <a href="https://nss-evening-curriculum.netlify.app/client/08-clone-github-repos" target="_blank">Clone the repo</a>, view and follow the assignment details the README and issue tickets
 
+### Video
+https://youtu.be/aoNHN2p4WJE
+
 ## How to Complete
 Once you have completed this lab, go back into Google Classroom and submit the assignment with a link to your Github Repo.
 
