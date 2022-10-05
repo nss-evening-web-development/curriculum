@@ -49,6 +49,14 @@ ls
 If you see `id_rsa` and `id_rsa.pub`, then you are good to go! Sample image below.
 ![Screen Shot 2022-02-17 at 8 30 08 AM](https://user-images.githubusercontent.com/29741570/189227648-f4902bdf-d847-4fea-ab1e-fc651dcaf5c9.png)
 
+#### Step 4
+Now we need to tell the agent to use this key. In your terminal, run:
+
+```shell
+ssh-add ~/.ssh/id_rsa
+```
+
+You should get a response stating `Identity added` with your email address at the end.
 
 Once you have completed all the steps above, push the button below to close this page and check the box on the list to mark as completed.
 
