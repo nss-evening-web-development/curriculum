@@ -14,7 +14,7 @@ tags:
 is_featured: true
 ---
 
-## Night 1: Orientation and Installations
+## Day 1: Orientation and Installations
 
 1. Start with Check-Ins
 1. Intruduce yourself and the JI's as the class's Senior's
@@ -44,14 +44,16 @@ is_featured: true
     - The assignments are for when you're done with labs, or for personal learning time.
     - All labs for the rest of our time together should be completed before the section's group project.
 
-## Night 2: Finishing up Installations
+## Day 2: Finishing up Installations
 
 1. Start with Check-Ins
 1. They should all be done with installations tonight
 1. Send them off to work on installations/Labs
 1. Make sure to check in with students at the end of class to make sure everyone's complete with installations and to just check in on their learning as a group.
 
-## Night 3: Frontend Demo's and Group Slides
+    - Also tell them about the Study Group project for this week. They do not have to finish it, but have to get as much done as possible.
+
+## Day 3: Frontend Demo's and Group Slides
 
 1. Frontend Capstone Presentations
-1. If there's time, get them back in their groups to start creating slides for fundamamenal review next week.
+1. If there's time, get them back in their groups to start creating slides for fundammental review next week.
