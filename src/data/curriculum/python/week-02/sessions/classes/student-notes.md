@@ -167,7 +167,7 @@ You start reading The Water Dancer at page 89
 
 ## Practice: Pizza Joint Practice
 
-Here's the link to the exercies for the section: [ADD LINK HERE!]
+[Link to this exercise](/python/intro-to-classes-pizza-joint)
 
 ## Class Construction Arguments
 
@@ -200,7 +200,7 @@ the_water_dancer.publisher = "One World"
 
 ## Practice: Urban Planner
 
-Here's the link to the exercies for the section: [ADD LINK HERE!]
+[Link to this exercise](/python/intro-to-classes-urban-planner-i)
 
 ## Type Relationships
 
@@ -247,8 +247,8 @@ for book in levar_burton.books:
 
 ## Practice: Companies and Employees
 
-Here's the link to the exercies for the section: [ADD LINK HERE!]
+[Link to this exercise](/python/intro-to-classes-companies-and-employees)
 
 ## Practice: Urban Planner II
 
-Here's the link to the exercies for the section: [ADD LINK HERE!]
+[Link to this exercise](/python/intro-to-classes-urban-planner-ii)
