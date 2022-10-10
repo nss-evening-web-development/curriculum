@@ -66,11 +66,17 @@ There are a few lines to add to the .zshrc file before we can use `pyenv`
 1. Save and exit VS Code
 1. Back in the terminal, load the changes to the file: `source ~/.zshrc`
 
+### Update xcode
+1. In your terminal, run `xcode-select --install`
+2. if you get the following error `xcode-select: error: command line tools are already installed, use "Software Update" to install updates` then run tese commands.
+    -  `sudo rm -rf /Library/Developer/CommandLineTools` This will delete your old version of xcode
+    -  `xcode-select --install` This will reinstall xcode at an updated version
+
 ### Download Python
 
 1. In the same terminal window, download the version of Python: `pyenv install 3.9.10`
 2. After the download finishes, set that version of Python to the global version: `pyenv global 3.9.10`
-3. Now your computer’s Python version should be 3.9.10. Check it with `python3 --version`. **If something other than 3.9.10 comes back, reach out to an instructor now.**
+3. Now your computer’s Python version should be 3.9.10. Check it with `python --version`. **If something other than 3.9.10 comes back, reach out to an instructor now.**
 
 
 ### Install Pipenv
@@ -82,10 +88,10 @@ In some ways, `pipenv` does the same thing as `node_modules` and `package.json`.
 1. Install the package globally:
 
     ```sh
-    python3 -m pip install pipenv
+    sudo python -m pip install pipenv
     ```
 
-1. Check that the package is usable: `pipenv --version`
+1. Check that the package is usable: `pipenv --version` should output a version of pipenv. Something like: `pipenv, version 2022.9.24`
 1. **If you get a message saying `command pipenv not found`, reach out to an instructor now.**
 
 [1]: https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance
