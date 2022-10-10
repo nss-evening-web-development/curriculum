@@ -7,7 +7,7 @@ path: '/python/'
 type: '👥 GROUP LEARNING'
 # type options: 👩🏽‍🏫 LIVE LEARNING SESSION, ℹ️ INFO, 🎥 VIDEO, 💻 CODE ALONG, 🥼 LAB, ↩️ REVIEW/NOTES, 👥 GROUP LEARNING, 👷🏼‍♂️ GROUP PROJECT, 🧠 ASSESSMENT, 📝 ASSIGNMENT
 image: '../../../images/headers/python-logo.png'
-category: Python - Week 02 - Fundamental Guild Sessions
+category: Python - Week 02 - Advanced Fundamental Sessions
 # category: Use the Name + week for each (follow the format above)
 tags:
     - UPDATE_TAGS
