@@ -202,6 +202,6 @@ console.log(nameMaker())
 
 These are supplementary videos you can choose to watch to deepen your learning.
 
-1. <a href="https://www.youtube.com/watch?v=FCAOcYazy9c" target="_blank">JavaScript | The Scope Chain</a>
+1. <a href="https://youtu.be/vGGOOYOXoQ4?t=31" target="_blank">JavaScript | The Scope Chain</a>
 1. <a href="https://www.youtube.com/watch?v=S3cBIww_6os" target="_blank">Javascript Tutorial | Scope & Closures | Ep20</a>
 1. <a href="https://www.youtube.com/watch?v=LhSCEWHazAU" target="_blank">Environment, Scope and Closures in JS / Intro to JavaScript ES6 programming, lesson 16</a>
