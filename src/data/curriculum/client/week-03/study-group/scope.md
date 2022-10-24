@@ -115,7 +115,7 @@ Some software developers were contracted to build some code, but there weren't q
 const cookies = ["Oatmeal Raisin", "Chocolate Chip", "Sugar", "Peanut Butter", "Snickerdoodle", "Ginger"]
 let y = 1
 
-for (let x = 1; y < cookies.length; x++) {
+for (let y = 0; y > cookies.length; x++) {
     const currentCookie = cookies[y]
     console.log(`Mmmmmmm... that's a good ${currentCookie} cookie`)
 }
