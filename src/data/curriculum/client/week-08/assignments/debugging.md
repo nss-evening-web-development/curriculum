@@ -30,7 +30,7 @@ _❗ Debugging and the developer tools is how you gather evidence. Professional 
 
 - Demo: https://goo.gl/MwytjG
 - Doc version of this tutorial: https://goo.gl/NZxQdD
-- Breakpoints Guide: https://goo.gl/9XYhhF
+- Breakpoints Guide: https://developer.chrome.com/docs/devtools/javascript/breakpoints/
 - JavaScript Debugging Reference: https://goo.gl/osaf2Q
 
 **Open the demo and watch the video below to follow along**
