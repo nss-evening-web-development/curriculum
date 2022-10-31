@@ -19,9 +19,15 @@ is_featured: true
 1. Type out the pattern for promises 20 times. Type **EVERY** letter:
 
 ```js
-const promise = () => new Promise((resolve, reject) => {
-    fetch('http://example.com/movies.json')
-        .then((response) => response.json())
-        .then((data) => resolve(data));
-})
+const getRequest = () => new Promise((resolve, reject) => {
+  fetch(endpoint, {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  })
+    .then((response) => response.json())
+    .then((data) => resolve(data))
+    .catch(reject);
+});
 ```
