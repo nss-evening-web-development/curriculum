@@ -22,6 +22,6 @@ is_featured: true
 const promise = () => new Promise((resolve, reject) => {
     fetch('http://example.com/movies.json')
         .then((response) => response.json())
-        .then((data) => console.log(data));
+        .then((data) => resolve(data));
 })
 ```
