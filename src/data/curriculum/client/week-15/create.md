@@ -48,7 +48,7 @@ const handleChange = (event) => {
 }
 ```
 
-### 🥼 LAB: DELETE Authors (60 minutes)
+### 🥼 LAB: CREATE Authors (60 minutes)
 In this lab, we will be focusing on CREATE.
 
 - **CREATE** Author
