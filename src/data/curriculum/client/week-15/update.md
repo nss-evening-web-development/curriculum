@@ -22,7 +22,7 @@ In this lesson, we will be focusing on UPDATE.
   - modifying form to work for both creation and updating
     - looking for a value to exist to know if we are updating or creating
 
-### 🥼 LAB: DELETE Authors (60 minutes)
+### 🥼 LAB: UPDATE Authors (60 minutes)
 In this lab, we will be focusing on UPDATE.
 
 - **UPDATE** Author
