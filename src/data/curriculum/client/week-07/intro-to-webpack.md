@@ -14,7 +14,7 @@ tags:
     - Webpack
 is_featured: true
 ---
-<a class="rn-button btn-purple" href="https://githubtools.reppedintech.com/u/codetracker-learning/LAB-error-cleanup" target="_blank">COPY REPO</a>
+<a class="rn-button btn-purple" href="https://githubtools.reppedintech.com/u/codetracker-learning/LAB-error-clean-up" target="_blank">COPY REPO</a>
 
 From this point forward until we get to React, we will be using Webpack to help compile and run our code.
 
