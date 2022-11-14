@@ -16,9 +16,8 @@ is_featured: true
 ---
 Authentication is already set up for you in the template. All you need to do is the following:
 
-1. Create a new project
-1. Merge the with-auth branch into main
 1. Add your Firebase credentials to your .env file
+2. Search codebase for `TODO` and comment in/out code specified for auth
 
 Once you do these things, you will have access to user info and they will only be able to access pages in the app if they are logged in.
 
