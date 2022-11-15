@@ -17,6 +17,6 @@ is_featured: true
 In this lab, ensure that users:
 
 - IDs are on authors that they create
-- can only read authors they created (this includes filtered data like favorites)
-- can only edit authors they created
-- can only delete authors they created
+- can only READ authors they created (this includes filtered data like favorites)
+- can only EDIT authors they created
+- can only DELETE authors they created
