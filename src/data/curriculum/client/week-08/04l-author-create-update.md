@@ -18,7 +18,7 @@ In this lab, you are going to be implementing the endpoints that we created in P
 
 We will be focusing on CREATE and UPDATE.
 
-- CREATE
-  - Author
-- UPDATE
-  - Author
+- CREATE Author
+  - Use the form provided
+- UPDATE Author
+  - Update the CREATE form to be used for Update
