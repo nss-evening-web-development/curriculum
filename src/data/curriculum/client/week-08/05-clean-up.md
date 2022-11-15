@@ -1,5 +1,5 @@
 ---
-title: '04. Project (CREATE, UPDATE, Clean up)'
+title: '05. Project (Clean up)'
 date: "2022-09-01 08:00:00"
 path: '/client/'
 
@@ -14,14 +14,7 @@ tags:
     - UPDATE TAGS
 is_featured: true
 ---
-In this lesson, we are going to be implementing the endpoints that we created in Postman in into our code.
-
-We will be focusing on CREATE and UPDATE.
-
-- CREATE
-  - Book
-- UPDATE
-  - Book
+In this lesson, we are going to be cleaning up
 
 ### CLEAN UP
 
@@ -29,15 +22,39 @@ As you may have noticed, there are some bugs in the application now that we have
 
 1. When a user deletes an author, when visiting the book, the book details view either shows undefined values or breaks
    - This is caused because there is a relationship between the book and the author. How do we know? Because the author ID from the author entity is on the book entity.
-   - **TODO:** Walk through how we handle removing relationships on delete. When we delete an author, first, we need to delete the book(s) associated with the book and then delete the book.
+   - **TODO:** Walk through how we handle removing relationships on delete. When we delete an author, first, we need to delete the book(s) associated with the author and then delete the author.
       - In order to get all of the books, we will need to create an array of promises
       - We will pass this array to `Promise.all()`. <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all" target="_blank">(Docs)</a>
       - Once all the books have been deleted, THEN we will delete the author
 
 ```js
 // mergedData.js
+const deleteAuthorBooksRelationship = (firebaseKey) => new Promise((resolve, reject) => {
+  getAuthorBooks(firebaseKey).then((authorBooksArray) => {
+    const deleteBookPromises = authorBooksArray.map((book) => deleteBook(book.firebaseKey));
 
-  
+    Promise.all(deleteBookPromises).then(() => {
+      deleteSingleAuthor(firebaseKey).then(resolve);
+    });
+  }).catch(reject);
+});
+
+// domEvents.js
+
+// FIXME: ADD CLICK EVENT FOR DELETING AN AUTHOR
+if (e.target.id.includes('delete-author-btn')) {
+  // eslint-disable-next-line no-alert
+  if (window.confirm('Want to delete?')) {
+    // console.warn('DELETE AUTHOR', e.target.id);
+    // console.warn(e.target.id.split('--'));
+
+    const [, firebaseKey] = e.target.id.split('--');
+
+    deleteAuthorBooksRelationship(firebaseKey).then(() => {
+      getAuthors().then(showAuthors);
+    });
+  }
+}
 ```
 
 2. When there are no books or authors in the database, there is an error that we need to handle

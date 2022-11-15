@@ -59,6 +59,7 @@ In this lesson, we are going to look at how to update the methods we have create
 4. When the app loads, pass the UID to start app > all the functions that need the user ID (See code samples below)
 
 ```js
+// utils/viewDirector.js
 import firebase from 'firebase/app'; // import the firebase app dependency
 import 'firebase/auth'; // import the firebase auth dependency
 import loginButton from '../components/buttons/loginButton';
@@ -87,7 +88,81 @@ const ViewDirectorBasedOnUserAuthStatus = () => {
 
 export default ViewDirectorBasedOnUserAuthStatus;
 ```
-5. Modify relevant API calls to include the UID as a parameter
+
+5. We want to ensure that all the events get access to the UID so when we are CRUDing, we have the UID available.
+
+```js
+// utils/startApp.js
+
+import { getBooks } from '../api/bookData';
+import logoutButton from '../components/buttons/logoutButton';
+import domBuilder from '../components/shared/domBuilder';
+import navBar from '../components/shared/navBar';
+import domEvents from '../events/domEvents';
+import formEvents from '../events/formEvents';
+import navigationEvents from '../events/navigationEvents';
+import { showBooks } from '../pages/books';
+
+const startApp = (user) => {
+  domBuilder(user); // ADD USER SO THAT YOU CAN UPDATE CALLS
+  domEvents(user); // ADD USER SO THAT YOU CAN UPDATE CALLS
+  formEvents(user); // ADD USER SO THAT YOU CAN UPDATE CALLS
+  navBar(); 
+  logoutButton(); 
+  navigationEvents(); 
+
+  // TODO: Put all books on the DOM on App load
+  getBooks(user.uid).then((books) => showBooks(books));
+};
+
+export default startApp;
+```
+
+6. Modify relevant API calls to include the UID as a parameter. Below is an example of the few. As you work through, you will encounter errors, this is a part of learning, so move through them and fix as you go.
+
+Advice: Start making your modifications in the following order:
+
+- READ by UID (Books + Authors)
+- CREATE with UID (Books + Authors) - ensure that when you create the UID is on the object you push to firebase
+
+NOTE: If users can only READ their items and CREATE with their UID on the item, then they will only be able to UPDATE and DELETE their own stuff, so those endpoints should be OK to leave as is.
+
+```js
+// api/bookData.js
+
+const getBooks = (uid) => new Promise((resolve, reject) => {
+  fetch(`${endpoint}/books.json?orderBy="uid"&equalTo=${uid}`, {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  })
+    .then((response) => response.json())
+    .then((data) => {
+      if (data) {
+        resolve(Object.values(data));
+      } else {
+        resolve([]);
+      }
+    })
+    .catch(reject);
+});
+
+const booksOnSale = (uid) => new Promise((resolve, reject) => {
+  fetch(`${endpoint}/books.json?orderBy="uid"&equalTo=${uid}`, {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  })
+    .then((response) => response.json())
+    .then((data) => {
+      const onSale = Object.values(data).filter((item) => item.sale);
+      resolve(onSale);
+    })
+    .catch(reject);
+});
+```
 
 - Here are some assumptions we are making:
   - CREATE: we need to add the uid to the payload so that when we GET we can index on the uid

@@ -1,5 +1,5 @@
 ---
-title: '05. Project (Book Details)'
+title: '06. Project (Book Details)'
 date: "2022-09-01 08:00:00"
 path: '/client/'
 
