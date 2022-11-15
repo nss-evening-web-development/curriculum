@@ -31,9 +31,9 @@ In this lesson, we are going to look at how to update the methods we have create
 
 #### TODO
 1. Take a look at the user object that we have access to through FB Google Auth
-    - [Link to Firebase documentation for accessible properties](https://firebase.google.com/docs/reference/js/v8/firebase.User#properties)
+    - <a href="https://firebase.google.com/docs/reference/js/v8/firebase.User#properties" target="_blank">Link to Firebase documentation for accessible properties</a>
 2. Update the Firebase rules to include "uid" on both collections (books and authors)
-    - [uid is a property on the user object](https://firebase.google.com/docs/reference/js/v8/firebase.User#uid) that we want to use for all records created by a user
+    - <a href="https://firebase.google.com/docs/reference/js/v8/firebase.User#uid" target="_blank">uid is a property on the user object</a> that we want to use for all records created by a user
 
 ```json
 {
