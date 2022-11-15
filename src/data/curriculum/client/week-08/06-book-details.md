@@ -23,6 +23,8 @@ We will be focusing on GET (READ) Book Details, which includes the Author info.
 - **GET (READ) - Merge Data**
   - Single Book (book card - when a user clicks the icon to view book, show the single book details along with the author details on the DOM)
 
+  ![Screen Shot 2022-11-15 at 12 28 57 PM](https://user-images.githubusercontent.com/29741570/201997840-a5186eb9-84e7-411a-89aa-d00cc6263744.png)
+
 - **GET (READ) - Author Books**
   - We want to be able to get all of the author's books
 
