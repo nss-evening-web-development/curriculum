@@ -1,5 +1,5 @@
 ---
-title: '7. Self-Paced Course'
+title: '7. Self-Directed Course'
 date: "2020-09-03 05:00:00"
 path: '/client/'
 # use the path equal to the location of the file in the directory (directory structure)
@@ -14,7 +14,7 @@ tags:
 
 ---
 
-The pace of the course at NSS is primarily self-paced within a specific timeframe (usually a week). This allows you to go at a pace that allows you to interact with the content, but also provides guidelines so that you do not fall behind.
+The pace of the course at NSS is primarily self-directed within a specific timeframe (usually a week). This allows you to interact with the content, but also provides guidelines so that you do not fall behind.
 
 Students should make every effort to complete all required content each week.
 
