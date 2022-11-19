@@ -56,7 +56,9 @@ In this lesson, we are going to look at how to update the methods we have create
 - Create 2 endpoints:
    - GET Books by UID
    - GET Authors by UID
-4. When the app loads, pass the UID to start app > all the functions that need the user ID (See code samples below)
+
+### Get into the code
+When the app loads, pass the UID to start app > all the functions that need the user ID (See code samples below)
 
 ```js
 // utils/viewDirector.js
