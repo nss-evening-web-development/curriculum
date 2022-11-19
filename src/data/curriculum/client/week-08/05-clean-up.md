@@ -38,7 +38,11 @@ const deleteAuthorBooksRelationship = (firebaseKey) => new Promise((resolve, rej
     });
   }).catch(reject);
 });
+```
 
+Call the promise we created on button click to delete all the authors books, then delete the author
+
+```js
 // domEvents.js
 
 // FIXME: ADD CLICK EVENT FOR DELETING AN AUTHOR
