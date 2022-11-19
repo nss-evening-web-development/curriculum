@@ -59,7 +59,7 @@ In this lesson, we are going to look at how to update the methods we have create
 
 ### Get into the code
 
-4. When the app loads, pass the UID to start app > all the functions that need the user ID (See code samples below)
+When the app loads, pass the UID to start app > all the functions that need the user ID (See code samples below)
 
 ```js
 // utils/viewDirector.js
@@ -92,7 +92,7 @@ const ViewDirectorBasedOnUserAuthStatus = () => {
 export default ViewDirectorBasedOnUserAuthStatus;
 ```
 
-5. We want to ensure that all the events get access to the UID so when we are CRUDing, we have the UID available.
+We want to ensure that all the events get access to the UID so when we are CRUDing, we have the UID available.
 
 ```js
 // utils/startApp.js
@@ -121,7 +121,7 @@ const startApp = (user) => {
 export default startApp;
 ```
 
-6. Modify relevant API calls to include the UID as a parameter. Below is an example of the few. As you work through, you will encounter errors, this is a part of learning, so move through them and fix as you go.
+Modify relevant API calls to include the UID as a parameter. Below is an example of the few. As you work through, you will encounter errors, this is a part of learning, so move through them and fix as you go.
 
 Advice: Start making your modifications in the following order:
 
