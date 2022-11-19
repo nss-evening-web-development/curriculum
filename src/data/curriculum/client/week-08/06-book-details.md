@@ -77,6 +77,20 @@ const getBookDetails = (firebaseKey) => new Promise((resolve, reject) => {
 });
 ```
 
+4. Add the event listener to fire when the user clicks on the detals button on the book
+
+```js
+// events/domEvents.js
+
+// TODO: CLICK EVENT FOR VIEW BOOK DETAILS
+if (e.target.id.includes('view-book-btn')) {
+  const [, firebaseKey] = e.target.id.split('--');
+
+  getBookDetails(firebaseKey).then(viewBook);
+}
+```
+
+
 ---
 ## BONUS: Another way to write this using async/await for promises
 
