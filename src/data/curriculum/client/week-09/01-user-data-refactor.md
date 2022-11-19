@@ -52,13 +52,14 @@ In this lesson, we are going to look at how to update the methods we have create
 
 3. Head to Postman and test out some endpoints: We need to modify a couple of calls in Postman to get back only books that have a specific user ID
 
-- Create a new folder called User Specific Requests
-- Create 2 endpoints:
-   - GET Books by UID
-   - GET Authors by UID
+  - Create a new folder called User Specific Requests
+  - Create 2 endpoints:
+     - GET Books by UID
+     - GET Authors by UID
 
 ### Get into the code
-When the app loads, pass the UID to start app > all the functions that need the user ID (See code samples below)
+
+4. When the app loads, pass the UID to start app > all the functions that need the user ID (See code samples below)
 
 ```js
 // utils/viewDirector.js
