@@ -26,3 +26,22 @@ In this lab, you are going to GET (READ) Authors Details and merge on data to cr
   - See example layout below
 
   ![aa-ss](https://user-images.githubusercontent.com/29741570/191143238-f5fd8102-5562-4292-8fd3-1fabfe648cfe.png)
+
+### HINT - **GET (READ) - Author Books**
+We want to be able to get all of the author's books
+
+```js
+// authorData.js
+
+const getAuthorBooks = (firebaseKey) => new Promise((resolve, reject) => {
+  fetch(`${endpoint}/books.json?orderBy="author_id"&equalTo=${firebaseKey}`, {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  })
+    .then((response) => response.json())
+    .then((data) => resolve(Object.values(data)))
+    .catch(reject);
+});
+```

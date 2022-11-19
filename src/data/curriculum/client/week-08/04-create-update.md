@@ -29,7 +29,6 @@ TODO:
 // events/domEvents.js
 
 if (e.target.id.includes('add-book-btn')) {
-  // console.warn('ADD BOOK');
   addBookForm();
 }
 ```
@@ -39,8 +38,6 @@ if (e.target.id.includes('add-book-btn')) {
 // events/formEvents.js
 
 if (e.target.id.includes('submit-book')) {
-  // console.warn('CLICKED SUBMIT BOOK', e.target.id);
-
   const payload = {
     title: document.querySelector('#title').value,
     description: document.querySelector('#description').value,
@@ -50,7 +47,6 @@ if (e.target.id.includes('submit-book')) {
     sale: document.querySelector('#sale').checked,
   };
 
-  // console.warn(payload);
   createBook(payload).then(({ name }) => {
     const patchPayload = { firebaseKey: name };
 
@@ -92,22 +88,46 @@ const updateBook = (payload) => new Promise((resolve, reject) => {
     .catch(reject);
 });
 ```
-
-
 ### UPDATE Book
 
 TODO:
-- On click of update button, grab the book firebaseKey
-- Make a call to the API to get the single book object
-- Pass the object to the ` addBookForm()` function as an argument
+1. On click of update button, grab the book firebaseKey
+```js
+// events/domEvents.js
+
+// TODO: CLICK EVENT EDITING/UPDATING A BOOK
+if (e.target.id.includes('edit-book-btn')) {
+  const [, firebaseKey] = e.target.id.split('--');
+
+  getSingleBook(firebaseKey).then((bookObj) => addBookForm(bookObj));
+}
+```
+
+2. Make a call to the API to get the single book object
+```js
+// api/bookData.js
+
+// TODO: GET SINGLE BOOK
+const getSingleBook = (firebaseKey) => new Promise((resolve, reject) => {
+  fetch(`${endpoint}/books/${firebaseKey}.json`, {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json',
+    }, // you technically do not need the options object for GET requests, but using it here for consistency
+  })
+    .then((response) => response.json())
+    .then((data) => resolve(data)) // will resolve a single object
+    .catch(reject);
+});
+```
+
+3. Pass the object to the ` addBookForm` function as an argument
 
 ```js
 // events/domEvents.js
 
 // TODO: CLICK EVENT EDITING/UPDATING A BOOK
 if (e.target.id.includes('edit-book-btn')) {
-  // console.warn('EDIT BOOK', e.target.id);
-  // console.warn(e.target.id.split('--'));
   const [, firebaseKey] = e.target.id.split('--');
 
   getSingleBook(firebaseKey).then((bookObj) => addBookForm(bookObj));
@@ -115,8 +135,8 @@ if (e.target.id.includes('edit-book-btn')) {
 }
 ```
 
-- On submit of form, grab all the values and add `firebaseKey` to the payload
-- Pass to update function
+3. On submit of form, grab all the values and add `firebaseKey` to the payload
+4. Pass to update function
 
 ```js
 // events/formEvents.js
@@ -124,9 +144,6 @@ if (e.target.id.includes('edit-book-btn')) {
 // TODO: CLICK EVENT FOR EDITING A BOOK
 if (e.target.id.includes('update-book')) {
   const [, firebaseKey] = e.target.id.split('--');
-  // console.warn('CLICKED UPDATE BOOK', e.target.id);
-  // console.warn(firebaseKey);
-
   const payload = {
     title: document.querySelector('#title').value,
     description: document.querySelector('#description').value,
