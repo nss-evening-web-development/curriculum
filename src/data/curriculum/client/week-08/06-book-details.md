@@ -88,4 +88,4 @@ const getBookDetails = async (firebaseKey) => { // the async keyword let's JS kn
   return { ...bookObject, authorObject };
 };
 ```
-NOTE: we only want to use async/await as used abovewhen we have data that is dependent on another API call. For all else, we can use `Promise.all`, `Promise.allSettled`, etc. Why? Because we do not want to wait for each API call to be made is it is not necessary. This would slow down the code.
+NOTE: we only want to use async/await as used above when we have data that is dependent on another API call. For all else, we can use `Promise.all`, `Promise.allSettled`, etc. Why? Because we do not want to wait for each API call to be made if it is not necessary. This would slow down the code.
