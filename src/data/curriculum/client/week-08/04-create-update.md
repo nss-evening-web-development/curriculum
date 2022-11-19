@@ -23,39 +23,7 @@ We will be focusing on CREATE and UPDATE.
 - Select Menu for Authors - `components/forms/selectAuthor.js`
 
 TODO: 
-  - On click of "Add A Book" button, show form
-
-```js
-// events/domEvents.js
-
-if (e.target.id.includes('add-book-btn')) {
-  addBookForm();
-}
-```
-  - On submit of form, capture all the data in `events/formEvents.js`
-
-```js
-// events/formEvents.js
-
-if (e.target.id.includes('submit-book')) {
-  const payload = {
-    title: document.querySelector('#title').value,
-    description: document.querySelector('#description').value,
-    image: document.querySelector('#image').value,
-    price: document.querySelector('#price').value,
-    author_id: document.querySelector('#author_id').value,
-    sale: document.querySelector('#sale').checked,
-  };
-
-  createBook(payload).then(({ name }) => {
-    const patchPayload = { firebaseKey: name };
-
-    updateBook(patchPayload).then(() => {
-      getBooks().then(showBooks);
-    });
-  });
-}
-```
+1. First, Let's create the API calls for these features
 
 ```js
 // api/bookData.js
@@ -88,10 +56,45 @@ const updateBook = (payload) => new Promise((resolve, reject) => {
     .catch(reject);
 });
 ```
+
+2. On click of "Add A Book" button, show form
+
+```js
+// events/domEvents.js
+
+if (e.target.id.includes('add-book-btn')) {
+  addBookForm();
+}
+```
+3. On submit of form, capture all the data in `events/formEvents.js`
+
+```js
+// events/formEvents.js
+
+if (e.target.id.includes('submit-book')) {
+  const payload = {
+    title: document.querySelector('#title').value,
+    description: document.querySelector('#description').value,
+    image: document.querySelector('#image').value,
+    price: document.querySelector('#price').value,
+    author_id: document.querySelector('#author_id').value,
+    sale: document.querySelector('#sale').checked,
+  };
+
+  createBook(payload).then(({ name }) => {
+    const patchPayload = { firebaseKey: name };
+
+    updateBook(patchPayload).then(() => {
+      getBooks().then(showBooks);
+    });
+  });
+}
+```
 ### UPDATE Book
 
 TODO:
 1. On click of update button, grab the book firebaseKey
+
 ```js
 // events/domEvents.js
 
@@ -104,6 +107,7 @@ if (e.target.id.includes('edit-book-btn')) {
 ```
 
 2. Make a call to the API to get the single book object
+
 ```js
 // api/bookData.js
 
