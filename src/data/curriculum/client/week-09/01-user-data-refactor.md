@@ -134,7 +134,7 @@ NOTE: If users can only READ their items and CREATE with their UID on the item, 
 // api/bookData.js
 
 const getBooks = (uid) => new Promise((resolve, reject) => {
-  fetch(`${endpoint}/books.json?orderBy="uid"&equalTo=${uid}`, {
+  fetch(`${endpoint}/books.json?orderBy="uid"&equalTo="${uid}"`, {
     method: 'GET',
     headers: {
       'Content-Type': 'application/json',
@@ -152,7 +152,7 @@ const getBooks = (uid) => new Promise((resolve, reject) => {
 });
 
 const booksOnSale = (uid) => new Promise((resolve, reject) => {
-  fetch(`${endpoint}/books.json?orderBy="uid"&equalTo=${uid}`, {
+  fetch(`${endpoint}/books.json?orderBy="uid"&equalTo="${uid}"`, {
     method: 'GET',
     headers: {
       'Content-Type': 'application/json',
