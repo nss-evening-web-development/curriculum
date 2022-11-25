@@ -14,7 +14,7 @@ tags:
     - UPDATE TAGS
 is_featured: true
 ---
-<a class="rn-button btn-purple" href="https://githubtools.reppedintech.com/u/codetracker-learning/INDIVIDUAL-ASSIGNMENT-vocab-YOU-lary" target="_blank">COPY REPO</a>
+<a class="rn-button btn-purple" href="https://githubtools.reppedintech.com/u/codetracker-learning/INDIVIDUAL-ASSESSMENT-vocab-YOU-lary" target="_blank">COPY REPO</a>
 
 ## Get Started
 - Copy repo
@@ -33,10 +33,9 @@ _A minimum viable product (MVP) is a development technique in which a new produc
 Do not spend a ton of time styling initially. Hit HTML and structure using bootstrap, then functionality first and then spend time on the styling of the project.
 
 - READ THROUGH ALL OF THE INFORMATION BELOW before planning how you will tackle the project.
-- Check the Issue Tickets to organize your process. You will have Saturday - Friday and in class to work on this.
-- PLEASE submit questions using the help tickets and post you have a ticket up **IN SLACK under the help thread** if you need help. We will guide you to the resources that are available to you. We will not be helping students who do not complete a Help ticket. **(Doing the research first is what Software Engineers do)**
+- PLEASE submit questions using the help tickets and post you have a ticket up **IN SLACK under the help thread** if you need help. We will prioritize helping students who complete Help tickets. **(Doing the research first is what Software Engineers do)**
 - **_Do NOT_** copy/paste someone else's code especially if you do not understand it. It is OK to reference code, but change it up a bit. We should see different function names that YOU created.
-- On Saturday, everyone will present how far they got AND their favorite piece of code that they wrote for everyone to share in the Glory!
+- Once you hit MVP, everyone will present how far they got AND their favorite piece of code that they wrote to an instructor!
 - MOST OF ALL HAVE FUN!!!!!
 
 ## Definition of Done
