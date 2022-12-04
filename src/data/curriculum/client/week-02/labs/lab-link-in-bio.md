@@ -14,7 +14,7 @@ tags:
     - Flexbox
 is_featured: true
 ---
-<a class="rn-button btn-purple" href="https://githubtools.reppedintech.com/u/codetracker-learning/LAB-link-in-bio" target="_blank">COPY REPO</a>
+<a class="rn-button btn-purple" href="https://repo-copier.netlify.app/u/codetracker-learning/LAB-link-in-bio" target="_blank">COPY REPO</a>
 
 **Description:** If you are on social media, specifically those that do not allow links in posts like Instagram, you often see folks write "Link in Bio."
 

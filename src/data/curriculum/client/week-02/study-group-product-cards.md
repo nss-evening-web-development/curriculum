@@ -16,7 +16,7 @@ is_featured: true
 ---
 Use the button below to copy the repo and instructions to your personal GitHub account. You may need to authorize or authenticate with Github.
 
-<a class="rn-button btn-purple" href="https://githubtools.reppedintech.com/u/codetracker-learning/ASSIGNMENT-product-cards" target="_blank">COPY REPO</a>
+<a class="rn-button btn-purple" href="https://repo-copier.netlify.app/u/codetracker-learning/ASSIGNMENT-product-cards" target="_blank">COPY REPO</a>
 
 Helpful Resources:
 These tools help you create box shadows by generating CSS based on your inputs.

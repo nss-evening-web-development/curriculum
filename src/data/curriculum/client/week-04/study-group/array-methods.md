@@ -74,7 +74,7 @@ For this assignment, you should either code along with the video above or open t
 - Code along with the video
 - The video is about 2.5 hours long, so you can take it a little at a time, but it will prepare you for work with array methods.
 
-<a class="rn-button btn-purple" href="https://githubtools.reppedintech.com/u/codetracker-learning/ASSIGNMENT-intro-js-array-methods" target="_blank">COPY REPO</a>
+<a class="rn-button btn-purple" href="https://repo-copier.netlify.app/u/codetracker-learning/ASSIGNMENT-intro-js-array-methods" target="_blank">COPY REPO</a>
 
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/697961784?h=c3847ab686&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Array Methods: Black Excellence"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 

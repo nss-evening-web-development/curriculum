@@ -14,7 +14,7 @@ tags:
     - UPDATE TAGS
 is_featured: true
 ---
-<a class="rn-button btn-purple" href="https://githubtools.reppedintech.com/u/codetracker-learning/LAB-joke-generator-react" target="_blank">COPY REPO</a>
+<a class="rn-button btn-purple" href="https://repo-copier.netlify.app/u/codetracker-learning/LAB-joke-generator-react" target="_blank">COPY REPO</a>
 
 
 ## Project Deets

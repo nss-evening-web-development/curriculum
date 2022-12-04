@@ -15,4 +15,4 @@ is_featured: true
 ---
 Copy the repo using the button below and refactor it to make it run error-free. Run `index.py` and use the error message to figure out where to start. Once the errors are gone, create a can opener and open a can (But hold your nose!)
 
-<a class="rn-button btn-purple" href="https://githubtools.reppedintech.com/u/TrinityChristiana/python-imports" target="_blank">COPY REPO</a>
+<a class="rn-button btn-purple" href="https://repo-copier.netlify.app/u/TrinityChristiana/python-imports" target="_blank">COPY REPO</a>

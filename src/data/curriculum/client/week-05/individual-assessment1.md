@@ -14,7 +14,7 @@ tags:
     - UPDATE TAGS
 is_featured: true
 ---
-<a class="rn-button btn-purple" href="https://githubtools.reppedintech.com/u/codetracker-learning/INDIVIDUAL-PROJECT-sorting-hat" target="_blank">COPY REPO</a>
+<a class="rn-button btn-purple" href="https://repo-copier.netlify.app/u/codetracker-learning/INDIVIDUAL-PROJECT-sorting-hat" target="_blank">COPY REPO</a>
 
 ## Get Started
 - Copy repo

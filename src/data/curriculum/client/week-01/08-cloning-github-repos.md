@@ -24,7 +24,7 @@ In this lesson, we will be sharing how to do that.
 
 **1. You will be provided a button like below. Click it.**
 
-<a class="rn-button btn-purple" href="https://githubtools.reppedintech.com/u/codetracker-learning/clone-me" target="_blank">COPY REPO</a>
+<a class="rn-button btn-purple" href="https://repo-copier.netlify.app/u/codetracker-learning/clone-me" target="_blank">COPY REPO</a>
 
 **2. Authorize app**
 

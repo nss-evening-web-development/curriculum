@@ -14,7 +14,7 @@ tags:
     - UPDATE TAGS
 is_featured: true
 ---
-<a class="rn-button btn-purple" href="https://githubtools.reppedintech.com/u/codetracker-learning/IN-CLASS-simply-books" target="_blank">COPY REPO</a>
+<a class="rn-button btn-purple" href="https://repo-copier.netlify.app/u/codetracker-learning/IN-CLASS-simply-books" target="_blank">COPY REPO</a>
 
 <iframe width="100%" height="500" src='https://dbdiagram.io/embed/60315ba6fcdcb6230b20bbaa'> </iframe>
 

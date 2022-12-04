@@ -22,7 +22,7 @@ Feel free to work with others and join any of the breakout rooms.
 
 1. Click the "COPY REPO" button below and authorize the app that we will be using to allow you to copy over the repo and issue tickets to your account.
 
-<a class="rn-button btn-purple" href="https://githubtools.reppedintech.com/u/codetracker-learning/LAB-HTML-Resume" target="_blank">COPY REPO</a>
+<a class="rn-button btn-purple" href="https://repo-copier.netlify.app/u/codetracker-learning/LAB-HTML-Resume" target="_blank">COPY REPO</a>
 
 2. Click "Copy Repo and Open Issues"
 <img width="507" alt="Screen Shot 2022-09-09 at 9 50 29 AM" src="https://user-images.githubusercontent.com/29741570/189379134-11bd113c-8282-4379-aa79-b87bcfbf6a01.png">

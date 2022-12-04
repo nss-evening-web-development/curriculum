@@ -14,6 +14,6 @@ tags:
     - UPDATE TAGS
 is_featured: true
 ---
-<a class="rn-button btn-purple" href="https://githubtools.reppedintech.com/u/codetracker-learning/TEMPLATE-next-js" target="_blank">COPY REPO</a>
+<a class="rn-button btn-purple" href="https://repo-copier.netlify.app/u/codetracker-learning/TEMPLATE-next-js" target="_blank">COPY REPO</a>
 
 Let's take a look at the template. Click the button above to copy over the template and name it `intro-to-react`.

@@ -16,7 +16,7 @@ is_featured: true
 ---
 ## Get Started
  - Copy over the repo above and clone it to your computer for the class session 
-<a class="rn-button btn-purple" href="https://githubtools.reppedintech.com/u/codetracker-learning/PRACTICE-youtube-player" target="_blank">COPY REPO</a>
+<a class="rn-button btn-purple" href="https://repo-copier.netlify.app/u/codetracker-learning/PRACTICE-youtube-player" target="_blank">COPY REPO</a>
 - <a href="https://www.figma.com/file/a9u6jgrRWvhFZf9Rextjhv/Jam?node-id=0%3A1" target="_blank">Link to Figma</a>
 Look at the <a href="https://drt-youtube-player.netlify.app/#" target="_blank">demo site</a> and then take a look at the code so that you can familiarize yourself with the project.
 

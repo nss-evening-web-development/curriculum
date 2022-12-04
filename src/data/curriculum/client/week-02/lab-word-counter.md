@@ -13,7 +13,7 @@ tags:
     - Javascript
 is_featured: true
 ---
-<a class="rn-button btn-purple" href="https://githubtools.reppedintech.com/u/codetracker-learning/LAB-word-counter" target="_blank">COPY REPO</a>
+<a class="rn-button btn-purple" href="https://repo-copier.netlify.app/u/codetracker-learning/LAB-word-counter" target="_blank">COPY REPO</a>
 
 Feel free to work with others and join any of the breakout rooms.
 

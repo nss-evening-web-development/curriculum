@@ -26,7 +26,7 @@ is_featured: true
 - `Promise.all()`, `Promise.allSettled()`
 
 ## Overview:
-<a class="rn-button btn-purple" href="https://githubtools.reppedintech.com/u/codetracker-learning/IN-CLASS-promises" target="_blank">COPY REPO</a>
+<a class="rn-button btn-purple" href="https://repo-copier.netlify.app/u/codetracker-learning/IN-CLASS-promises" target="_blank">COPY REPO</a>
 
 JS reads top to bottom, but there will be times that we want to get data from an external source such as APIs. While the data is fetching, we do not want the program to stop running or fail, so we can use promises to allow the other portions of the code to continue running while the data is being fetched.
 

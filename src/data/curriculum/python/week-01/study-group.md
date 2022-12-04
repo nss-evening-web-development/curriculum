@@ -23,7 +23,7 @@ If you reach a section that we haven't covered, feel free to do some preliminary
 ## Instructions
 
 Here is the button/link to the repo:
-<a class="rn-button btn-purple" href="https://githubtools.reppedintech.com/u/gregmalcolm/python_koans" target="_blank">COPY REPO</a>
+<a class="rn-button btn-purple" href="https://repo-copier.netlify.app/u/gregmalcolm/python_koans" target="_blank">COPY REPO</a>
 
 The instructions on how to run through this is in the README.md. Just don't worry about the installing Sniffer part.
 

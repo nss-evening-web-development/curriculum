@@ -14,7 +14,7 @@ tags:
     - Webpack
 is_featured: true
 ---
-<a class="rn-button btn-purple" href="https://githubtools.reppedintech.com/u/codetracker-learning/IN-CLASS-Almost-Amazon" target="_blank">COPY REPO</a>
+<a class="rn-button btn-purple" href="https://repo-copier.netlify.app/u/codetracker-learning/IN-CLASS-Almost-Amazon" target="_blank">COPY REPO</a>
 
 Copy over the repo above and clone it so that you can have access to the sample data for the app and add follow along with the video.
 
