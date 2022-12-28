@@ -40,7 +40,7 @@ You can keep the default or rename the application. If you already have a repo w
 
 **4. Select "View on Github" and you will see your repo in your account.**
 
-**5. Navigate to the directory that you want this repo to live on your local machine**
+**5. Back on your local machine, navigate to the directory that you want this repo to live (i.e. `cd ~/workspace/foundations/clone`**
 
 **6. Clone the repo using this command: `git clone {{CHANGE TO GITHUB SSH URL}}`**
 
