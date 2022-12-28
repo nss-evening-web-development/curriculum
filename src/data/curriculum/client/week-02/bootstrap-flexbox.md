@@ -17,7 +17,7 @@ is_featured: true
 **Description:** In the last lesson, we looked at how we can use CSS to apply styles to our HTML. In this lesson, we will look at a library called Bootstrap, which makes styling more easy for engineers to reach MVP on their projects and a closer look at flexbox.
 
 Resources:
-- <a href="[https://codesandbox.io/s/bootstrap-flexbox-uvlcul](https://getbootstrap.com/)" target="_blank">Bootstrap Docs</a>
+- <a href="https://getbootstrap.com/" target="_blank">Bootstrap Docs</a>
 - <a href="https://codesandbox.io/s/bootstrap-flexbox-uvlcul" target="_blank">CodeSandbox</a>
 - <a href="https://www.w3schools.com/bootstrap5/index.php" target="_blank">Learn more with this Bootstrap Tutorial</a>
 - <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">CSS Flexbox</a>
