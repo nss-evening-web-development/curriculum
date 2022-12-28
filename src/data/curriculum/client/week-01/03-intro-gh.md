@@ -45,10 +45,10 @@ Github is a software as a service (SAAS) that allows you to back up your reposit
 
 
 ### Basic Git Commands
-Initialize repo - this lets your computer know that you will be using git to track files in the folder. It starts your git history and creates a .git folder wherever you run it.
+<!-- Initialize repo - this lets your computer know that you will be using git to track files in the folder. It starts your git history and creates a .git folder wherever you run it.
 ```
 git init
-```
+``` -->
 Get git status - this tells you what has changed in your repository since the last time you committed. This will be your favorite command
 ```
 git status
