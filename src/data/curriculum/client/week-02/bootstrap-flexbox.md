@@ -14,7 +14,7 @@ tags:
     - Flexbox
 is_featured: true
 ---
-**Description:** In the last class session, we looked at how we can use CSS to apply styles to our HTML. In this session, we will look at a library called Bootstrap, which makes styling more easy for engineers to reach MVP on their projects and a closer look at flexbox.
+**Description:** In the last lesson, we looked at how we can use CSS to apply styles to our HTML. In this lesson, we will look at a library called Bootstrap, which makes styling more easy for engineers to reach MVP on their projects and a closer look at flexbox.
 
 Resources (for after the session):
 - <a href="https://codesandbox.io/s/bootstrap-flexbox-uvlcul" target="_blank">CodeSandbox</a>
