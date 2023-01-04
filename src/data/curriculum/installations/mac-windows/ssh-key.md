@@ -58,6 +58,14 @@ ssh-add ~/.ssh/id_rsa
 
 You should get a response stating `Identity added` with your email address at the end.
 
+If you instead get a respone saying `Could not open a connection to your authentication agent.` You may need to start up the agent first. Run this in your terminal:
+
+```shell
+eval $(ssh-agent)
+```
+
+And then try the other command again.
+
 Once you have completed all the steps above, push the button below to close this page and check the box on the list to mark as completed.
 
 <button class="report m-1 p-3 btn-lg btn-outline-warning btn" onclick="window.close()">Close Page</button>
