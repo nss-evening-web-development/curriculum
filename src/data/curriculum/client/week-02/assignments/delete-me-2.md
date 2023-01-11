@@ -18,6 +18,8 @@ tags:
 ## Setup
 This exercise will allow you to continue working on your JS skills. Click the button and Login/authenticate with GitHub if necessary.
 
+**NOTE: Your progress will not be saved. This is meant for you to practice your skills. You can come back to it as many times as you would like, but your progress will NOT be saved.**
+
 The code will do all the installs, so wait for it to finish. See the video above to see what to expect. Click the button to get started.
 
 <a class="rn-button btn-purple" href="https://gitpod.io/#https://github.com/codetracker-learning/js-practice-2" target="_blank">GET STARTED</a>
