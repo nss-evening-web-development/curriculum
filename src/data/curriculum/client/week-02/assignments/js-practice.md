@@ -20,7 +20,7 @@ This exercise will allow you to continue working on your JS skills. Click the bu
 
 The code will do all the installs, so wait for it to finish. See the video above to see what to expect. Click the button to get started.
 
-NOTE: Your progress will not be saved. This is meant for you to practice your skills. You can come back to it as many times as you would like, but your progress will NOT be saved.
+**NOTE: Your progress will not be saved. This is meant for you to practice your skills. You can come back to it as many times as you would like, but your progress will NOT be saved.**
 
 <a class="rn-button btn-purple" href="https://gitpod.io/#https://github.com/codetracker-learning/js-practice-2" target="_blank">GET STARTED</a>
 
@@ -44,6 +44,6 @@ Failing tests will have red in the final output
 
 **When all test are passing, you have completed this exercise. Your output should look like below:**
 
-NOTE: Your progress will not be saved. This is meant for you to practice your skills. You can come back to it as many times as you would like, but your progress will NOT be saved.
+**NOTE: Your progress will not be saved. This is meant for you to practice your skills. You can come back to it as many times as you would like, but your progress will NOT be saved.**
 
 <img alt="passing-tests" src="https://user-images.githubusercontent.com/29741570/188746702-72001106-dc58-4a42-a731-d312dc385b61.png">
