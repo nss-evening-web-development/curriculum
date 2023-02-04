@@ -1,5 +1,5 @@
 ---
-title: '1. Welcome to Nashville Software School'
+title: 'Welcome to Nashville Software School'
 date: "2020-09-03 05:00:00"
 path: '/client/'
 # use the path equal to the location of the file in the directory (directory structure)
