@@ -32,6 +32,11 @@ Once you have reached MVP and are approved - **MAKE AN MVP BRANCH, PUSH IT TO GI
   - Add logo
   - Use brand colors
   - etc
+- Must include a11y addon
+  - All checks must be passing
+- Must include a react page with components in use
+- All components must include default propTypes
+- <a href="https://github.com/orgs/nss-evening-web-development/discussions/13" target="_blank">Readme MUST be updated based on requirments</a>
 - Deploy Design Library
 
 ### Presentation - Slides Order (15 minutes to present)
