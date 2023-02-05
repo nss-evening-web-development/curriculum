@@ -1,5 +1,5 @@
 ---
-title: 'FEWDD Presentation Prep & Soft Demos'
+title: 'FEWDD Presentation Prep & Capstone Requirements'
 date: "2022-09-01 08:00:00"
 path: '/fewdd/'
 
