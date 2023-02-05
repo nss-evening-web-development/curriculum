@@ -24,12 +24,7 @@ Once you have reached MVP and are approved - **MAKE AN MVP BRANCH, PUSH IT TO GI
   - Buttons
   - Typography
   - Colors
-  - Basic Form Fields
-    - Input
-    - Select
-    - Radio
-    - Toggle
-    - Checkbox
+  - Basic Form Fields: Input, Select, Radio, Toggle, and Checkbox
   - Two (2) complex components - a component that includes base components (i.e. card, navbar, footer, etc)
 - Should include the ability for users to interact with the components where applicable
 - Add viewports to storybook
