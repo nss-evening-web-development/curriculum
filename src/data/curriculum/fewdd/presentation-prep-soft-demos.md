@@ -17,7 +17,7 @@ is_featured: true
 ### Before FE Capstone Presentation Day
 Once you have reached MVP and are approved - **MAKE AN MVP BRANCH, PUSH IT TO GITHUB, AND DON’T MESS WITH IT!!**
 
-### Presentation - Slides Order (5 minutes to present)
+### Presentation - Slides Order (15 minutes to present)
 - Introduction - name of app, your name
 - What is the problem you’re solving?
 - What are your goals with your design library?
