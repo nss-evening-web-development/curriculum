@@ -25,4 +25,6 @@ Copy over the repo above and clone it so that you can have access to the sample 
 - Follow each video and create a FIREBASE project called "Almost Amazon"
 - We will be using this firebase project for the next couple weeks in class.
 
+**NOTE:** There was an update on the location of Authorized Domains from the Firebase Deployment Video. [Here is the link](https://github.com/orgs/nss-evening-web-development/discussions/170) to the updated location.
+
 <div style='padding:56.2% 0 0 0;position:relative;'><iframe src='https://vimeo.com/showcase/8147898/embed' allowfullscreen frameborder='0' style='position:absolute;top:0;left:0;width:100%;height:100%;'></iframe></div>
