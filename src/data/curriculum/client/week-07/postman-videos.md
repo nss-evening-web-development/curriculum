@@ -19,7 +19,7 @@ is_featured: true
 
 _For this lesson, we will be using the Almost Amazon firebase database that you created. Grab the URL from your firebase project._
 
-### Use this link to import collection `https://api.postman.com/collections/2570092-aa3332b6-1443-4809-b325-2ec642acee19?access_key=PMAT-01GS94RQW597WWMWKDDYFGTQCR`
+### Use the link in Google Classroom import collection 
 
 ![fbgeturl](https://user-images.githubusercontent.com/29741570/191059293-0dc2893e-b741-4d6e-9cc5-49ca5291fb18.png)
 
