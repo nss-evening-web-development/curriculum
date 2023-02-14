@@ -55,3 +55,7 @@ _For this lesson, we will be using the Almost Amazon firebase database that you 
 ```
 
 - Share a collection (BONUS)
+    - In postman, click the 3 dots next to the collection
+    - Select "Export"
+    - Select the recomended radio button to export as JSON
+    - Share the link with your classmates (DO NOT EVER SHARE THIS LINK PUBLICLY OR IN YOUR GITHUB REPO...EVER)
