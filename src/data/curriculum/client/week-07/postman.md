@@ -40,7 +40,7 @@ You should have already watched the videos and taken notes for setting up fireba
 **Postman Learning**
 - Create a collection
 - Save endpoints to a collection
-- Use this link to import collection `https://www.getpostman.com/collections/279b9c2d1902567e1b72`
+- Use this link in Google Classroom to import collection 
 
 _For this lesson, we will be using the Almost Amazon firebase database that you created. Grab the URL from your firebase project._
 
