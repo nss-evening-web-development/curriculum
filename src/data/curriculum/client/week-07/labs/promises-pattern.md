@@ -20,7 +20,7 @@ is_featured: true
 
 ```js
 const getRequest = () => new Promise((resolve, reject) => {
-  fetch(endpoint, {
+  return fetch(endpoint, {
     method: 'GET',
     headers: {
       'Content-Type': 'application/json',
