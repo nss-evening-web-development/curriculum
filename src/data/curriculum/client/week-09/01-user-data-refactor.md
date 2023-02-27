@@ -67,11 +67,11 @@ import firebase from 'firebase/app'; // import the firebase app dependency
 import 'firebase/auth'; // import the firebase auth dependency
 import loginButton from '../components/buttons/loginButton';
 import startApp from './startApp';
-import firebaseConfig from '../../api/apiKeys';
+import client from './client';
 
 const ViewDirectorBasedOnUserAuthStatus = () => {
   // This line initializes your firebase app using the values from your .env file
-  firebase.initializeApp(firebaseConfig);
+  firebase.initializeApp(client);
 
   // This function is looking for anytime the Auth State Changes.
   // In this app, this happens on 2 occasions:
