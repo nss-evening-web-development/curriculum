@@ -29,6 +29,6 @@ Construct a clean and concise ER diagram for the NHL database. List your assumpt
 
 There are 3 types of relationships: one-to-one, one-to-many, and many-to-one
 
-- `<:` one-to-many. E.g: `users.id < posts.user_id`
-- `>:` many-to-one. E.g: `posts.user_id > users.id`
-- `-:` one-to-one. E.g: `users.id - user_infos.user_id`
+- `<` one-to-many. E.g: `users.id < posts.user_id`
+- `>` many-to-one. E.g: `posts.user_id > users.id`
+- `-` one-to-one. E.g: `users.id - user_infos.user_id`
