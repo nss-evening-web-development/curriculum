@@ -37,7 +37,7 @@ melissa = createPerson("Melissa", "Bell", 25, "Software Developer")
 ```
 
 ```python
-// python function
+# python function
 # Function and variable names are snake case instead of camel case
 def create_person(first_name, last_name, age, occupation):
     return {
