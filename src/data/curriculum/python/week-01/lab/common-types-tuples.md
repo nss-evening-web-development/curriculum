@@ -16,17 +16,9 @@ is_featured: true
 
 Tuples are like lists, but are immutable. They can't be modified once defined. However, finding values in a tuple is faster than in a list.
 
-## Setup
-
-```sh
-mkdir -p ~/workspace/python/exercises/tuples && cd $_
-touch zoo.py
-code .
-```
-
 ## References
 
-* [Python tuples](https://docs.python.org/3.6/tutorial/datastructures.html#tuples-and-sequences)
+* [Python tuples](https://docs.python.org/3/tutorial/datastructures.html#tuples-and-sequences)
 
 ## Instructions
 
@@ -62,3 +54,6 @@ code .
 1. Convert your tuple into a list.
 1. Use `extend()` to add three more animals to your zoo.
 1. Convert the list back into a tuple.
+
+## Try it out
+<iframe src="https://replit.com/@callmedrt/Common-Types-Python-Tuplesembed=true" width="100%" height="400"></iframe>
