@@ -96,7 +96,9 @@ my_randoms list contains 10
 
 ## 🔴 Practice: Planet List
 
-### Setup
+<iframe src="https://replit.com/@callmedrt/Exercise-Planet-List?embed=true" width="100%" height="400"></iframe>
+
+<!-- ### Setup
 
 ```sh
 mkdir -p ~/workspace/python/lists && cd $_
@@ -125,3 +127,4 @@ echo 'planet_list = ["Mercury", "Mars"]' >> planets.py
     ```
 
 1. Iterate over your list of planets, and inside that loop, iterate over the list of tuples. Print, for each planet, which satellites have visited it.
+ -->
