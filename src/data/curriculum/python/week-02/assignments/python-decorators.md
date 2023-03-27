@@ -109,8 +109,8 @@ Jean shorts lumbersexual stumptown tumeric everyday carry readymade
 
 ## The Basics
 
-1. Read the "[A guide to Python's function decorators](https://www.thecodeship.com/patterns/guide-to-python-function-decorators/)" article and do all of the exercises in it to learn the basic vocabulary and syntax of what a decorator is.
-1. Read the "[Primer on Python Decorators](https://realpython.com/primer-on-python-decorators/)" article and do all of the exercises in it to explore decorator in greater depth.
+1. Read the <a href="https://www.thecodeship.com/patterns/guide-to-python-function-decorators/" target="_blank">"[A guide to Python's function decorators"</a> article and do all of the exercises in it to learn the basic vocabulary and syntax of what a decorator is.
+    1. Read the <a href="https://realpython.com/primer-on-python-decorators/" target="_blank">"Primer on Python Decorators"</a> article and do all of the exercises in it to explore decorator in greater depth.
 
 ## Practice: Family Report with Decorators
 
@@ -142,6 +142,10 @@ print(result)  # "The garbage was taken out by the kids"
 ```
 
 Now write two more decorator functions named `@dad` and `@mom` and place them above the functions that you want to assign to the parents. The output should be appended with "by Dad" or "by Mom".
+
+### Try it here:
+Fork this Repl and put the link in your tracking Google Doc
+<iframe src="https://replit.com/@callmedrt/Python-Decorators-Practice-Family-Report?embed=true" width="100%" height="400"></iframe>
 
 ## Practice: Michael's Mortuary
 
@@ -196,7 +200,7 @@ class Queries:
         """
 ```
 
-After you get done building this initial class, you realize that the `ORDER BY` clause is the exact same all of the SQL statements. You realize that if you ever need to store data about any different kind of people, you will need the same `ORDER BY` clause for each one.
+After you get done building this initial class, you realize that the `ORDER BY` clause is the exact same in all of the SQL statements. You realize that if you ever need to store data about any different kind of people, you will need the same `ORDER BY` clause for each one.
 
 This is a perfect opportunity to implement a decorator, which will ensure that each query is always written the same way. Thus, reducing the possibility of errors in the future.
 
@@ -244,3 +248,8 @@ print(queries.employees())
 SELECT * FROM Customer ORDER BY last_name ASC, first_name ASC
 SELECT * FROM Coffin
 SELECT * FROM Employee ORDER BY last_name ASC, first_name ASC
+```
+
+### Try it here:
+Fork this Repl and put the link in your tracking Google Doc
+<iframe src="https://replit.com/@callmedrt/Python-Decorators-Practice-Michaels-Mortuary?embed=true" width="100%" height="400"></iframe>
