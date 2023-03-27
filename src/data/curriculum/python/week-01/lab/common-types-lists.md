@@ -35,14 +35,14 @@ animals = ["Jack", "Noonan", "Blue", "Gypsy"]
 
 ### Random Numbers Instructions
 
-1. Use the following code to create a list of 10 random numbers. Each number will be between 0 and 6.
+1. Use the following code to create a list of 10 random numbers. Each number will be between 0 and 11.
 
     ```py
     import random
 
     my_randoms = list()
     for i in range(10):
-        my_randoms.append(random.randrange(1, 6))
+        my_randoms.append(random.randrange(1, 11))
     ```
 
     The `my_randoms` list will now contain random numbers
@@ -62,34 +62,39 @@ animals = ["Jack", "Noonan", "Blue", "Gypsy"]
 
     my_randoms = list()
     for i in range(10):
-        my_randoms.append(random.randrange(1, 6))
+        my_randoms.append(random.randrange(1, 11))
 
-    # Generate a list of numbers 1..10
-    numbers_1_to_10 = range(1, 11)
+    # Generate a list of numbers 1..5
+    numbers_1_to_5 = range(1, 11)
 
     # Iterate from 1 to 10
     for number in numbers_1_to_10:
         the_numbers_match = False
 
-        # Iterate your random number list here
-
-        # Does my_randoms contain number? Change the boolean.
-
-        print(f'{number} is in the random list')
+        # check if the number exists in the my_randoms list
+        # if so, print my_randoms list contains {number}
+        # else print my_randoms list does not contain {number}
     ```
 
 #### Example Output in the Terminal
 
 ```sh
-my_randoms list contains 0
-my_randoms list does not contain 1
+my_randoms list contains 1
 my_randoms list does not contain 2
 my_randoms list contains 3
-my_randoms list contains 4
-my_randoms list does not contain 5
+my_randoms list does not contain 4
+my_randoms list contains 5
+my_randoms list does not contain 6
+my_randoms list contains 7
+my_randoms list does not contain 8
+my_randoms list contains 9
+my_randoms list contains 10
 ```
 
 > **NOTE:** Each run will produce different output.
+
+## Try it out
+<iframe src="https://replit.com/@callmedrt/Common-Types-Python-Lists?embed=true" width="100%" height="400"></iframe>
 
 ## 🔴 Practice: Planet List
 
