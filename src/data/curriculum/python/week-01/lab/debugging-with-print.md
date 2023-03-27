@@ -14,7 +14,7 @@ tags:
 is_featured: true
 ---
 
-Using print statements in Python is another method of debugging. This is the equivalent of using `console.logs` in JavaScript.
+Using print statements in Python is another method of debugging. This is the equivalent of using `console.log` in JavaScript.
 
 Here's an example of how you would use a print statement.
 
