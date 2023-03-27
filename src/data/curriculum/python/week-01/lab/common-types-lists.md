@@ -43,7 +43,7 @@ animals = ["Jack", "Noonan", "Blue", "Gypsy"]
     The `my_randoms` list will now contain random numbers
 
     ```py
-    [1, 3, 1, 2, 4, 2, 5, 4, 2, 5]
+    [1, 3, 8, 2, 4, 8, 5, 4, 2, 5]
     ```
 
 1. Then iterate a different list of numbers that are sequential from 1 to 10. Use the following code as your starting point.
@@ -57,10 +57,10 @@ animals = ["Jack", "Noonan", "Blue", "Gypsy"]
 
     my_randoms = list()
     for i in range(10):
-        my_randoms.append(random.randrange(1, 11))
+      my_randoms.append(random.randrange(1, 11))
 
-    # Generate a list of numbers 1..5
-    numbers_1_to_5 = range(1, 11)
+    # Generate a list of numbers 1..10
+    numbers_1_to_10 = range(1, 11)
 
     # Iterate from 1 to 10
     for number in numbers_1_to_10:
