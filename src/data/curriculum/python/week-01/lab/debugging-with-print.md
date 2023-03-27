@@ -49,3 +49,6 @@ When you run this code, it will appear in the console where your server is runni
 ```bash
 {'userId': 1, 'id': 1, 'title': 'delectus aut autem', 'completed': False}
 ```
+
+## Try it out
+<iframe src="https://replit.com/@callmedrt/print-Statements-Python?embed=true" width="100%" height="400"></iframe>
