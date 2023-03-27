@@ -23,6 +23,7 @@ Remember how we hounded you about proper formatting in the client side course? N
 Look at how the same function is written in the two different syntaxes.
 
 ```js
+// javascript function
 const createPerson = (firstName, lastName, age, occupation) => {
     return {
         firstName,
@@ -36,6 +37,7 @@ melissa = createPerson("Melissa", "Bell", 25, "Software Developer")
 ```
 
 ```python
+// python function
 # Function and variable names are snake case instead of camel case
 def create_person(first_name, last_name, age, occupation):
     return {
@@ -82,15 +84,9 @@ melissa = list_person(first_name="Melissa", last_name="Bell", age=25, occupation
 
 While we are can still pass a variable number of arguments, the arguments now have a keyword associated with it. In other words, you get to name the arguments that you pass to the function (a dictionary with key value pairs).
 
-> Practice Legend
->
-> * 🔴 **REQUIRED** - You **MUST** complete this curriculum item
-> * 🟡 **RECOMMENDED** - While not required, it is highly recommended that you complete this curriculum item before the next group project
-> * 🟢 **OPTIONAL** - Lessons for students with faster processing speeds or to come back to
+## Practice: ChickenMonkey
 
-## 🔴 Practice: ChickenMonkey
-
-Write a program that prints the numbers from 1 to 100. You can use Python's [range()](https://www.pythoncentral.io/pythons-range-function-explained/) to quickly make a list of numbers.
+Using the Repl below, write a program that prints the numbers from 1 to 100. You can use Python's [range()](https://www.pythoncentral.io/pythons-range-function-explained/) to quickly make a list of numbers.
 
 * For multiples of five (5, 10, 15, etc.) print "Chicken" instead of the number.
 * For the multiples of seven (7, 14, 21, etc.) print "Monkey".
@@ -98,9 +94,9 @@ Write a program that prints the numbers from 1 to 100. You can use Python's [ran
 
 To determine if a number can be evenly divided by 5 or 7, use the Python [modulo](https://docs.python.org/3.7/reference/expressions.html#binary-arithmetic-operations) operator.
 
-## 🔴 Practice: Activities for Kids
+## Practice: Activities for Kids
 
-Define four Python functions named `run`, `swing`, `slide`, and `hide_and_seek`. Each function should take varying number of children's names as the argument.
+Using the Repl below, define four Python functions named `run`, `swing`, `slide`, and `hide_and_seek`. Each function should take varying number of children's names as the argument.
 
 For example, the `run` function would be defined as follows:
 
@@ -115,13 +111,15 @@ run("Joe", "Jenna")
 ```
 
 Do the same for the following children:
-
 * Running kids: Pam, Sam, Andrea, Will
 * Swinging kids: Marybeth, Ariel, Kevin, Courtney
 * Sliding kids: Mike, Jack, Jennifer, Earl
 * Hiding kids: Henry, Heather, Hayley, Hugh
 
-## 🟡 Challenge: Coins to Cash
+## Try it out
+<iframe src="https://replit.com/@callmedrt/Python-Functions?embed=true" width="100%" height="400"></iframe>
+
+## Challenge: Coins to Cash
 
 ```sh
 mkdir -p ~/workspace/python/coins-to-cash && cd $_
@@ -140,7 +138,7 @@ calc_dollars(pennies= 342, nickels=9, dimes=32, quarters=4)
 
 The output would be `8.07` when the function is executed with those arguments.
 
-## 🟡 Challenge: Cash to Coins
+## Challenge: Cash to Coins
 
 ```sh
 mkdir -p ~/workspace/python/cash-to-coins && cd $_
