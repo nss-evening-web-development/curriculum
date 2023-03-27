@@ -25,13 +25,8 @@ animals = ["Jack", "Noonan", "Blue", "Gypsy"]
 * [Python Lists](https://docs.python.org/3.6/tutorial/datastructures.html)
 * [Learn Python - Lists](http://www.learnpython.org/en/Lists)
 
-> Practice Legend
->
-> * 🔴 **REQUIRED** - You **MUST** complete this curriculum item
-> * 🟡 **RECOMMENDED** - While not required, it is highly recommended that you complete this curriculum item before the next group project
-> * 🟢 **OPTIONAL** - Lessons for students with faster processing speeds or to come back to
 
-## 🔴 Practice: Random Numbers
+## Practice: Random Numbers
 
 ### Random Numbers Instructions
 
@@ -94,7 +89,7 @@ my_randoms list contains 10
 ## Try it out
 <iframe src="https://replit.com/@callmedrt/Common-Types-Python-Lists?embed=true" width="100%" height="400"></iframe>
 
-## 🔴 Practice: Planet List
+## Practice: Planet List
 
 <iframe src="https://replit.com/@callmedrt/Exercise-Planet-List?embed=true" width="100%" height="400"></iframe>
 
