@@ -69,7 +69,7 @@ The first thing you might notice is the lack of curly braces defining the beginn
 
 ## Evaluating a module of Code
 
-If you haven't already, execute this file (`python {PATH_TO_FILE}`). This will allow you to see the results of your `print()` statements in the ran file.
+If you haven't already, execute this file (`python3 {PATH_TO_FILE}`). This will allow you to see the results of your `print()` statements in the ran file.
 
 ## Code Review
 
@@ -124,7 +124,7 @@ if __name__ == '__main__':
 
 ## Python Modules
 
-Importing other modules in Python is very similar to how you did it in Browserify and React, using the `import` statement.
+Importing other modules in Python is very similar to how you did it JavaScript, using the `import` statement.
 
 ```py
 import http
