@@ -36,7 +36,7 @@ console.log(mustache())
 console.log(lumberSexual())
 ```
 
-You will ocaassionally switch which one of these functions will have the characters reversed. You certainly don't want to manually modify this code each time you want to change which ones are normal and which ones are reversed.
+You will ocassionally switch which one of these functions will have the characters reversed. You certainly don't want to manually modify this code each time you want to change which ones are normal and which ones are reversed.
 
 You will create a function to reverse any string.
 
@@ -102,6 +102,8 @@ Taxidermy health goth locavore, pickled post-ironic pork belly kale chips tofu P
 Reversed: cailec edamydaer krap ohce ehcatsum ,nip lemane nwotpmuts nogaxeh imamU
 Jean shorts lumbersexual stumptown tumeric everyday carry readymade
 ```
+
+<iframe src="https://replit.com/@callmedrt/Python-Decorators?embed=true" width="600" height="400" />
 
 ## The Basics
 
