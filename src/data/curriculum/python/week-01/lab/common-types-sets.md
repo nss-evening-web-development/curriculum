@@ -56,7 +56,7 @@ Notice that the second set example above was constructed with duplicate items. H
 1. Use the `discard()` method to remove any cars that you acquired from the junkyard that you do not want in your showroom.
 
 ## Complete the Practice
-<iframe src="https://replit.com/@callmedrt/print-Statements-Python?embed=true" width="100%" height="400"></iframe>
+<iframe src="https://replit.com/@callmedrt/Common-Types-Python-Sets?embed=true" width="100%" height="400"></iframe>
 
 ---
 
