@@ -58,7 +58,7 @@ console.log(lumberSexual())
 
 In this scenario, the `reversal()` function is considered a decorator because it consumes the output of the original method and then outputs something different.
 
-## Python Reveral Decorator
+## Python Reversal Decorator
 
 As you learn the Python language and the Django application framework, you will encounter decorators. Decorators are a specific syntax to do exactly what was done in the example above - send functions to other functions to extend their capabilities. Here's how the above JavaScript code would be done in Python.
 
@@ -103,7 +103,9 @@ Reversed: cailec edamydaer krap ohce ehcatsum ,nip lemane nwotpmuts nogaxeh imam
 Jean shorts lumbersexual stumptown tumeric everyday carry readymade
 ```
 
-<iframe src="https://replit.com/@callmedrt/Python-Decorators?embed=true" width="600" height="400" />
+#### Check it out here...
+<iframe src="https://replit.com/@callmedrt/Python-Decorators?embed=true" width="100%" height="400" />
+
 
 ## The Basics
 
