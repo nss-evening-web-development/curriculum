@@ -49,7 +49,7 @@ age: 5
 
 ## Practice: English Idioms
 
-Create a new Python file and paste the following code into it. At the end write a `for in` loop to produce the output below.
+Use the Repl below to complete this practice. At the end of the file, write a `for in` loop to produce the output below.
 
 ```py
 idioms = {
