@@ -39,7 +39,7 @@ Tuples are like lists, but are immutable. They can't be modified once defined. H
         # Print that the animal was found
     ```
 
-1. You can reverse engineer (unpack) a tuple into another tuple with the following syntax.
+1. You can reverse engineer (unpack) a tuple into another tuple with the following syntax. Tuple unpacking describes the shape of the tuple you're unpacking. So the number of variables you're unpacking into must be the same as the tuple of items in the tuple-to-be-unpacked.
 
     ```py
     children = ("Sally", "Hansel", "Gretel", "Svetlana")
@@ -56,4 +56,4 @@ Tuples are like lists, but are immutable. They can't be modified once defined. H
 1. Convert the list back into a tuple.
 
 ## Try it out
-<iframe src="https://replit.com/@callmedrt/Common-Types-Python-Tuplesembed=true" width="100%" height="400"></iframe>
+<iframe src="https://replit.com/@callmedrt/Common-Types-Python-Tuples?embed=true" width="100%" height="400"></iframe>
