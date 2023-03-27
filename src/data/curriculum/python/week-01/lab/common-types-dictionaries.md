@@ -47,59 +47,7 @@ breed: Bulldog
 age: 5
 ```
 
-## Setup
-
-```sh
-mkdir -p ~/workspace/python/dictionaries && cd $_
-touch dictionaryOfWords.py
-```
-
-## References
-
-* [Python dictionaries](https://docs.python.org/3.6/tutorial/datastructures.html#dictionaries)
-* [Learn Python - Dictionaries](https://www.learnpython.org/en/Dictionaries)
-
-> Practice Legend
->
-> * 🔴 **REQUIRED** - You **MUST** complete this curriculum item
-> * 🟡 **RECOMMENDED** - While not required, it is highly recommended that you complete this curriculum item before the next group project
-> * 🟢 **OPTIONAL** - Lessons for students with faster processing speeds or to come back to
-
-## 🔴 Practice: Dictionary of Words
-
-You are going to build a Python Dictionary to represent an actual dictionary. Each key/value pair within the Dictionary will contain a single word as the key, and a definition as the value. Below is some starter code. You need to add a few more words and definitions to the dictionary.
-
-After you have added them, use square bracket notation to output the definition of two of the words to the console.
-
-Lastly, use the `for in` loop to iterate over the KeyValuePairs and display the entire dictionary to the console.
-
-```py
-"""
-Create a dictionary with key value pairs to
-represent words (key) and its definition (value)
-"""
-word_definitions = dict()
-
-"""
-Add several more words and their definitions
-   Example: word_definitions["Awesome"] = "The feeling of students when they are learning Python"
-"""
-
-"""
-Use square bracket lookup to get the definition of two
-words and output them to the console with `print()`
-"""
-
-
-"""
-Loop over the dictionary to get the following output:
-    The definition of [WORD] is [DEFINITION]
-    The definition of [WORD] is [DEFINITION]
-    The definition of [WORD] is [DEFINITION]
-"""
-```
-
-## 🔴 Practice: English Idioms
+## Practice: English Idioms
 
 Create a new Python file and paste the following code into it. At the end write a `for in` loop to produce the output below.
 
@@ -135,7 +83,9 @@ Sheep: Pulled the wool over his eyes
 Lucifer: Speak of the devil
 ```
 
-## 🟡 Challenge: The Family Dictionary
+<iframe src="https://replit.com/@callmedrt/Practice-Dictionary-of-Words-Python?embed=true" width="100%" height="400"></iframe>
+
+## Challenge: The Family Dictionary
 
 ### The Family Dictionary Setup
 
@@ -169,7 +119,7 @@ touch family_dict.py
 
     > **Helpful hint:** To convert an integer into a string in Python, it's `str(integer_value)`
 
-## 🟢 Advanced Challenge: Stock Portfolio
+## Advanced Challenge: Stock Portfolio
 
 A block of publicly traded stock has a variety of attributes. Let's look at a few of them. A stock has a ticker symbol and a company name. Create a simple dictionary with ticker symbols and company names.
 
