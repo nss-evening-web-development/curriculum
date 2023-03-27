@@ -14,7 +14,7 @@ tags:
 is_featured: true
 ---
 
-Watch a short video to learn how to [configure Visual Studio Code to debug Python files](https://youtu.be/scAOUwa9XvM).
+Watch a short video to learn how to <a href="https://youtu.be/scAOUwa9XvM" target="_blank">configure Visual Studio Code to debug Python files</a>.
 
 Here's a short animation showing you a breakpoint being set in the code, and then inspecting the value of the `all_students` variable in both the variables panel and in a pop-up window in the editor.
 
