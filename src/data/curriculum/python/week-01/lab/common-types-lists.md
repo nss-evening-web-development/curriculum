@@ -69,8 +69,6 @@ animals = ["Jack", "Noonan", "Blue", "Gypsy"]
 
     # Iterate from 1 to 10
     for number in numbers_1_to_10:
-        the_numbers_match = False
-
         # check if the number exists in the my_randoms list
         # if so, print(f'my_randoms list contains {number}')
         # else print(f'my_randoms list does not contain {number}')
