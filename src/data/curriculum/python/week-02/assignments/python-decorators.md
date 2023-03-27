@@ -109,7 +109,7 @@ Jean shorts lumbersexual stumptown tumeric everyday carry readymade
 
 ## The Basics
 
-1. Read the <a href="https://www.thecodeship.com/patterns/guide-to-python-function-decorators/" target="_blank">"[A guide to Python's function decorators"</a> article and do all of the exercises in it to learn the basic vocabulary and syntax of what a decorator is.
+1. Read the <a href="https://www.thecodeship.com/patterns/guide-to-python-function-decorators/" target="_blank">"A guide to Python's function decorators"</a> article and do all of the exercises in it to learn the basic vocabulary and syntax of what a decorator is.
     1. Read the <a href="https://realpython.com/primer-on-python-decorators/" target="_blank">"Primer on Python Decorators"</a> article and do all of the exercises in it to explore decorator in greater depth.
 
 ## Practice: Family Report with Decorators
