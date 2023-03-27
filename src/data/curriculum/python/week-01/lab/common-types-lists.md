@@ -72,8 +72,8 @@ animals = ["Jack", "Noonan", "Blue", "Gypsy"]
         the_numbers_match = False
 
         # check if the number exists in the my_randoms list
-        # if so, print my_randoms list contains {number}
-        # else print my_randoms list does not contain {number}
+        # if so, print(f'my_randoms list contains {number}')
+        # else print(f'my_randoms list does not contain {number}')
     ```
 
 #### Example Output in the Terminal
