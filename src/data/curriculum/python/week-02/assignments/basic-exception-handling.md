@@ -70,3 +70,6 @@ Let's look at how to do that with `try...except` blocks.
 ```
 
 Now, if an incorrect type of value is passed, a human-friendly message is output to the console and the exception is re-raised up to the calling code.
+
+## See it in action
+<iframe src="https://replit.com/@callmedrt/Basic-Exception-Handling-Python?embed=true" width="100%" height="400" />
