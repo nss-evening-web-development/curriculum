@@ -25,18 +25,11 @@ languages = set()
 languages = { 'english', 'mandarin chinese', 'spanish', 'english', 'spanish', 'portugese' }
 ```
 
-Notice that both of those sets were constructed with some duplicate items. However, when you print out the set, the duplicates are gone.
+Notice that the second set example above was constructed with duplicate items. However, when you print out the set, the duplicates are gone.
 
 ```py
 >>> print(languages)
 {'english', 'mandarin chinese', 'portugese', 'spanish'}
-```
-
-## Setup
-
-```bash
-mkdir -p ~/workspace/python/exercises/sets && cd $_
-touch cars.py
 ```
 
 ## References
@@ -45,13 +38,7 @@ touch cars.py
 * [Set intersection](https://docs.python.org/3.6/library/stdtypes.html?highlight=intersection#set.intersection)
 * [Learn Python - Sets](http://www.learnpython.org/en/Sets)
 
-> Practice Legend
->
-> * 🔴 **REQUIRED** - You **MUST** complete this curriculum item
-> * 🟡 **RECOMMENDED** - While not required, it is highly recommended that you complete this curriculum item before the next group project
-> * 🟢 **OPTIONAL** - Lessons for students with faster processing speeds or to come back to
-
-## 🔴 Practice: Showroom & Junkyard
+## Practice: Showroom & Junkyard
 
 1. Create an empty set named `showroom`.
 1. Add four of your favorite car model names to the set.
@@ -68,7 +55,12 @@ touch cars.py
 1. Now you're ready to buy the cars in the junkyard. Use the `union` method to combine the junkyard into your showroom.
 1. Use the `discard()` method to remove any cars that you acquired from the junkyard that you do not want in your showroom.
 
-## 🟢 Advanced Challenge: Matching Makes & Models
+## Complete the Practice
+<iframe src="https://replit.com/@callmedrt/print-Statements-Python?embed=true" width="100%" height="400"></iframe>
+
+---
+
+## OPTIONAL - Advanced Challenge: Matching Makes & Models
 
 ### Matching Makes & Models Setup
 
@@ -206,6 +198,6 @@ Thunderbird available in Black, Red, White
 etc...
 ```
 
-## 🟢 Black Hat Hacker Challenge
+## Black Hat Hacker Challenge
 
 Rewrite your nested `for` loops as nested comprehensions.
