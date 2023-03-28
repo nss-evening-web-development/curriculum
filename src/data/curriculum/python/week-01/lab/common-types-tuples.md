@@ -20,6 +20,8 @@ Tuples are like lists, but are immutable. They can't be modified once defined. H
 
 * [Python tuples](https://docs.python.org/3/tutorial/datastructures.html#tuples-and-sequences)
 
+<iframe src="https://replit.com/@callmedrt/Common-Types-Python-Tuples?embed=true" width="100%" height="400"></iframe>
+
 ## Instructions
 
 1. Create a tuple named `zoo` that contains 10 of your favorite animals.
@@ -54,6 +56,3 @@ Tuples are like lists, but are immutable. They can't be modified once defined. H
 1. Convert your tuple into a list.
 1. Use `extend()` to add three more animals to your zoo.
 1. Convert the list back into a tuple.
-
-## Try it out
-<iframe src="https://replit.com/@callmedrt/Common-Types-Python-Tuples?embed=true" width="100%" height="400"></iframe>
