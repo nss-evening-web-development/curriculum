@@ -14,7 +14,7 @@ tags:
 is_featured: true
 ---
 
-## Setup (🔴 REQUIRED)
+## Setup
 
 Here's your very first Python code module. Go ahead and create a new directory for storing your Python code and create a file named `humansizes.py`.
 
