@@ -16,9 +16,6 @@ is_featured: true
 
 ## Setup
 
-- <a href="https://replit.com/@callmedrt/Intro-to-Python#humansizes.py" target="_blank">Code Sandbox</a>
-- <a href="https://docs.google.com/presentation/d/1NnWgWB8yqBE-ZPLRRvhf-ss8iQ0fxEGPPK_PKbwJjpU/edit?usp=sharing" target="_blank">Slide Deck</a>
-
 Here's your very first Python code module. Go ahead and create a new directory for storing your Python code and create a file named `humansizes.py`.
 
 ```sh
@@ -197,3 +194,7 @@ Convert a file size to human-readable form.
 ```
 
 Because this is so incredibly helpful, you need to get into the practice of providing a docstring for every method you write.
+
+## Resources
+- <a href="https://replit.com/@callmedrt/Intro-to-Python#humansizes.py" target="_blank">Code Sandbox</a>
+- <a href="https://docs.google.com/presentation/d/1NnWgWB8yqBE-ZPLRRvhf-ss8iQ0fxEGPPK_PKbwJjpU/edit?usp=sharing" target="_blank">Slide Deck</a>
