@@ -51,6 +51,10 @@ age: 5
 
 Use the Repl below to complete this practice. At the end of the file, write a `for in` loop to produce the output below.
 
+<iframe src="https://replit.com/@callmedrt/Practice-Dictionary-of-Words-Python?embed=true" width="100%" height="400"></iframe>
+
+### Instructions
+
 ```py
 idioms = {
     "Penny": ["A", "penny", "for", "your", "thoughts"],
@@ -82,8 +86,6 @@ Fences: I'm on the fence about it
 Sheep: Pulled the wool over his eyes
 Lucifer: Speak of the devil
 ```
-
-<iframe src="https://replit.com/@callmedrt/Practice-Dictionary-of-Words-Python?embed=true" width="100%" height="400"></iframe>
 
 ## Challenge: The Family Dictionary
 
