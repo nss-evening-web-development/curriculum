@@ -86,6 +86,8 @@ While we are can still pass a variable number of arguments, the arguments now ha
 
 ## Practice: ChickenMonkey
 
+<iframe src="https://replit.com/@callmedrt/Python-Functions-ChickenMonkey?embed=true" width="100%" height="400"></iframe>
+
 Using the Repl below, write a program that prints the numbers from 1 to 100. You can use Python's [range()](https://www.pythoncentral.io/pythons-range-function-explained/) to quickly make a list of numbers.
 
 * For multiples of five (5, 10, 15, etc.) print "Chicken" instead of the number.
@@ -94,11 +96,9 @@ Using the Repl below, write a program that prints the numbers from 1 to 100. You
 
 To determine if a number can be evenly divided by 5 or 7, use the Python [modulo](https://docs.python.org/3.7/reference/expressions.html#binary-arithmetic-operations) operator.
 
-## Try it out
-<iframe src="https://replit.com/@callmedrt/Python-Functions-ChickenMonkey?embed=true" width="100%" height="400"></iframe>
-
-
 ## Practice: Activities for Kids
+
+<iframe src="https://replit.com/@callmedrt/Python-Functions-Activities-for-Kids?embed=true" width="100%" height="400"></iframe>
 
 Using the Repl below, define four Python functions named `run`, `swing`, `slide`, and `hide_and_seek`. Each function should take varying number of children's names as the argument.
 
@@ -119,9 +119,6 @@ Do the same for the following children:
 * Swinging kids: Marybeth, Ariel, Kevin, Courtney
 * Sliding kids: Mike, Jack, Jennifer, Earl
 * Hiding kids: Henry, Heather, Hayley, Hugh
-
-## Try it out
-<iframe src="https://replit.com/@callmedrt/Python-Functions-Activities-for-Kids?embed=true" width="100%" height="400"></iframe>
 
 ## Challenge: Coins to Cash
 
