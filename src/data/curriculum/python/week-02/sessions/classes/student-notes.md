@@ -20,6 +20,11 @@ You are learning about the syntax and usage of classes because when you extract 
 
 Classes let you define your own, custom type in Python. The current types that you know about are `list`, `dict`, and `set`. These data structure types are very limiting when you need to represent a complex object in code, though.
 
+## Resources
+
+- <a href="https://replit.com/@callmedrt/Introduction-to-Classes-Python" target="_blank">Code Sample</a>
+- <a href="https://docs.google.com/presentation/d/1DrP2vj8A8VD6gBNspuujHmuVlkUQFH7zSS2Er7p718o/edit?usp=sharing" target="_blank">Slide Deck</a>
+
 ## Introduction to Classes
 
 Much like Javascript, almost everything in Python is based on objects. The ability to create objects in a predictable, organized way is essential. This is where classes come into play.
@@ -39,8 +44,6 @@ A book has properties such title, publisher, author, and year published.
 You can also _do stuff_ with a book. You can read a book. You can put a bookmark it in to save your spot as you read it.
 
 Here's how you would define a template for how each book will be represented in your application.
-
-- <a href="https://replit.com/@callmedrt/Introduction-to-Classes-Python" target="_blank">Link to Code Sample Below</a>
 
 ```py
 class Book:
