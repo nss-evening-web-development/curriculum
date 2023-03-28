@@ -28,6 +28,8 @@ animals = ["Jack", "Noonan", "Blue", "Gypsy"]
 
 ## Practice: Random Numbers
 
+<iframe src="https://replit.com/@callmedrt/Common-Types-Python-Lists?embed=true" width="100%" height="400"></iframe>
+
 ### Random Numbers Instructions
 
 1. Use the following code to create a list of 10 random numbers. Each number will be between 0 and 11.
@@ -86,8 +88,6 @@ my_randoms list contains 10
 
 > **NOTE:** Each run will produce different output.
 
-## Try it out
-<iframe src="https://replit.com/@callmedrt/Common-Types-Python-Lists?embed=true" width="100%" height="400"></iframe>
 
 ## Practice: Planet List
 
