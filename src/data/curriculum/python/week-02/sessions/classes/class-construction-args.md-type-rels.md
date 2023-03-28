@@ -45,7 +45,7 @@ the_water_dancer.publisher = "One World"
 
 ## Practice: Urban Planner
 
-[Link to this exercise](/python/intro-to-classes-urban-planner-i)
+<a href="/python/intro-to-classes-urban-planner-i" target="_blank">Link to this exercise</a>
 
 ## Type Relationships
 
@@ -96,4 +96,4 @@ for book in levar_burton.books:
 
 ## Practice: Urban Planner II
 
-[Link to this exercise](/python/intro-to-classes-urban-planner-ii)
+<a href="/python/intro-to-classes-urban-planner-ii" target="_blank">Link to this exercise</a>
