@@ -18,7 +18,7 @@ is_featured: true
 
 The `__init__()` method on a Python class can accept as many arguments as you like. Those arguments can then be used to initialize the properties of each object created from the class. Here's an example.
 
-- <a href="https://replit.com/@callmedrt/Class-Construction-Arguments-Python#main.py" target="_blank"> Link to code below"</a>
+- <a href="https://replit.com/@callmedrt/Class-Construction-Arguments-Python#main.py" target="_blank"> Link to code below</a>
 
 ```py
 class Book:
@@ -55,7 +55,7 @@ You can define two types in your system that represent two real-world entities t
 
 Let's say that each library in our scenario only has one copy of each book. But a Library go-er's (or a reader) can check out multiple books at a time. This is a one-to-many relationship. In Python, you can establish this relationship by defining a list on the reader object that will contains instances of customers. Consider the following code.
 
-- <a href="https://replit.com/@callmedrt/Type-Relationships-Python#main.py" target="_blank"> Link to code below"</a>
+- <a href="https://replit.com/@callmedrt/Type-Relationships-Python#main.py" target="_blank"> Link to code below</a>
 
 ```py
 class Reader:
