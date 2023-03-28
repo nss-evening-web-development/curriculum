@@ -16,6 +16,8 @@ is_featured: true
 
 By default, if you set an attribute of an object instance in, say, the `__init__` method, those values can be changed without restriction.
 
+- <a href="https://replit.com/@callmedrt/Class-Properties-Python#main.py" target="_blank">Link to code below</a>
+
 ```py
 class Product():
 
