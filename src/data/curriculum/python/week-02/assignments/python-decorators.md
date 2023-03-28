@@ -60,6 +60,10 @@ In this scenario, the `reversal()` function is considered a decorator because it
 
 ## Python Reversal Decorator
 
+<iframe src="https://replit.com/@callmedrt/Python-Decorators?embed=true" width="100%" height="400"></iframe>
+
+## Instructions
+
 As you learn the Python language and the Django application framework, you will encounter decorators. Decorators are a specific syntax to do exactly what was done in the example above - send functions to other functions to extend their capabilities. Here's how the above JavaScript code would be done in Python.
 
 ```py
@@ -103,16 +107,16 @@ Reversed: cailec edamydaer krap ohce ehcatsum ,nip lemane nwotpmuts nogaxeh imam
 Jean shorts lumbersexual stumptown tumeric everyday carry readymade
 ```
 
-#### Check it out here...
-<iframe src="https://replit.com/@callmedrt/Python-Decorators?embed=true" width="100%" height="400"></iframe>
-
-
 ## The Basics
 
 1. Read the <a href="https://www.thecodeship.com/patterns/guide-to-python-function-decorators/" target="_blank">"A guide to Python's function decorators"</a> article and do all of the exercises in it to learn the basic vocabulary and syntax of what a decorator is.
     1. Read the <a href="https://realpython.com/primer-on-python-decorators/" target="_blank">"Primer on Python Decorators"</a> article and do all of the exercises in it to explore decorator in greater depth.
 
 ## Practice: Family Report with Decorators
+
+<iframe src="https://replit.com/@callmedrt/Python-Decorators-Practice-Family-Report?embed=true" width="100%" height="400"></iframe>
+
+## Instructions
 
 You need to write functions to represent tasks that members of a family need to perform on a regular basis.
 
@@ -143,11 +147,11 @@ print(result)  # "The garbage was taken out by the kids"
 
 Now write two more decorator functions named `@dad` and `@mom` and place them above the functions that you want to assign to the parents. The output should be appended with "by Dad" or "by Mom".
 
-### Try it here:
-Fork this Repl and put the link in your tracking Google Doc
-<iframe src="https://replit.com/@callmedrt/Python-Decorators-Practice-Family-Report?embed=true" width="100%" height="400"></iframe>
-
 ## Practice: Michael's Mortuary
+
+<iframe src="https://replit.com/@callmedrt/Python-Decorators-Practice-Michaels-Mortuary?embed=true" width="100%" height="400"></iframe>
+
+## Instructions
 
 Michael Tambornino's father opened up the Juniper Hill Mortuary back in 1959 and has served their community faithfully since. It's a trusted business that people in the entire town use to make sure that a family member's death is handled with care and compassion.
 
@@ -249,7 +253,3 @@ SELECT * FROM Customer ORDER BY last_name ASC, first_name ASC
 SELECT * FROM Coffin
 SELECT * FROM Employee ORDER BY last_name ASC, first_name ASC
 ```
-
-### Try it here:
-Fork this Repl and put the link in your tracking Google Doc
-<iframe src="https://replit.com/@callmedrt/Python-Decorators-Practice-Michaels-Mortuary?embed=true" width="100%" height="400"></iframe>
