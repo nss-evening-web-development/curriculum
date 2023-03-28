@@ -15,7 +15,8 @@ is_featured: true
 ---
 Python packages are a way to collect many classes into a single namespace. Consider the following directory structure for containing classes representing different electronic appliances.
 
-![images of appliances directory and sub-directories](../../images//package-directory-structure.png)
+![package-directory-structure](https://user-images.githubusercontent.com/29741570/228356051-ecf513cb-6144-4b77-8e5c-af14930246ca.png)
+
 
 In order to use those in the `main.py` module, this is what the `import` statements would look like.
 
