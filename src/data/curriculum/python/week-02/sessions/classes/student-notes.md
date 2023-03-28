@@ -40,6 +40,8 @@ You can also _do stuff_ with a book. You can read a book. You can put a bookmark
 
 Here's how you would define a template for how each book will be represented in your application.
 
+- <a href="https://replit.com/@callmedrt/Introduction-to-Classes-Python" target="_blank">Link to Code Sample Below</a>
+
 ```py
 class Book:
 
