@@ -15,6 +15,10 @@ is_featured: true
 ---
 Because Python is a dynamically typed language, you need to carefully consider how to get the type of a variable and make no assumptions in your code.
 
+<iframe src="https://replit.com/@callmedrt/Basic-Exception-Handling-Python?embed=true" width="100%" height="400"></iframe>
+
+## Walkthrough
+
 Let's look at some basic code and see what harmful side-effects can happen.
 
 ```python
@@ -70,6 +74,3 @@ Let's look at how to do that with `try...except` blocks.
 ```
 
 Now, if an incorrect type of value is passed, a human-friendly message is output to the console and the exception is re-raised up to the calling code.
-
-## See it in action
-<iframe src="https://replit.com/@callmedrt/Basic-Exception-Handling-Python?embed=true" width="100%" height="400"></iframe>
