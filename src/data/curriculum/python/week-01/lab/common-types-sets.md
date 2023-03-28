@@ -40,6 +40,10 @@ Notice that the second set example above was constructed with duplicate items. H
 
 ## Practice: Showroom & Junkyard
 
+<iframe src="https://replit.com/@callmedrt/Common-Types-Python-Sets?embed=true" width="100%" height="400"></iframe>
+
+## Instructions
+
 1. Create an empty set named `showroom`.
 1. Add four of your favorite car model names to the set.
 1. Print the length of your set.
@@ -54,9 +58,6 @@ Notice that the second set example above was constructed with duplicate items. H
 1. Use the `intersection` method to see which cars exist in both the showroom and that junkyard.
 1. Now you're ready to buy the cars in the junkyard. Use the `union` method to combine the junkyard into your showroom.
 1. Use the `discard()` method to remove any cars that you acquired from the junkyard that you do not want in your showroom.
-
-## Complete the Practice
-<iframe src="https://replit.com/@callmedrt/Common-Types-Python-Sets?embed=true" width="100%" height="400"></iframe>
 
 ---
 
