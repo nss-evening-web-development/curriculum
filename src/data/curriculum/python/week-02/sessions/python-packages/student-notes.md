@@ -17,6 +17,9 @@ Python packages are a way to collect many classes into a single namespace. Consi
 
 ![package-directory-structure](https://user-images.githubusercontent.com/29741570/228356051-ecf513cb-6144-4b77-8e5c-af14930246ca.png)
 
+## Resources
+
+- <a href="https://replit.com/@callmedrt/Python-Packages-Example#main.py" target="_blank">Code Sample</a>
 
 In order to use those in the `main.py` module, this is what the `import` statements would look like.
 
