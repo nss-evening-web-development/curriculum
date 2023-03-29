@@ -24,6 +24,9 @@ You will likely be asked about inheritance during the interview process and shou
 1. Allows one type to include all of the public properties and methods of another type.
 1. It reduces duplicated code when many types in a program all have the same properties and methods.
 
+## Resources
+- <a href="https://replit.com/@callmedrt/Vehicle-Class-Python" target="_blank">Code Sample</a>
+
 ## Gary's Wholesale Garage
 
 When considering interfaces, you examine your code to look for properties and methods that **some** of the classes have in common. When considering inheritance, you examine your code to look for properties and methods that **all** of the classes have in common.
