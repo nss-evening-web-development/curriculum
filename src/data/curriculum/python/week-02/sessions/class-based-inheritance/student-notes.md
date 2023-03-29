@@ -158,7 +158,7 @@ Now you can run the program again and the Tesla will make a different noise.
 
 ---
 
-## Lean and Mean Critters
+## `super()` Lean and Mean Critters
 
 NOTE: Those vehicles above did not need take in any properties. What happens when the inherited class does need properties?
 
