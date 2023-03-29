@@ -19,7 +19,7 @@ In Python, you can use classes to represent concrete things - Person, Building, 
 
 You will use multiple inheritance to provide much more flexibility to your project to work with disparate types. It's one of the most powerful features of the Python language.
 
-You will also likely be asked about interfaces during the interview process. Python does not have concrete interfaces, but you can use classes to implement an interface-based system. After working with interfaces during your time at Nashville Software School, you should be able to describe interfaces in the following ways.
+You will also likely be asked about interfaces during the interview process. <mark>Python does not have concrete interfaces, but you can use classes to implement an interface-based system.</mark> After working with interfaces during your time at Nashville Software School, you should be able to describe interfaces in the following ways.
 
 1. Interfaces are a mechanism to introduce polymorphism into your system. They provide additional types to your classes.
 1. They allow you to define common properties and behaviors among different classes in your system so that you can group them together into collections.
