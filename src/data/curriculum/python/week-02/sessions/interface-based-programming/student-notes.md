@@ -24,6 +24,9 @@ You will also likely be asked about interfaces during the interview process. <ma
 1. Interfaces are a mechanism to introduce polymorphism into your system. They provide additional types to your classes.
 1. They allow you to define common properties and behaviors among different classes in your system so that you can group them together into collections.
 
+## Resources
+- <a href="https://replit.com/@callmedrt/Zoological-Zaniness-Python#main.py" target="_blank">Code Sample</a>
+
 ## Zoological Zaniness
 
 Imagine a scenario in which you are writing an application in which you need to classify any animal species as ground-based, air-based, or water-based. Also consider that animals can be any combination of those classifications.
@@ -41,7 +44,7 @@ Note that the classes start with a capital I. This is to designate them as inter
 ```sh
 mkdir -p ~/workspace/python/exercises/zoo && cd $_
 mkdir animals
-touch animals/__init__.py animals/penguin.py
+touch animals/__init__.py animals/penguin.py animals/painted_dog.py
 mkdir movements
 touch movements/__init__.py movements/walking.py movements/swimming.py
 mkdir habitats
@@ -92,7 +95,9 @@ from .walking import IWalking
 from .swimming import ISwimming
 ```
 
-Now you can define a class and implement the interface for a walking animal. You can start with a Penguin. Note that when a class inherits from two parents that you have to discard using the `super().__init__()` syntax and explicitly invoke the initialization method of both. You also need to pass `self` as an argument - something that is not needed when you use the `super()` abstraction.
+Now you can define a class and implement the interface for a walking animal. You can start with a Penguin. 
+
+<!-- Note that when a class inherits from two parents that you have to discard using the `super().__init__()` syntax and explicitly invoke the initialization method of both. You also need to pass `self` as an argument - something that is not needed when you use the `super()` abstraction. -->
 
 > #### `animals/penguin.py`
 
@@ -129,7 +134,6 @@ In your main zoo module, import the **`Penguin`** class, and create one. Then ma
 
 ```py
 from animals import Penguin
-
 
 bob = Penguin("Bob")
 bob.run()
