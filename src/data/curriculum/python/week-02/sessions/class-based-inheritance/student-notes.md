@@ -29,8 +29,8 @@ You will likely be asked about inheritance during the interview process and shou
 
 ## Resources
 - <a href="https://replit.com/@callmedrt/Vehicle-Class-Python" target="_blank">Vehicle Code Sample</a>
-- <a href="https://replit.com/@callmedrt/Vehicle-Class-Python" target="_blank">Animals Code Sample</a>
-- 
+- <a href="https://replit.com/@callmedrt/LLama-Animals-Python#main.py" target="_blank">Animals Code Sample</a>
+
 ## Gary's Wholesale Garage
 
 When considering interfaces, you examine your code to look for properties and methods that **some** of the classes have in common. When considering inheritance, you examine your code to look for properties and methods that **all** of the classes have in common.
