@@ -29,7 +29,7 @@ The Valentine's Day arrangement includes the traditional rose. Jake has red, pin
 
 This arrangment is flamboyant and extravagent. Each flower stem is cut to 7 inches. Flowers in this arrangement are not organically grown, so they can be transported in a refrigerated container.
 
-#### Instructions
+## Instructions
 
 Your task is to define classes for each type of flower, and a class for each arrangement type. Each arrangement instance should have an attribute of `flowers` which will contain at least one of each type of the corresponding flowers listed above.
 
