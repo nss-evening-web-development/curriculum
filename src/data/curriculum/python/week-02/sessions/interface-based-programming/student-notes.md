@@ -26,6 +26,8 @@ You will also likely be asked about interfaces during the interview process. <ma
 
 ## Resources
 - <a href="https://replit.com/@callmedrt/Zoological-Zaniness-Python#main.py" target="_blank">Code Sample</a>
+- <a href="https://realpython.com/python-super/" target="_blank">What is `super()` in Python?</a>
+- <a href="https://www.w3schools.com/python/ref_func_super.asp" target="_blank">`super()` exercise example</a>
 
 ## Zoological Zaniness
 
