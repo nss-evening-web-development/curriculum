@@ -41,33 +41,34 @@ Your code must ensure that only the right flowers can be added to each arrangeme
 ```py
 class Arrangement:
 
-    def __init__(self):
-        self.__flowers = []
+  def __init__(self):
+    self.__flowers = []
 
-    def enhance(self, flower):
-        self.__flowers.append(flower)
+  def enhance(self, flower):
+    self.__flowers.append(flower)
 
 
 class MothersDay(Arrangement):
 
-    def __init__(self):
-        super().__init__()
+  def __init__(self):
+    super().__init__()
 
-    # Override the `enhance` method to ensure only
-    # roses, lillies, and alstroemeria can be added
+  # Override the `enhance` method to ensure only
+  # roses, lillies, and alstroemeria can be added
 
 
 class ValentinesDay(Arrangement):
-    def __init__(self):
-        super().__init__()
+
+  def __init__(self):
+    super().__init__()
 
 
 class Rose:
-    pass
+  pass  #The pass statement is useful when you don't write the implementation of a function but you want to implement it in the future.
 
-if __name__ == "__main__":
-    for_beth = ValentinesDay()
-    red_rose = Rose()
 
-    for_beth.flowers.append(red_rose)
+if __name__ == "__main__":  # this line prevents running unless this file is run directly
+  for_beth = ValentinesDay()
+  red_rose = Rose()
+  for_beth.flowers.append(red_rose)
 ```
