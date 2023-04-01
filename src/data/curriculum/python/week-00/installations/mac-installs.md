@@ -93,7 +93,7 @@ In some ways, `pipenv` does the same thing as `node_modules` and `package.json`.
 
 1. Close your terminal app and then reopen the terminal
 1. Check that the package is usable: `pipenv --version` should output a version of pipenv. Something like: `pipenv, version 2022.9.24`
-1. **If you get a message saying `command pipenv not found`, reach out to an instructor now.**
+1. **If you get a message saying `command pipenv not found`, send a message to the cohort slack channel.**
 
 [1]: https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance
 [2]: https://marketplace.visualstudio.com/items?itemName=donjayamanne.python-extension-pack
