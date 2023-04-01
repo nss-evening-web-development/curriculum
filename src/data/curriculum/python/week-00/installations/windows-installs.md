@@ -40,6 +40,23 @@ After installing it, you must add `C:\Python39` to your system path. Here's how:
 7. Next, select on the `PATH` variable and click the Edit button.
 8. Enter a semicolon and the new path entry at the end of the string. `;C:\Python39`
 
+### Install Pipenv
+
+This tool will manage any libraries that are needed for each of your projects. It creates a "container" or virtual environment to add the different libraries to the current project.
+
+In some ways, `pipenv` does the same thing as `node_modules` and `package.json`. It tells the program what libraries it needs (`package.json` vs. `Pipfile`) and stores those libraries for use within the project (`node_modules`). You’ll learn more about this as we use it in later projects.
+
+1. Install the package globally:
+
+    ```sh
+    python3 -m pip install pipenv
+    ```
+
+1. Close your terminal app and then reopen the terminal
+1. Check that the package is usable: `pipenv --version` should output a version of pipenv. Something like: `pipenv, version 2022.9.24`
+1. **If you get a message saying `command pipenv not found`, reach out to an instructor now.**
+
+
 [1]: https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance
 [2]: https://marketplace.visualstudio.com/items?itemName=donjayamanne.python-extension-pack
 [3]: https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite
