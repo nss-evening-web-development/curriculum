@@ -54,7 +54,7 @@ You need another directory to store all of the Python code you will be writing o
 1. Execute the following command in the `python` directory.
 
     ```bash
-    python hello.py
+    python3 hello.py
     ```
 
 1. If everything is working correctly, you should see the following output in your terminal:
