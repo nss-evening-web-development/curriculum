@@ -37,9 +37,8 @@ They are here to assist you, but it is ultimately your responsibility to ensure 
 ***DISCLAIMER: The Senior Engineers are available to help you, but they are also working on their assigned projects with their development teams. If they are not leading a session, the best way to get in touch with them is through the GitHub Discussion Tickets in your cohort's category.***
 
 
-
 <!-- Replace with Client side stuff here if there are -->
-<!-- ## Asking for Help
+## Asking for Help
 
 It will never be the Senior Engineer's responsibility to make sure you know everything you need to know. However, they will be there to assist you in making sure you have all the necessary resources to get there. At Bangazon, we use GitHub Discussion Tickets to make it simple for you to get assistance.
 
@@ -49,7 +48,7 @@ The guidelines for asking for help are as follows:
 1. A discussion ticket will be automatically pushed to the following meeting session if it is submitted 30 minutes before the class closes.
 1. Discussion tickets will be reviewed in the order of submission.
 1. It is standard for us to refrain from reviewing discussion tickets outside of meeting times.
-1. Any direct messages sent to a senior engineer that are not personal or are code-related will be ignored. These should either be a discussion ticket or a slack message to the cohort channel. -->
+1. Any direct messages sent to a senior engineer that are not personal or are code-related will be redirected. These should either be a discussion ticket or a slack message in the team channel.
 
 ## Team Make-Up
 
@@ -63,7 +62,7 @@ Your team will have 12 weeks to prepare for your first project, which will be fo
 
 ### Official Client Project
 
-On Week 13, your team will be given the specifications for an application that one of our clients has requested. The senior engineers will still be available to help you during that time, but will be less hands-on because you are expected to be officially onboarded by then! You will be even more responsible for reaching out for help at this time. If necessary, they will assist in scheduling new engineer lead review sessions, and they will remain available to answer questions and discuss tickets when they become availible.
+On Week 13, each of you will be given the specifications for an application that one of our clients has requested. The senior engineers will still be available to help you during that time, but will be less hands-on because you are expected to be officially onboarded by then! You will be even more responsible for reaching out for help at this time. If necessary, they will assist in scheduling engineer lead review sessions, and they will remain available to answer questions and discuss tickets when they become availible.
 
 ## Scrum Ceremonies
 
@@ -89,8 +88,6 @@ There is a very clear [Definition of Done](https://www.agilealliance.org/glossar
 
 1. The project must be fully documented. This includes the following:
     1. Complete README that documents the steps to install the code, how to install any dependencies, or system configuration needed.
-    2. Every class must be documented with purpose, author, and methods.
-    3. Every method must be documented with purpose and argument list - which itself must contain a short purpose for each argument.
 1. The project must be able to run fully, and without errors, on each teammate's system.
 1. Fulfills every requirement.
 1. Every line of code has been peer reviewed.
