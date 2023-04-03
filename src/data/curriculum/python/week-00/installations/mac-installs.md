@@ -76,7 +76,7 @@ There are a few lines to add to the .zshrc file before we can use `pyenv`
 
 1. In the same terminal window, download the version of Python: `pyenv install 3.9.10`
 2. After the download finishes, set that version of Python to the global version: `pyenv global 3.9.10`
-3. Now your computer’s Python version should be 3.9.10. Check it with `python --version`. **If something other than 3.9.10 comes back, reach out to an instructor now.**
+3. Now your computer’s Python version should be 3.9.10. Check it with `python --version`. **If something other than 3.9.10 comes back, check the tickets in the discussion board and submit a ticket if you don't find anything helpful. Post a link to your ticket in your cohort slack channel along with a short description.**
 
 
 ### Install Pipenv
