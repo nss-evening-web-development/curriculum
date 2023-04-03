@@ -49,7 +49,7 @@ In some ways, `pipenv` does the same thing as `node_modules` and `package.json`.
 1. Install the package globally:
 
     ```sh
-    python3 -m pip install pipenv
+    python -m pip install pipenv
     ```
 
 1. Close your terminal app and then reopen the terminal
