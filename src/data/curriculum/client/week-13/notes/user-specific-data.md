@@ -14,15 +14,18 @@ tags:
     - UPDATE TAGS
 is_featured: true
 ---
+
+This lesson is informational and not intended for you to complete anything.
+
 We have created a custom hook for you to be able to access the user info.
 
 You can get user info and details by using this hook. See the code example below.
 
 ```js
-import { useAuth } from '../utils/context/authContext';
+import { useAuth } from '../utils/context/authContext'; // import the hook
 
 function Home() {
-  const { user } = useAuth();
+  const { user } = useAuth(); // use the hook to get user info
 
   return (
     <>
