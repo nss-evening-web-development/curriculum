@@ -14,7 +14,10 @@ tags:
     - UPDATE TAGS
 is_featured: true
 ---
-Authentication is already set up for you in the template. All you need to do is the following:
+
+This lesson is informational and not intended for you to complete anything.
+
+Authentication is already set up for you in the template you will use when you build your projects. All you will need to do is the following when the time comes:
 
 1. Create your Firebase project as before
 2. Add your Firebase credentials to your .env file
