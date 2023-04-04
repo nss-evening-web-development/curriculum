@@ -25,7 +25,7 @@ You can get user info and details by using this hook. See the code example below
 import { useAuth } from '../utils/context/authContext'; // import the hook
 
 function Home() {
-  const { user } = useAuth(); // use the hook to get user info
+  const { user } = useAuth(); // destructure the value for use in the return
 
   return (
     <>
