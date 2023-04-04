@@ -120,4 +120,4 @@ const { user } = useAuth();
 
 ### 8. Bring over the data
 
-Go to your old Almost Amazon project and bring copy/paste the author, books and merged data API calls you created into the relevant files. **DO NOT OVERWRITE ANY FUNCTIONS** that currently are in those files unless yours is different.
+Go to your old Almost Amazon project and bring copy/paste the author, books and merged data API calls you created into the relevant files. **DO NOT OVERWRITE ANY FUNCTIONS** that currently are in those files unless yours are different.
