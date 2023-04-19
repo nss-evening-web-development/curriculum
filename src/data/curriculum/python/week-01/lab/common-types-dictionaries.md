@@ -148,9 +148,9 @@ Create a simple list of blocks of stock. Make them tuples with ticker symbols, n
 
 ```py
 purchases = [
-    ( 'GE', 100, '10-sep-2001', 48 ),
+    ( 'GM', 100, '10-sep-2001', 48 ),
     ( 'CAT', 100, '1-apr-1999', 24 ),
-    ( 'GE', 200, '1-jul-1998', 56 )
+    ( 'EK', 200, '1-jul-1998', 56 )
 ]
 ```
 
