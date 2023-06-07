@@ -58,7 +58,7 @@ To install or manage your extensions go to the extension tab by clicking on the 
 ### Extensions to Install
 Here are some good extensions to get your productivity going. Search for these names in the extension tab and click install to get them working.
 - [Auto Rename Tag](https://github.com/formulahendry/vscode-auto-rename-tag) - when you decide to rename an html tag this plugin automatically fixes the closing tag for you.
-- [Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2) - ~~this extension matches pairs of brackets and colors them for you. Next time you are looking for a missing curly bracket or parenthesis just look for the one that doesn't have a closing tag of the same color~~ This is now built into VS Code. Navigate to `Settings` and type `bracket` in the search bar. Then set `Editor > Guides: Bracket Pairs` to `true`.
+- Bracket Colorizer - Navigate to `Settings` and type `bracket` in the search bar. Then set `Editor > Guides: Bracket Pairs` to `true`.
 - [ESLint](https://github.com/Microsoft/vscode-eslint) - This extension checks your code for common errors using ESLint. We will talk more about this a few months into class.
 - [GitLens](https://github.com/eamodio/vscode-gitlens) - Gives you insight into what git stuff is going on inside your project. You can see things like when the line was last modified and who modified it.
 - [IntelliSense for CSS class names in HTML](https://github.com/Zignd/HTML-CSS-Class-Completion) - Auto completes HTML and CSS for any file that has been linked. Never type those whole bootstrap class names again.
