@@ -22,11 +22,12 @@ We are happy that you have chosen to join our group of inventive engineers that 
 
 These are some tools and technologies you will be working with during your time here:
 
-* Python
-* Django
+* C#
+* .NET
 * ReactJS
 * Postman
 * SQL
+* SQL Server
 
 ## Support & Guidance
 
@@ -120,31 +121,36 @@ At the end of the PR description, you must provide a hyperlink to the ticket tha
 
 ## Coding Standards
 
-We will be following the [Python Community's coding guidelines](https://www.python.org/dev/peps/pep-0008/). Here are the big tickets items. Please read the style guide for more information.
+We will be following the [Common C# Coding Conventions](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions). Here are the big tickets items. Please read the style guide for more information.
 
-1. Variable names are all lower case, with words seperated by underscores
+1. When naming public members of types, such as fields, properties, events, methods, and local functions, use pascal casing ("PascalCasing").
 
-    ```python
-    ThisIsBadPractice = False
-    this_is_good_practice = True
+    ```cs
+    bool is_valid = false;
+    bool IsValid = true;
     ```
-2. All classes and methods will be documented with docstrings.
+2. All classes and methods will be documented with summary, param and returns.
+    ```cs
+    /// <summary>
+    /// Authenticates a user based on a username and password.
+    /// </summary>
+    /// <param name="username">The username.</param>
+    /// <param name="password">The password.</param>
+    /// <returns>
+    /// True, if authentication is successful, otherwise False.
+    /// </returns>
+    public override bool Authenticate(string username, string password)
+    ```
 3. Four **spaces** for indentation.
-4. Surround top-level function and class definitions with two blank lines. Method definitions inside a class are surrounded by a single blank line.
+4. C# is a strongly typed language. Every variable and constant has a type, as does every expression that evaluates to a value.
 
-    ```python
-    import random
+    ```cs
+    int a = 5;
+    int b = a + 2; //OK
 
+    bool test = true;
 
-    def Bar():
-        """Top level function"""
-
-
-    class Foo:
-        """Sample Foo class that does nothing"""
-
-        def __init__(self):
-            """Constructor function for Foo class"""
-            bar = False
+    // Error. Operator '+' cannot be applied to operands of type 'int' and 'bool'.
+    int c = a + test;
     ```
-5. Import statements on seperate lines.
+5. Using statements on seperate lines.
