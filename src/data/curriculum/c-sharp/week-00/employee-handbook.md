@@ -29,6 +29,8 @@ These are some tools and technologies you will be working with during your time 
 * SQL
 * SQL Server
 
+* [DOCUMENTATION](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions)
+
 ## Support & Guidance
 
 Three of our top Sr. Engineers will support you in any way they can. They are committed to giving you all the mentoring and direction you require while you construct the Bangazon Platform. This includes giving instruction on fundamental ideas, equipment, and practices. Additionally, they will give you guidance on how to use simple code examples that you will need for a bigger project.
