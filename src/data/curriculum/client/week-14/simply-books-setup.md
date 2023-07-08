@@ -100,6 +100,12 @@ const { DYNAMIC_KEY } = router.query;
 
 ### 6. Working with components
 - **Create User component:** a component that accepts the user object and uses the image, name, email, and last login
+    - For any images be sure to use the `<img/>` tag instead of the `<Image/>` component from Next/Image.
+    - An eslint error: **Do not use <img>. Use Image from 'next/image' instead. See [https://nextjs.org/docs/messages/no-img-element.](https://nextjs.org/docs/messages/no-img-element)** Just disable this error for the entire file.
+    
+    - If you do use Next/Image component you will need to add your image domain in to the `config.next.js` file. 
+        - ```images: { domains: ['lh3.googleusercontent.com'], },```
+        - Next/Image also requires the `width` & `height` props.
 - **Create AuthorCard component:** a component that accepts the author data and displays it.
 - Setup PropTypes and use default props to give default values to the component so you can test it
 
