@@ -32,7 +32,7 @@ For weeks when your time is limited, focus on mastering the 🔴 **REQUIRED** co
 ## Lesson Types
 We also have several types of lessons that meet the needs of different types of learners and to ensure that you see the content multiple times. Here are the types of lessons we will conduct during your time at NSS:
 
-- 👩🏽‍🏫 LIVE LEARNING SESSION: Live coding/learning sessions (no longer than an hour)
+- 👩🏽‍🏫 LIVE LEARNING SESSION: Live learning sessions (no longer than an hour)
 - ℹ️ INFO - Informational Content
 - 🎥 VIDEO: Video content for students to review
 - 💻 CODE ALONG: Video/Tutorials for students. These are NOT live sessions
