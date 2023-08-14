@@ -66,6 +66,10 @@ eval $(ssh-agent)
 
 And then try the other command again.
 
+After you run the commands, ensure to STOP the ssh agent:
+
+eval "$(ssh-agent -k)"
+
 Once you have completed all the steps above, push the button below to close this page and check the box on the list to mark as completed.
 
 <button class="report m-1 p-3 btn-lg btn-outline-warning btn" onclick="window.close()">Close Page</button>
