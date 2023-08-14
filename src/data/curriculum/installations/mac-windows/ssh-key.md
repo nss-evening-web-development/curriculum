@@ -68,7 +68,9 @@ And then try the other command again.
 
 After you run the commands, ensure to STOP the ssh agent:
 
+```shell
 eval "$(ssh-agent -k)"
+```
 
 Once you have completed all the steps above, push the button below to close this page and check the box on the list to mark as completed.
 
