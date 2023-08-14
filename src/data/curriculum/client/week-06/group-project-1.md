@@ -23,5 +23,5 @@ This week you will be focusing on a group project, which will allow you to work 
 - MVP, defined by the Acceptance Criteria, has been completed
 - The title of your application is visible in the browser tab
 - The project has been deployed
-- Loom video has been created
-- `README.md` has been updated
+- [Loom video](https://www.loom.com/) has been created
+- `README.md` has been updated with how to run the application, a couple of features and screen shot
