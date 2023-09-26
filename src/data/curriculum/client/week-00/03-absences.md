@@ -12,8 +12,7 @@ tags:
     - Onboarding
 ---
 
-If you know ahead of time that you are going to be absent, send an email to: (DO NOT SEND SLACK MESSAGES!)
-[attendance@nashvillesoftwareschool.com](mailto:attendance@nashvillesoftwareschool.com) and your senior instructor's email.
+If you know ahead of time that you are going to be absent, USE THE FORM provided to you in the curriculum (DO NOT SEND SLACK MESSAGES!)
 
 Students are expected to notify the NSS and their instructor if they must miss a class session or need to leave class prior to the end of the class day. Instructors may, at their option, choose to grant students excused absence status for absences that are discussed in advance with the instructor.
 
