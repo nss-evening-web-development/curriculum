@@ -41,6 +41,6 @@ You have to answer ALL of the questions below to use the Help Discussion:
 
 NOTE: We will not accept links to the whole repo. You must provide a link directly to the specific file
 
-ONCE YOU GET AN ANSWER: Add a comment to your discussion if the answer is not already present and mark it as the answer.
+ONCE YOU GET AN ANSWER: DO NOT CLOSE THE TICKET! Instead, add a comment to your discussion if the answer is not already present and mark it as the answer using the "Mark as answer" button below the comment.
 
 Once you get a resolution either through the discussion or outside of it, you must update with the answer you used to solve your issue.
