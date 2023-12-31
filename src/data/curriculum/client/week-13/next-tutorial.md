@@ -34,7 +34,7 @@ For this class session, we want you to focus on getting back into the swing of t
 As a software engineer, it is important that when learning new technologies, you familiarize yourself with the documentation associated with it. Since we will be learning React via a React framework called Next.js, you will likely want to bookmark two sites:
 
 - <a href="https://beta.reactjs.org/" target="_blank">React JS</a>
-- <a href="https://nextjs.org/docs/getting-started" target="_blank">Next JS</a>
+- <a href="https://nextjs.org/docs/pages" target="_blank">Next JS</a>
 
 Now, don’t get worried! Everything you have learned up until this point is still important and will be valuable as you will see in the following exercise.
 
