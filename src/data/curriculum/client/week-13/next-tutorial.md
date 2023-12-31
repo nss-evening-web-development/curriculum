@@ -44,10 +44,9 @@ For the set of questions below, you will review the Next JS documentation. More 
 
 **FOUNDATIONS**
 
-- <a href="https://nextjs.org/learn/foundations/about-nextjs" target="_blank">About Next.js</a>
-- <a href="https://nextjs.org/learn/foundations/from-javascript-to-react" target="_blank">From JavaScript to React</a>
-- <a href="https://nextjs.org/learn/foundations/from-react-to-nextjs" target="_blank">From React to Next.js</a>
-- <a href="https://nextjs.org/learn/foundations/how-nextjs-works" target="_blank">(OPTIONAL) How Next.js Works</a>
+- <a href="https://nextjs.org/learn/react-foundations/what-is-react-and-nextjs" target="_blank">About React and Next.js - Chapters 1 - 8 are mandatory.</a>
+
+NextJS has had recent updates. we will be focusing on the documentation for the Pages router. NOT the app router. 
 
 While you are reviewing these, answer these questions below to the best of your ability.
 
