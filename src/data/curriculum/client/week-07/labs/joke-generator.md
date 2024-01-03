@@ -15,7 +15,7 @@ tags:
 is_featured: true
 ---
 ## Starting the Project
-1. Go to your cohort organization on github and use the webpack template to start this project. Name the project "Joke Generator"
+1. Go to the [evening cohort organization on github](https://github.com/nss-evening-web-development) and use the PINNED webpack template to start this project. Name the project "Joke Generator"
 1. Follow all the instructions for setup in the template README.
 
 ## Acceptance Criteria:
