@@ -282,7 +282,7 @@ Next, create a new painted dog instance in your main module, and add it to the h
 
 ```py
 from animals import Penguin, PaintedDog
-from habitat import Habitat
+from habitats import Habitat
 
 
 bob = Penguin("Bob")
