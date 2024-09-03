@@ -16,55 +16,56 @@ is_featured: true
 ---
 
 ## The Plan
-**Description:** As we move into JS Libraries, we will be leveraging Next.js, which is a React framework to learn React.
 
-**Q:** Why are we using Next.js and not just plain React?
+**Description:** Welcome to your introduction to JS Libraries! We’re diving into React using Next.js, a powerful React framework that will make your learning journey smoother.
 
-**A:** Next.js IS React, but with a few nicer tools that will help us to focus on learning react and not on 3rd party libraries.
+**Q:** Why are we using Next.js instead of just plain React?
 
-We will structure the next several weeks for you to become comfortable with React so that you can build your capstone using it.
+**A:** Next.js IS React, but with added features that simplify your learning experience, allowing you to focus on mastering React without getting bogged down by extra libraries.
+
+Over the next few weeks, you'll get comfortable with React, gearing up to build your capstone project with confidence.
 
 ----
 
-## Get Started:
+## Get Started
+
 - Follow the tutorial **(details below)**
 
-For this class session, we want you to focus on getting back into the swing of things and getting comfortable with technical documentation.
+As engineers, our first step when learning new tech is to dive into the documentation. That’s exactly what you’ll do as you get hands-on with Next.js using the App Router, a modern approach that enhances routing and component organization in your React apps. Bookmark these two essential sites for your journey:
 
-As a software engineer, it is important that when learning new technologies, you familiarize yourself with the documentation associated with it. Since we will be learning React via a React framework called Next.js, you will likely want to bookmark two sites:
-
-- <a href="https://beta.reactjs.org/" target="_blank">React JS</a>
+- <a href="https://react.dev/" target="_blank">React JS</a>
 - <a href="https://nextjs.org/docs/pages" target="_blank">Next JS</a>
 
-Now, don’t get worried! Everything you have learned up until this point is still important and will be valuable as you will see in the following exercise.
+Don’t stress! Everything you've learned so far is still valuable and will serve as a solid foundation for this next step. 
 
-Some things will be new and may seem foreign, but weren’t promises foreign when you first encountered them? They may not be second nature yet, but you are using them to make calls to APIs, which is something you did not know how to do 3 months ago.
+Some concepts might feel unfamiliar, but remember: the unfamiliar became routine when you first tackled promises, and now you’re calling APIs like a pro! Let’s take on this new challenge with the same energy.
 
-For the set of questions below, you will review the Next JS documentation. More specifically, you will review the following topics:
+### **Review the Next.js Documentation:**
+
+Focus on the following topics, specifically using the App Router to take advantage of Next.js’s latest capabilities:
 
 **FOUNDATIONS**
 
 - <a href="https://nextjs.org/learn/react-foundations/what-is-react-and-nextjs" target="_blank">About React and Next.js - Chapters 1 - 8 are mandatory.</a>
 
-NextJS has had recent updates. we will be focusing on the documentation for the Pages router. NOT the app router. 
+As you go through these chapters, answer the following questions to deepen your understanding. Collaborate with your teammates, research, or find creative ways to get the answers.
 
-While you are reviewing these, answer these questions below to the best of your ability.
+### **Questions to Reflect On:**
 
-**_How you get the answers is totally up to you. You can research, work with teammates, etc._**
+1. Why do you think we are learning React?
+2. What are you most excited about?
+3. What are you most fearful about?
+4. What are the things you need to consider when building modern web applications?
+5. Why? Explain in your own words.
+6. Draw a diagram/image that visualizes the building blocks of a web application.
+7. What is the difference between imperative and declarative programming?
+8. Which type of programming library is React?
+9. What JS topics should you be familiar with?
+10. On a scale of 1-5, how do you feel about each area you should be familiar with?
+11. What can you do to increase your competency in each area?
+12. What are the 3 core concepts of React?
+13. What is a component?
+14. What are props?
+15. What is state?
+16. What more can you learn about these concepts?
 
-- Why do you think we are learning React?
-- What are you most excited about?
-- What are you most fearful about?
-- What are the things you need to consider when building modern web applications?
-- Why? Explain in your own words.
-- Draw a diagram/image that visualizes the building blocks of a web application.
-- What is the difference between imperative and declarative programming?
-- Which type of programming library is react?
-- What JS topics should you be familiar with?
-- On a scale of 1-5 how do you feel about each area that you should be familiar with?
-- What can you do to increase your competency in each area?
-- What are the 3 core concepts of react?
-- What is a component?
-- What are props?
-- What is state?
-- What more can you learn about these concepts?
