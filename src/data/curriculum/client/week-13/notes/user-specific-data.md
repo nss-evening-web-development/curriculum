@@ -1,5 +1,5 @@
 ---
-title: '06. User Specific Data'
+title: 'User Specific Data'
 date: "2022-09-01 08:00:00"
 path: '/client/'
 
@@ -22,7 +22,7 @@ We have created a custom hook for you to be able to access the user info.
 You can get user info and details by using this hook. See the code example below.
 
 ```js
-import { useAuth } from '../utils/context/authContext'; // import the hook
+import { useAuth } from '@/utils/context/authContext'; // import the hook
 
 function Home() {
   const { user } = useAuth(); // destructure the value for use in the return
