@@ -1,5 +1,5 @@
 ---
-title: '05. Google Authentication with Firebase'
+title: 'Google Authentication with Firebase'
 date: "2022-09-01 08:00:00"
 path: '/client/'
 
