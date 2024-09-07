@@ -14,7 +14,7 @@ tags:
     - UPDATE TAGS
 is_featured: true
 ---
-<a class="rn-button btn-purple" href="https://repo-copier.netlify.app/u/codetracker-learning/react-topics" target="_blank">COPY REPO</a>
+<a class="rn-button btn-purple" href="https://repo-copier.netlify.app/u/Repped-School/react-topics" target="_blank">COPY REPO</a>
 
 
 Click the button above to see the code examples for the next few topics. After getting the repo, follow the readme.
