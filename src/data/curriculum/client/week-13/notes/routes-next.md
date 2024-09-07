@@ -17,9 +17,11 @@ is_featured: true
 **_See the react-topics project for code samples_**
 
 - App Router
-  - In the react-topics project, navigate to the app directory, create a new folder named the path.(e.g. contact.js)
-  - Navigate to that page in the address bar. (e.g. http://localhost:3000/contact.js)
-  - You may have nested routes by creating directories/folders (see code example: my-folder)
+  - In the react-topics project, navigate to the app directory, create a new folder named the path.(e.g. contact)
+  - Navigate to that page in the address bar. (e.g. http://localhost:3000/contact)
+  - You will notice that you get a 404, that is because you may not have created the `pages.js` file that is required. Do that and then refresh. You will see a blank page.
+     - NOTE: In the video, we use the shortcut `rfc` to create something called a functional component. This is an extention that you were to install earlier in the workflow. If you have not, do it now.
+  - You may also have nested routes by creating directories/folders (see code example: my-folder)
 - Dynamic Routes
   - Are determined by naming a folder with square brackets and then the name of the dynamic key between: `[dynamicKey]`
   - The folder must have a file named `page.js` inside just like all other routes.
