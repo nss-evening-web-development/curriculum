@@ -14,7 +14,7 @@ tags:
     - UPDATE TAGS
 is_featured: true
 ---
-<a class="rn-button btn-purple" href="https://repo-copier.netlify.app/u/Repped-School/NextJS-with-Firebase-Auth-App-Router" target="_blank">COPY REPO</a>
+<a class="rn-button btn-purple" href="https://repo-copier.netlify.app/u/Repped-School/joke-generator-lab" target="_blank">COPY REPO</a>
 
 
 ## Project Deets
