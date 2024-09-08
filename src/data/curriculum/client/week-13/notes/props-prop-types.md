@@ -96,3 +96,152 @@ export default Button;
 - `PropTypes` still define what type each prop should be and whether it’s required, helping ensure that the component receives the correct types of data.
 
 This approach aligns with modern React practices and keeps the code clean and easy to understand!
+
+The PropTypes listed previously are among the most commonly used, but React PropTypes offer additional types that are also widely used, especially when dealing with nested properties and more complex structures. Here’s a more comprehensive list of common PropTypes and examples of how they can be used, including handling nested properties:
+
+### **Commonly Used PropTypes and Their Usage**
+
+**NOTE:** Don't forget to [RTFM (or Docs)](https://github.com/facebook/prop-types?tab=readme-ov-file#usage)
+
+1. **`PropTypes.string`**: Expects a string value.
+   
+   ```javascript
+   MyComponent.propTypes = {
+     name: PropTypes.string,
+   };
+   ```
+
+2. **`PropTypes.number`**: Expects a number value.
+
+   ```javascript
+   MyComponent.propTypes = {
+     age: PropTypes.number,
+   };
+   ```
+
+3. **`PropTypes.bool`**: Expects a boolean value (`true` or `false`).
+
+   ```javascript
+   MyComponent.propTypes = {
+     isActive: PropTypes.bool,
+   };
+   ```
+
+4. **`PropTypes.func`**: Expects a function.
+
+   ```javascript
+   MyComponent.propTypes = {
+     onClick: PropTypes.func,
+   };
+   ```
+
+5. **`PropTypes.array`**: Expects an array of any type.
+
+   ```javascript
+   MyComponent.propTypes = {
+     items: PropTypes.array,
+   };
+   ```
+
+6. **`PropTypes.arrayOf()`**: Expects an array of a specific type.
+
+   ```javascript
+   MyComponent.propTypes = {
+     numbers: PropTypes.arrayOf(PropTypes.number), // Array of numbers
+   };
+   ```
+
+7. **`PropTypes.object`**: Expects an object.
+
+   ```javascript
+   MyComponent.propTypes = {
+     config: PropTypes.object,
+   };
+   ```
+
+8. **`PropTypes.shape({})`**: Expects an object with a specific shape, allowing you to define nested properties.
+
+   ```javascript
+   MyComponent.propTypes = {
+     user: PropTypes.shape({
+       name: PropTypes.string,
+       age: PropTypes.number,
+       address: PropTypes.shape({
+         street: PropTypes.string,
+         city: PropTypes.string,
+       }),
+     }),
+   };
+   ```
+
+   **Explanation:** This example shows how to use `PropTypes.shape` to validate an object with nested properties. The `user` object has `name`, `age`, and an `address` object with its own nested properties (`street` and `city`).
+
+9. **`PropTypes.oneOf()`**: Expects one of the specified values (like an enum).
+
+   ```javascript
+   MyComponent.propTypes = {
+     status: PropTypes.oneOf(['pending', 'completed', 'failed']),
+   };
+   ```
+
+10. **`PropTypes.oneOfType([])`**: Expects a value that matches one of the specified types.
+
+    ```javascript
+    MyComponent.propTypes = {
+      id: PropTypes.oneOfType([PropTypes.string, PropTypes.number]), // Can be a string or number
+    };
+    ```
+
+11. **`PropTypes.node`**: Expects anything that can be rendered (numbers, strings, elements, or an array of these types).
+
+    ```javascript
+    MyComponent.propTypes = {
+      children: PropTypes.node,
+    };
+    ```
+
+12. **`PropTypes.element`**: Expects a React element.
+
+    ```javascript
+    MyComponent.propTypes = {
+      header: PropTypes.element, // Expects a React component instance
+    };
+    ```
+
+### **How to Use PropTypes for Nested Properties**
+
+Using `PropTypes.shape({})` allows you to specify nested properties within objects, and you can go as deep as needed to validate complex structures. This is particularly useful when dealing with deeply nested data that needs to adhere to specific formats.
+
+**Example of Nested PropTypes:**
+
+```javascript
+// Component definition
+function UserProfile({ user }) {
+  return (
+    <div>
+      <h2>{user.name}</h2>
+      <p>Age: {user.age}</p>
+      <p>Address: {user.address.street}, {user.address.city}</p>
+    </div>
+  );
+}
+
+// Defining PropTypes with nested objects
+UserProfile.propTypes = {
+  user: PropTypes.shape({
+    name: PropTypes.string.isRequired,
+    age: PropTypes.number,
+    address: PropTypes.shape({
+      street: PropTypes.string,
+      city: PropTypes.string,
+    }),
+  }),
+};
+```
+
+### **Summary:**
+- PropTypes help validate the props passed to your components.
+- Nested properties are handled using `PropTypes.shape({})`, which can be nested within each other for complex data structures.
+- The use of PropTypes improves code reliability and helps catch errors early in development by ensuring that components receive the expected types of data.
+
+Let me know if you need more detailed examples or additional clarification!
