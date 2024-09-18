@@ -219,7 +219,7 @@ Next, import that module into the zoo module, create a new habitat, and add Bob 
 
 ```py
 from animals import Penguin
-from habitat import Habitat
+from habitats import Habitat
 
 
 # Create a penguin
@@ -282,7 +282,7 @@ Next, create a new painted dog instance in your main module, and add it to the h
 
 ```py
 from animals import Penguin, PaintedDog
-from habitat import Habitat
+from habitats import Habitat
 
 
 bob = Penguin("Bob")
