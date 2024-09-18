@@ -14,7 +14,7 @@ tags:
     - UPDATE TAGS
 is_featured: true
 ---
-<a class="rn-button btn-purple" href="https://repo-copier.netlify.app/u/codetracker-learning/IN-CLASS-simply-books" target="_blank">COPY REPO</a>
+<a class="rn-button btn-purple" href="https://repo-copier.netlify.app/u/Repped-School/simply-books-official" target="_blank">COPY REPO</a>
 
 <iframe width="100%" height="500" src='https://dbdiagram.io/embed/60315ba6fcdcb6230b20bbaa'> </iframe>
 
@@ -25,7 +25,7 @@ For this project we are making the following assumptions:
 - an author can have many books
 - a book can have one and only one author
 
-We will also be touching on the all of the following concepts:
+In this project, you will be touching on the all of the following concepts that you learned in prework and building your first React App:
 
 - Google Authentication with Firebase
 - User specific data
@@ -43,8 +43,8 @@ We will also be touching on the all of the following concepts:
 
 **_All CRUD concepts touched in topics above_**
 
-## Lab
-In this lab, we want to get acclimated with the project template and get some things set up in prep for coding features next week. Below are a list of the items that you should complete prior to class on Monday evening:
+## Project
+In this project, we want to get acclimated with the project template. Below is a list of the items that you should complete prior to beginning the project:
 
 ### 1. Google Authentication with Firebase
 - Complete "Starting the Project" on the Repo README
@@ -55,29 +55,29 @@ In this lab, we want to get acclimated with the project template and get some th
    - `utils/auth.js`
 
 
-### 2. File based routes ([Routing Docs](https://nextjs.org/docs/routing/introduction))
+### 2. Folder based routes ([Routing Docs](https://nextjs.org/docs/app/building-your-application/routing))
 
 Remember: 
-- In the pages directory, create a new file named the path specified.(e.g. contact.js)
+- In the `src/app` directory, create a new folder named the path specified.(e.g. contact.js)
 - You may have nested routes by creating directories/folders
 
-Create the following new file based routes and add filler code **(IMPORTANT: make sure ALL of the functions names start with a capital letter)**
-   - `pages/authors.js`
-   - `pages/profile.js`
-   - `pages/author/new.js`
+Create the following new folder based routes and add filler code **(IMPORTANT: make sure ALL of the functions names start with a capital letter)**
+   - `src/app/authors/page.js`
+   - `src/app/profile/page.js`
+   - `src/app/author/new/page.js`
 
 
-### 3. DYNAMIC routes ([Routing Docs](https://nextjs.org/docs/routing/introduction))
+### 3. DYNAMIC routes ([Routing Docs](https://nextjs.org/docs/app/building-your-application/routing/dynamic-routes))
 
 Remember: 
-- DYNAMIC routes are determined by naming a file with square brackets and then the name of the dynamic key - between: [dynamicKey].js’
-- The filename MUST have square brackets if the page is using a dynamic route
-- You can only have one dynamic file per directory
+- DYNAMIC routes are determined by naming a folder with square brackets and then the name of the dynamic key - between: [dynamicKey]’
+- The folder name MUST have square brackets if the route is using a dynamic route
+- You can only have one dynamic folder per directory level
 - You can name the dynamic key ANYTHING. It is a taco.
 
-Create the following new file based DYNAMIC routes **(IMPORTANT: make sure ALL of the functions names start with a capital letter)**
-- `pages/author/[firebaseKey].js`
-- `pages/author/edit/[firebaseKey].js`
+Create the following new folder based DYNAMIC routes **(IMPORTANT: make sure ALL of the functions names start with a capital letter)**
+- `src/app/author/[firebaseKey]/page.js`
+- `src/app/author/edit/[firebaseKey]/page.js`
 
 ### 4. [Links & Navigation](https://nextjs.org/docs/api-reference/next/link)
 
@@ -91,11 +91,12 @@ Create the following new file based DYNAMIC routes **(IMPORTANT: make sure ALL o
 - The actual value for *DYNAMIC_KEY* is whatever you named your file. In this instance it is **firebaseKey**, so make sure to update the code below inside of your component
 
 ```js
-import { useRouter } from 'next/router';
 
-// inside component use
-const router = useRouter();
-const { DYNAMIC_KEY } = router.query;
+export default function PageName({ params }) {
+    // inside component use
+    const { DYNAMIC_KEY } = params;
+}
+
 ```
 
 ### 6. Working with components
@@ -120,7 +121,8 @@ const { DYNAMIC_KEY } = router.query;
 ```js
 const { user } = useAuth();
 ```
-- In the pages/profile.js page, use the **User component** you created to display the user information.
+
+- In the `src/app/profile/page.js` file, use the **User component** you created to display the user information.
 - Add the Sign Out button below the user component
 - Use the code above inside of your component to get access to the useAuth hook **_(Make sure to import the dependency located in `utils/context/authContext.js`)_**
 
